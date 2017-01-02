@@ -41,8 +41,8 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('UBCtrl', function($scope) {
-  $scope.$on('$ionicView.enter', function() {
+.controller('UBCtrl', function($scope, $timeout) {
+  $scope.$on('$ionicView.beforeEnter', function() {
   //get a random question number, limits (15) need to be adjusted whenever more questions are added or removed
   qNum = Math.floor((Math.random() * 1) + 1);
   qNum = qNum.toString();
@@ -54,12 +54,16 @@ angular.module('starter.controllers', [])
   answer = firebase.database().ref().child("understanding banking").child(qNum).child("answer")
 
   question.once('value', function(datasnapshot) {
-    $scope.question = datasnapshot.val();
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
+    });
   });
 
   $scope.showSolution = function() {
     answer.once('value', function(datasnapshot) {
-      $scope.answer = datasnapshot.val();
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();      
+      })
     });
   };
 })
