@@ -42,11 +42,27 @@ angular.module('starter.controllers', [])
 })
 
 .controller('UBCtrl', function($scope) {
-  ref = firebase.database().ref().child("understandingbanking").child("question")
+  $scope.$on('$ionicView.enter', function() {
+  //get a random question number, limits (15) need to be adjusted whenever more questions are added or removed
+  qNum = Math.floor((Math.random() * 1) + 1);
+  qNum = qNum.toString();
+  console.log(qNum);
 
-  ref.on('value', function(datasnapshot) {
+
+  //establish firebase connection with understandingbanking child and questions
+  question = firebase.database().ref().child("understanding banking").child(qNum).child("question")
+  answer = firebase.database().ref().child("understanding banking").child(qNum).child("answer")
+
+  question.once('value', function(datasnapshot) {
     $scope.question = datasnapshot.val();
   });
+
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $scope.answer = datasnapshot.val();
+    });
+  };
+})
 })
 
 .controller('PlaylistsCtrl', function($scope) {
