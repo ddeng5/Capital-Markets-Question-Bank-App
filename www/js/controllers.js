@@ -50,15 +50,15 @@ angular.module('starter.controllers', [])
   $timeout(function() {
 
   //get a random question number, limits (15) need to be adjusted whenever more questions are added or removed
-  qNum = Math.floor((Math.random() * 1) + 1);
+  qNum = Math.floor((Math.random() * 15) + 1);
 
   //check if the last question number is the same as this current question number
   while ($rootScope.first == qNum) {
     //if it is then grab another question
-    qNum = Math.floor((Math.random() * 1) + 1);
+    qNum = Math.floor((Math.random() * 15) + 1);
 
     if (qNum == $rootScope.first) {
-      qNum = Math.floor((Math.random() * 1) + 1);
+      qNum = Math.floor((Math.random() * 15) + 1);
     }
   }
 
