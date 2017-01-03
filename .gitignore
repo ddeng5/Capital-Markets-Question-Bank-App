@@ -4,3 +4,6 @@
 node_modules/
 platforms/
 plugins/
+
+#OS junk files
+*.DS_Store
