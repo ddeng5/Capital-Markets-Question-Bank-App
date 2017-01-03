@@ -1,14 +1,22 @@
 /* Empty. Add your own CSS if you like */
-.solutionBtn {
-  text-align: left;
-  display: inline;
+.solDiv {
+  display: inline-block;
   position: relative;
-  left:43%
+  float: left;
+  margin-left: 10vw;
+
 }
 
-.nextQBtn {
-  text-align: right;
-  display: inline;
+.nextQDiv {
+  display: inline-block;
   position: relative;
-  left: 46%;
+  float: right;
+  margin-right: 12vw;
+
+}
+
+.questionHeading {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
 }

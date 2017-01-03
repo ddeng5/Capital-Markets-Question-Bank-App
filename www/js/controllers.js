@@ -66,8 +66,8 @@ angular.module('starter.controllers', [])
   $rootScope.first = qNum;
 
   //establish firebase connection with understandingbanking child and questions
-  question = firebase.database().ref().child("understanding banking").child(qNum).child("question")
-  answer = firebase.database().ref().child("understanding banking").child(qNum).child("answer")
+  question = firebase.database().ref().child("understanding-banking").child(qNum).child("question")
+  answer = firebase.database().ref().child("understanding-banking").child(qNum).child("answer")
 
   //bind question to html element
   question.once('value', function(datasnapshot) {

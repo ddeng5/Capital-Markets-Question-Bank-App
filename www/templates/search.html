@@ -2,8 +2,8 @@
   <ion-content>
     </br>
     <!--  question -->
-    <div>
-      <h2>{{question}}</h2>
+    <div class="question">
+      <p class="questionHeading">{{question}}</p>
     </div>
 
     </br>
@@ -12,29 +12,27 @@
 
     <!-- answer -->
     <div>
-      <h3>{{answer}}</h3>
+      <p>{{answer}}</p>
     </div>
 
     </br>
     </br>
     </br>
 
-  <div>
     <!-- solution button -->
-     <div class="solutionBtn">
+     <div class="solDiv">
       <button ng-click="showSolution()" class="button button-stable">
         Solution
       </button>
      </div>
 
      <!-- next q button -->
-      <div class="nextQBtn">
+      <div class="nextQDiv">
        <button ng-click="nextQ()" class="button button-stable" type="submit">
          Next Question
        </button>
       </div>
 
-  </div>
 
   </ion-content>
 </ion-view>
