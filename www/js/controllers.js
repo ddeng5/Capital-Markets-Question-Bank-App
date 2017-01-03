@@ -41,37 +41,46 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('UBCtrl', function($scope, $timeout, $state, $stateParams) {
-    //get a random question number, limits (15) need to be adjusted whenever more questions are added or removed
-    qNum = Math.floor((Math.random() * 3) + 1);
-    qNum = qNum.toString();
-    console.log(qNum);
+.controller('UBCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate) {
+  //ensure that side menu and navbar is always presenting when entering the view
+  $scope.$on('$ionicView.enter', function(e) {
+    $ionicNavBarDelegate.showBar(true);
+  });
+
+  //get a random question number, limits (15) need to be adjusted whenever more questions are added or removed
+  qNum = Math.floor((Math.random() * 3) + 1);
+  qNum = qNum.toString();
+  console.log(qNum);
 
 
-    //establish firebase connection with understandingbanking child and questions
-    question = firebase.database().ref().child("understanding banking").child(qNum).child("question")
-    answer = firebase.database().ref().child("understanding banking").child(qNum).child("answer")
+  //establish firebase connection with understandingbanking child and questions
+  question = firebase.database().ref().child("understanding banking").child(qNum).child("question")
+  answer = firebase.database().ref().child("understanding banking").child(qNum).child("answer")
 
-    //bind question to html element
-    question.once('value', function(datasnapshot) {
-      $timeout(function() {
-        $scope.question = datasnapshot.val();
-      });
+  //bind question to html element
+  question.once('value', function(datasnapshot) {
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
     });
+  });
 
-    //bind solution to html element
-    $scope.showSolution = function() {
-      answer.once('value', function(datasnapshot) {
-        $timeout(function() {
-          $scope.answer = datasnapshot.val();
-        })
-      });
-    };
+  //bind solution to html element
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();
+      })
+    });
+  };
 
-    $scope.nextQ = function() {
+  //refresh the state to get the next question
+  $scope.nextQ = function() {
+    $timeout(function() {
       $state.reload();
-    };
+    })
+  };
 })
+
 
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
