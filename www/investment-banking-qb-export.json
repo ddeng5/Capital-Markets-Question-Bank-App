@@ -1,0 +1,68 @@
+{
+  "understanding-banking" : {
+    "1" : {
+      "answer" : "Acknowledge that you have never worked in the field of finance before but you have done the research and talked to professionals in the industry. Bankers help companies with transactions: buying and selling companies or raising capital. The day-to-day jobs include preparing presentations, financial analysis and marketing material such as Executive Summaries.",
+      "question" : "Question 1: You’ve never worked in finance before. How much do you know about what bankers actually do?"
+    },
+    "2" : {
+      "answer" : "Make it clear that you've done your homework and you understand it's going to be an 80-100 hour per week job. Perhaps give an example of a period of time where you had to work that much and how you dealt with it.",
+      "question" : "Question 2:How much do you know about the lifestyle in this industry? Do you know how many hours you’re going to work each week?"
+    },
+    "3" : {
+      "answer" : "1) Meet with the client and gather basic information: company financials, industry overview and who their customers are. 2) Meet with other bankers and lawyers to draft the S-1 registration statement: describes company business and markets it to investors. 3) Receive feedback from SEC and keep revising document until satisfaction. 4) Road trip: spend time convincing institutional investors to invest and once capital is raised, the company starts trading on an exchange.",
+      "question" : "Question 3:Let’s say I’m working on an IPO for a client. Can you describe briefly what I would do?"
+    },
+    "4" : {
+      "answer" : "Emphasize that you have experience working long hours and not just within a short time frame but over a period of time. Because of how this question is framed, you might want to talk about a time OUTSIDE of your extracurriculars.",
+      "question" : "Question 4:I see you were an English major in college, and had time to participate in a lot of different activities. Can you talk about a time when you had to work long hours and make sacrifices?"
+    },
+    "5" : {
+      "answer" : "Depends on the deal but most common structure: 1) Bank credentials (prove their expertise) 2) Summary of company's options 3) Valuation and appropriate financial models 4) Potential acquisition targets (buy-side) or potential buyers (sell-side) 5) Summary/conclusion and key recommendations",
+      "question" : "Question 5: What’s in a pitch book?"
+    },
+    "6" : {
+      "answer" : "This is bank-dependant and will differ for boutiques, middle-market firms and bulge brackets so you need to research prior to your interview. Typical product groups include: Mergers and Acquisitions, Leveraged Finance, Restructuring and possibly Equity Capital Markets and Debt Capital Markets. Common industry groups include Healthcare, Retail, Energy, Natural Resources, Technology, Media, Telecom (TMT), Real Estate. Most bulge brackets do not have restructuring groups, it's more for middle and boutique firms. ",
+      "question" : "Question 6: Can you tell me about the different product and industry groups at our bank?"
+    },
+    "7" : {
+      "answer" : "Usually based on relationships. Banks develop relationships with companies years before they need anything and when it comes time to deal, the company calls the different banks it has spoken with and asks them to pitch for the business. This is called a 'bake off' and the company selects a winner after.",
+      "question" : "Question 7: How do companies select the bankers they work with?"
+    },
+    "8" : {
+      "answer" : "1) Meet with company, create initial marketing like the Executive Summary and Offering Memorandum(OM) and decide on potential buyers 2) Send out ES to potential buyers to gauge interest 3) Send NDAs to interested buyers with more detailed information 4) Set a 'bid deadline' and solicit written Indication of Interest (IOIs) from buyers 5) Select which buyers to advance to the next round 6) Continue responding to requests and setting up due diligence 7) Set another bid deadline and pick winner 8) Negotiate terms of the Purchase Agreements with the winner and announce the deal",
+      "question" : "Question 8: Walk me through the process of a typical sell-side M&A deal."
+    },
+    "9" : {
+      "answer" : "1) Spend a lot of time doing research on dozens or hundreds of potential acquisition targets, go through multiple cycles of selection and filtering with the company you're representing 2) Narrow down the list based on feedback and decide on which ones to approach 3) Conduct meetings and gauge the receptivity of each potential seller 4) As discussions become more serious, conduct more in-depth due diligence and figure out your offer price 5) Negotiate the price and the key terms of the Purchase Agreement and then announce the transaction",
+      "question" : "Question 9: Walk me through the process of a typical buy-side M&A deal."
+    },
+    "10" : {
+      "answer" : "Similar to the IPO process but fewer banks are involved, don't need SEC approval (debt is not sold to the general public): 1) meet with the client and gather basic information: financials, industry, customers 2) Work closely with DCM/Leveraged Finance to develop debt financing or an LBO model for the company and figure out what kind of leverage, coverage ratios and covenants might be appropriate 3) Create an investor memorandum describing all of this 4) Go out to potential debt investors and win commitments from them to finance the deal",
+      "question" : "Question 10: Walk me through a debt issuance deal."
+    },
+    "11" : {
+      "answer" : "ECM, DCM are both markets-based than M&A. In M&A, your job is to execute buy-side, sell-side transactions whereas ECM, DCM is staying on top of the market, following current trends and making recommendations to industry and product groups for clients and pitch books.",
+      "question" : "Question 11: How are Equity Capital Markets (ECM) and Debt Capital Markets (DCM) different from M&A or industry groups?"
+    },
+    "12" : {
+      "answer" : "They're similar but Leveraged Finance is more 'modelling intensive' and does more of the deal execution with industry and M&A groups on LBOs and debt financings. DCM, by contrast, is more closely tied to the markets and tracks trends and relevant data.",
+      "question" : "Question 12: What’s the difference between DCM and Leveraged Finance?"
+    },
+    "13" : {
+      "answer" : "It's when a company (public or private) decides to sell of a specific division rather than sell the entire company. Very similar to sell-side M&A but messier because you're dealing with part of a company rather than the whole thing. Need to create a 'standalone operating model' for that particular division and is very important, transaction structure and valuation are more complex.",
+      "question" : "Question 13: Explain what a divestiture is."
+    },
+    "14" : {
+      "answer" : "Put the company name in the header. Divide the slide into 4 equal parts. Top left describes the business, headquarters and key executives. Top right contains a stock chart, historical and projected financial metrics and multiples. Bottom left contains the company's products and services. Bottom right should have key geographies with a color-coded map.",
+      "question" : "Question 14: Imagine you want to draft a 1-slide company profile for an investor. What would you put there?"
+    },
+    "15" : {
+      "answer" : "At a high-level, you want to see what their expansion goals are and how they can best achieve them - whether it's by partnering with another company, expanding with M&A or expanding organically with new products and services. As an IBanker, you could provide value by making introductions to potential M&A targets and partners, advise on the best negotiation strategy, what companies would be most receptive, what type of price to expect and how to manage the entire process.",
+      "question" : "Question 15: Let’s say you’re hired as the financial advisor for a company. What value could you add for them if they ask you about their suggested growth / M&A strategy?"
+    }
+  },
+  "warren-buffett" : [ null, {
+    "answer" : "wutt",
+    "question" : "Let’s say you had $10 million to invest in anything. What would you do with it?"
+  } ]
+}
