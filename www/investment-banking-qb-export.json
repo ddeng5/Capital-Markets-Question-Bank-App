@@ -146,6 +146,48 @@
       "answer" : "Bankers hire people who are 1) smart 2) can do the work 3) are likeable; In addition to meeting all those criteria, you've also done well in the real world and have stellar recommendations to back you up - plus, since you don't come from a blue chip background, you're more motivated to succeed than the Harvard guy. 'He does have impressive credentials. But at a bank, you want someone who’s smart, can do the work, and is easy to get along with. I’ve done well in school and am working on an Honors Thesis right now, and I have great recommendations from my 2 previous bosses in my Sales & Trading internships. And I spend most of my free time sky diving and going on adventures in different countries. So while he may be qualified on paper, in banking it all comes down to real-world experience and what kind of camaraderie you have with everyone. I’m confident that I excel in both of those areas – and since I’m not from a privileged background, I’m even more motivated to succeed than someone who is.'",      "question" : "Question 3: That guy over there has a 4.0 from Wharton/Harvard – why should I hire you over him, given that you’re much less impressive?"
     },
     "4" : {
+      "answer" : "No - unless it comes up during the meeting, in which case you speak only if the MD ask you about it. In that case, you should just briefly acknowledge it then move to a different topic. It's bad if you make a mistake like that but it's worse if you embarrass your MD by pointing it out in broad daylight - chances are that no one will notice it anyways since pitch books are rarely read in meetings.",
+      "question" : "Question 4: Let’s say your MD is meeting with a client and you have been invited. As he’s presenting, you notice a mistake in the materials – do you point it out?"
+    },
+    "5" : {
+      "answer" : "The key here is to spin whatever you've done in a positive light. Don't say you were out of work/laid off/looking for work at the time - just mention that briefly and say you were also doing something constructive with your time such as education, travel, volunteering, or a respectable hobby. If you’ve had some other type of gap because of school, economic hardship, or something similar, you need to find the strength in whatever weakness you had – this is really just a disguised 'weakness' question. 'The truth is, my family went through some financial hardships back then and I was forced to take a leave of absence from school for awhile, and spend most of my time working to help them pay the bills. Initially I was pretty upset, but I learned a lot about time management, work ethic, and how to juggle 5 different major responsibilities at once. I lost some time on my peers, but I came out more motivated than before, helped my family get back on their feet, and got started with independent study to help myself catch up.'",
+      "question" : "Question 5: I see you have a big gap in your work experience over the past few months / few years / I see you have a gap of 2-3 years a few years ago – what happened there?"
+    },
+    "6" : {
+      "answer" : "Don't even try to make up an excuse unless it's a REALLY good one (e.g. both your parents passed away that semester) - just admit it then point out what you've learned and how you've improved sinec then. Maybe you took it upon yourself to do additional self-study - or you changed your approach to studying and did much better in subsequent Accounting classes.",
+      "question" : "Question 6: hy did you get a C in accounting? (Or other bad grade in highly relevant class)"
+    },
+    "7" : {
+      "answer" : "For this one it sounds like you’re making an excuse if you say something like, 'The market was bad' or 'They didn’t give out any offers' – even if both of those are true. It's a better bet to say something like, 'I did well in my internship and got positie reviews, but I didn't fit in with the group's culture. From those I've spoken with so far at your firm, I think this is a much better for me.' It's hard to argue with doing the work but just not fitting in with the group.",
+      "question" : "Question 7: Why did you NOT receive a return offer from your internship?"
+    },
+    "8" : {
+      "answer" : "For this one, if it’s a bank you have NOT interviewed with before it’s best to say you haven’t participated in recruiting so they don’t see you as 'damaged goods.' But if you’re on the record as having interviewed there before, you need to admit the truth. Again, you want to make your time seem well spent and productive: independant study/additional research and am now more focused than ever on banking.",
+      "question" : "Question 8: You graduated last year and don’t have anything listed on your resume since then – what have you been doing, and did you participate in recruiting last year?"
+    },
+    "9" : {
+      "answer" : "Even if you really do prefer New York or London, you can’t say this in an interview with a regional office because your #1 goal has to be getting AN offer – not getting the perfect offer in the perfect location. It’s best to say something like, 'I realize it is unusual and that are other places are sometimes more popular, but I’m most interested in [Location] because it’s the best place for [Industry You Like], I have a lot of friends and family here, and on top of all that the cost of living also beats New York.' This way you acknowledge their concerns upfront but also point out solid reasons for picking this location.",
+      "question" : "Question 9: Why are we your first choice? Wouldn’t you like London or New York more?"
+    },
+    "10" : {
+      "answer" : "'I realize I don’t fit the typical profile of someone applying to banking – but that also comes with some advantages. I’ve been around longer and explored different industries, so I have a better of what I want, and I’m going to be more committed than someone just out of school. I’ve also had a lot more leadership experience and understand how to get things done in a large company – and I’ve climbed up steep learning curves plenty of times over the years.'",
+      "question" : "Question 10: Why are you so old? (Stated more tactfully)"
+    }
+  },
+  "outside-the-box" : {
+    "1" : {
+      "answer" : "",
+      "question" : "Question 1: "
+    },
+    "2" : {
+      "answer" : "",
+      "question" : "Question 2: "
+    },
+    "3" : {
+      "answer" : "",
+      "question" : "Question 3: "
+    },
+    "4" : {
       "answer" : "",
       "question" : "Question 4: "
     },
@@ -156,22 +198,6 @@
     "6" : {
       "answer" : "",
       "question" : "Question 6: "
-    },
-    "7" : {
-      "answer" : "",
-      "question" : "Question 7: "
-    },
-    "8" : {
-      "answer" : "",
-      "question" : "Question 8: "
-    },
-    "9" : {
-      "answer" : "",
-      "question" : "Question 9: "
-    },
-    "10" : {
-      "answer" : "",
-      "question" : "Question 10: "
     }
   },
   "filler-template" : {

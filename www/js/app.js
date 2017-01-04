@@ -87,6 +87,17 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
+  //outside the box questions
+  .state('app.failure', {
+    url: '/failure',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/failure.html',
+        controller: 'FailureCtrl'
+      }
+    }
+  })
+
   .state('app.playlists', {
     url: '/playlists',
     views: {
