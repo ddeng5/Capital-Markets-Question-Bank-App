@@ -33,7 +33,17 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     controller: 'AppCtrl'
   })
 
-  //understanding banking tab
+  //homepage
+  .state('app.homepage', {
+    url: '/homepage',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/homepage.html'
+      }
+    }
+  })
+
+  //understanding banking questions
   .state('app.understandingbanking', {
     url: '/understandingbanking',
     views: {
@@ -44,13 +54,24 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
-  //warren-bufett style questions
+  //warren bufett style questions
   .state('app.warrenbuffett', {
     url: '/warrenbuffett',
     views: {
       'menuContent': {
         templateUrl: 'templates/warrenbuffett.html',
         controller: 'WBCtrl'
+      }
+    }
+  })
+
+  //why banking questions
+  .state('app.whybanking', {
+    url: '/whybanking',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/whybanking.html',
+        controller: 'WhyBCtrl'
       }
     }
   })
@@ -75,5 +96,5 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/playlists');
+  $urlRouterProvider.otherwise('/app/homepage');
 });

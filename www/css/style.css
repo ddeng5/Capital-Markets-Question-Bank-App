@@ -31,3 +31,19 @@
   font-size: 2.5vw;
   line-height: 115%;
 }
+
+#disclaimer {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1.5vw;
+  line-height: 115%;
+}
+
+#goodluck {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 3.25vw;
+  line-height: 115%;
+}
