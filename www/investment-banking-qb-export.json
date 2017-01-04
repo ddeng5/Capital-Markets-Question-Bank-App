@@ -102,7 +102,130 @@
       "answer" : "Give an answer and back it up with solid reasoning. These days, it's probably better to say yes because as we witnessed with teh Lehman Brothers, if a financial institution that's large enough collapses, it can have ripple effects and bring down the rest of the economy and financial markets with it.",
       "question" : "Question 10: Do you agree with the $700 billion bank bailout?"
     }
+  },
+  "why-banking" : {
+    "1" : {
+      "answer" : "Talk about how banking is about what skills you bring to the table and what kind of person you are rather than how many internships you've had. Discuss how you've worked long hours/in teams/paid attention to details before and succeeded at whatever you've done before. You can also point out that although someone might have had a banking internship, that doesn't mean he/she did well in it - and that you may be better equipped with your experiences.",
+      "question" : "Question 1: I see you have no relevant finance experience – why should we hire you over someone who’s had a previous banking internship?"
+    },
+    "2" : {
+      "answer" : "You want to understand the bigger picture and how and why large companies make decisions rather than just working with individual investors. Working on transactions and making an impact is more interesting to you than giving individual advice to high net worth individuals (or institutions).",
+      "question" : "Question 2: I see you’ve worked mostly in wealth management before – why are you looking to switch into banking now?"
+    },
+    "3" : {
+      "answer" : "Talk about your long-term view and how a downturn could be an even better time to enter the industry because you'll know how to work when times are both good and bad. In addition, you've been interested in finance for a long time and that you're not going to let short-term difficulties deter you from entering the field - you've explored other options and concluded that this is the best one for you.",
+      "question" : "Question 3: You’re a smart guy/girl with a lot of options, and right now the economy is not doing well and lots of banks have failed. Why are you still interested in banking when you could do anything else?"
+    },
+    "4" : {
+      "answer" : "Reverse of question 3, you can apply a similar strategy and say how you hold a long-term view and haven't just become interested overnight. Being able to point out specific evidence to back up your interest - your own portfolio, the finance/business clubs you're in, or even day trading - also helps.",
+      "question" : "Question 4: The economy has been improving lately, and more people are “getting interested” in finance. How do I know you’re serious and not just following everyone else?"
+    },
+    "5" : {
+      "answer" : "Almost anything could work here but make sure it's nothing too recent. Otherwise, it looks like you became interested on a whim. Be sure to explain how your initial interest led you into the internships, activities, jobs you pursued and how those have led you to where you are today.",
+      "question" : "Question 5: Where did your interest in finance begin?"
+    },
+    "6" : {
+      "answer" : "You're looking for something faster-paced where there's a better learning opportunity and more of a chance to make an impact. You've been interested all along and now you realize you reall ywant to do it after exploring other alternatives and not liked them. If this is a small company to a big company (or vice versa) you can also say something about that, using the standard reasons we went through before - small means more responsibility and client interaction , and big means working on more major deals and learning more technical skills.",
+      "question" : "Question 6: If you enjoyed your last internship and got an offer to come back, why are you trying to switch into investment banking now?"
+    },
+    "7" : {
+      "answer" : "This is the key question asked of many career changers and anyone else at the VP-level (or above) at a company who is looking to switch into banking as an Associate. Here are the main points to emphasize: 1) You've done your homework and spoken with a lot of people about this move - and you like the finance work you've done before 2) Banking is faster-paced and appeals to you more because you make more of an impact 3) You're fine with the pay cut and additional hours because of the improved opportunities to make an impact and advance.",
+      "question" : "Question 7: You’ve advanced into a high-paying position at your current company – why would you want to move here, take a pay cut, and work twice the hours?"
+    }
+  },
+  "failure" : {
+    "1" : {
+      "answer" : "Do NOT give an actual fear (losing your friends, hating your life, getting laid off, working too much etc...). Instead, it's better to go with something innocuous like 'Doing a lot of deals and not always getting to see them through to the conclusion because anything could cause a large trasnaction to collapse' or having concerns about the deal flow if the market is poor.",
+      "question" : "Question 1: What’s your greatest fear about investment banking?"
+    },
+    "2" : {
+      "answer" : "You will do something finance - related in a field like corporate finance/strategy or maybe something else at a financial firm.'If I have absolutely no way to get into banking at your firm this year, then I’d go work in the Valuations group at one of the Big 4 firms where I already have an offer – or to the 2 boutiques that keep inviting me in for interviews.' ",
+      "question" : "Question 2: What’s your “Plan B” if you can’t get into investment banking this year?"
+    },
+    "3" : {
+      "answer" : "Bankers hire people who are 1) smart 2) can do the work 3) are likeable; In addition to meeting all those criteria, you've also done well in the real world and have stellar recommendations to back you up - plus, since you don't come from a blue chip background, you're more motivated to succeed than the Harvard guy. 'He does have impressive credentials. But at a bank, you want someone who’s smart, can do the work, and is easy to get along with. I’ve done well in school and am working on an Honors Thesis right now, and I have great recommendations from my 2 previous bosses in my Sales & Trading internships. And I spend most of my free time sky diving and going on adventures in different countries. So while he may be qualified on paper, in banking it all comes down to real-world experience and what kind of camaraderie you have with everyone. I’m confident that I excel in both of those areas – and since I’m not from a privileged background, I’m even more motivated to succeed than someone who is.'",      "question" : "Question 3: That guy over there has a 4.0 from Wharton/Harvard – why should I hire you over him, given that you’re much less impressive?"
+    },
+    "4" : {
+      "answer" : "",
+      "question" : "Question 4: "
+    },
+    "5" : {
+      "answer" : "",
+      "question" : "Question 5: "
+    },
+    "6" : {
+      "answer" : "",
+      "question" : "Question 6: "
+    },
+    "7" : {
+      "answer" : "",
+      "question" : "Question 7: "
+    },
+    "8" : {
+      "answer" : "",
+      "question" : "Question 8: "
+    },
+    "9" : {
+      "answer" : "",
+      "question" : "Question 9: "
+    },
+    "10" : {
+      "answer" : "",
+      "question" : "Question 10: "
+    }
+  },
+  "filler-template" : {
+    "1" : {
+      "answer" : "",
+      "question" : "Question 1: "
+    },
+    "2" : {
+      "answer" : "",
+      "question" : "Question 2: "
+    },
+    "3" : {
+      "answer" : "",
+      "question" : "Question 3: "
+    },
+    "4" : {
+      "answer" : "",
+      "question" : "Question 4: "
+    },
+    "5" : {
+      "answer" : "",
+      "question" : "Question 5: "
+    },
+    "6" : {
+      "answer" : "",
+      "question" : "Question 6: "
+    },
+    "7" : {
+      "answer" : "",
+      "question" : "Question 7: "
+    },
+    "8" : {
+      "answer" : "",
+      "question" : "Question 8: "
+    },
+    "9" : {
+      "answer" : "",
+      "question" : "Question 9: "
+    },
+    "10" : {
+      "answer" : "",
+      "question" : "Question 10: "
+    },
+    "11" : {
+      "answer" : "",
+      "question" : "Question 11: "
+    },
+    "12" : {
+      "answer" : "",
+      "question" : "Question 12: "
+    }
   }
+
+
 
 
 }

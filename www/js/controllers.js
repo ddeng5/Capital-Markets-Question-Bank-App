@@ -13,32 +13,11 @@ angular.module('starter.controllers', [])
   $scope.loginData = {};
 
   // Create the login modal that we will use later
-  $ionicModal.fromTemplateUrl('templates/login.html', {
+  $ionicModal.fromTemplateUrl('templates/homepage.html', {
     scope: $scope
   }).then(function(modal) {
     $scope.modal = modal;
   });
-
-  // Triggered in the login modal to close it
-  $scope.closeLogin = function() {
-    $scope.modal.hide();
-  };
-
-  // Open the login modal
-  $scope.login = function() {
-    $scope.modal.show();
-  };
-
-  // Perform the login action when the user submits the login form
-  $scope.doLogin = function() {
-    console.log('Doing login', $scope.loginData);
-
-    // Simulate a login delay. Remove this and replace with your login
-    // code if using a login system
-    $timeout(function() {
-      $scope.closeLogin();
-    }, 1000);
-  };
 })
 
 //controller for understanding banking
@@ -158,15 +137,15 @@ angular.module('starter.controllers', [])
 
   $timeout(function() {
 
-  qNum = Math.floor((Math.random() * 1) + 1);
+  qNum = Math.floor((Math.random() * 7) + 1);
 
   //check if the last question number is the same as this current question number
   while ($rootScope.first == qNum) {
     //if it is then grab another question
-    qNum = Math.floor((Math.random() * 1) + 1);
+    qNum = Math.floor((Math.random() * 7) + 1);
 
     if (qNum == $rootScope.first) {
-      qNum = Math.floor((Math.random() * 1) + 1);
+      qNum = Math.floor((Math.random() * 7) + 1);
     }
   }
 
@@ -200,6 +179,60 @@ angular.module('starter.controllers', [])
   };
 });
 })
+
+
+//controller for failure questions
+.controller('FailureCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
+  //ensure that side menu and navbar is always presenting when entering the view
+  $scope.$on('$ionicView.enter', function(e) {
+    $ionicNavBarDelegate.showBar(true);
+  });
+
+  $timeout(function() {
+
+  qNum = Math.floor((Math.random() * 4) + 1);
+
+  //check if the last question number is the same as this current question number
+  while ($rootScope.first == qNum) {
+    //if it is then grab another question
+    qNum = Math.floor((Math.random() * 4) + 1);
+
+    if (qNum == $rootScope.first) {
+      qNum = Math.floor((Math.random() * 4) + 1);
+    }
+  }
+
+  qNum = qNum.toString();
+  $rootScope.first = qNum;
+
+  question = firebase.database().ref().child("failure").child(qNum).child("question")
+  answer = firebase.database().ref().child("failure").child(qNum).child("answer")
+
+  //bind question to html element
+  question.once('value', function(datasnapshot) {
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
+    });
+  });
+
+  //bind solution to html element
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();
+      })
+    });
+  };
+
+  //refresh the state to get the next question
+  $scope.nextQ = function() {
+    $timeout(function() {
+      $state.reload();
+    })
+  };
+});
+})
+
 
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
