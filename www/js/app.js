@@ -50,7 +50,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     views: {
       'menuContent': {
         templateUrl: 'templates/warrenbuffett.html',
-        controller: 'UBCtrl'
+        controller: 'WBCtrl'
       }
     }
   })

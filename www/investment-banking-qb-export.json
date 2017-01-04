@@ -6,15 +6,15 @@
     },
     "2" : {
       "answer" : "Make it clear that you've done your homework and you understand it's going to be an 80-100 hour per week job. Perhaps give an example of a period of time where you had to work that much and how you dealt with it.",
-      "question" : "Question 2:How much do you know about the lifestyle in this industry? Do you know how many hours you’re going to work each week?"
+      "question" : "Question 2: How much do you know about the lifestyle in this industry? Do you know how many hours you’re going to work each week?"
     },
     "3" : {
       "answer" : "1) Meet with the client and gather basic information: company financials, industry overview and who their customers are. 2) Meet with other bankers and lawyers to draft the S-1 registration statement: describes company business and markets it to investors. 3) Receive feedback from SEC and keep revising document until satisfaction. 4) Road trip: spend time convincing institutional investors to invest and once capital is raised, the company starts trading on an exchange.",
-      "question" : "Question 3:Let’s say I’m working on an IPO for a client. Can you describe briefly what I would do?"
+      "question" : "Question 3: Let’s say I’m working on an IPO for a client. Can you describe briefly what I would do?"
     },
     "4" : {
       "answer" : "Emphasize that you have experience working long hours and not just within a short time frame but over a period of time. Because of how this question is framed, you might want to talk about a time OUTSIDE of your extracurriculars.",
-      "question" : "Question 4:I see you were an English major in college, and had time to participate in a lot of different activities. Can you talk about a time when you had to work long hours and make sacrifices?"
+      "question" : "Question 4: I see you were an English major in college, and had time to participate in a lot of different activities. Can you talk about a time when you had to work long hours and make sacrifices?"
     },
     "5" : {
       "answer" : "Depends on the deal but most common structure: 1) Bank credentials (prove their expertise) 2) Summary of company's options 3) Valuation and appropriate financial models 4) Potential acquisition targets (buy-side) or potential buyers (sell-side) 5) Summary/conclusion and key recommendations",
@@ -61,8 +61,48 @@
       "question" : "Question 15: Let’s say you’re hired as the financial advisor for a company. What value could you add for them if they ask you about their suggested growth / M&A strategy?"
     }
   },
-  "warren-buffett" : [ null, {
-    "answer" : "wutt",
-    "question" : "Let’s say you had $10 million to invest in anything. What would you do with it?"
-  } ]
+  "warren-buffett" : {
+    "1" : {
+      "answer" : "Always ask for the investor's goals first!! Are they looking for capital gains over 30-40 years: well diversified portfolio is probably best? Are they looking for tax-free retirement income: municipal bonds would be good? What types of assets interest them?",
+      "question" : "Question 1: Let’s say you had $10 million to invest in anything. What would you do with it?"
+    },
+    "2" : {
+      "answer" : "1) Price 2) Form of payment: cash, debt, equity 3) Future plans for the company compared to your own plans; There are so many factors that could be listed but these are the key ones. You can also point out that if something particularly important to you like retaining a role in the company, then a difference of intentions there could be a deal-breaker.",
+      "question" : "Question 2: If you owned a small business and were approached by a larger company about an acquisition, how would you think about the offer, and how would you make a decision on what to do?"
+    },
+    "3" : {
+      "answer" : "Do research beforehand to be able to speak about trends in that market. 3 mistakes most interviewees make: 1) describing something that is not recent or relevant ex. 'talk about how companies are shifting their software to the Internet' 2) don't explain the 'why' ex. 'they're shifting to the web because it's cheaper and lower maintenance for them' 3) they don't explain the impact on the market as a whole ex. 'such companies are growing very quickly while more traditional companies are either struggling or shifting to that model'",
+      "question" : "Question 3: We do most of our work with technology companies. Can you talk about a trend or company in the industry that has piqued your interest lately?"
+    },
+    "4" : {
+      "answer" : "Ask follow up questions to see if the interviewer is looking for something more specific. If no further direction is provided, then you would say you'd think about some type of niche business with high margins that requires little startup capital ($1 million is not a lot) and ongoing maintenance - those make it harder to turn a profit and sell that business one day. This is one reason why some PE investors focus on software companies. It's better to focus on a niche market because most broad, horizontal markets are already dominated by major companies. Explain your reasoning on why this type of business would be attractive and how it could grow with minimal future investment.",
+      "question" : "Question 4: Let’s say you could start any type of business you wanted, and you had $1 million in initial funds. What would you do?"
+    },
+    "5" : {
+      "answer" : "Do not say something commonly known like Google or Apple. Instead, go more obscure and pick a company no one knows so that they can tell you've done your research so that they're less likely to ask probing questions. You don't necessarily need to give financial details, but if the company is public you can easily find the information. When you talk, make the firm attractive and emphasize qualities that investors would find appealing, such as a well-diversified customer base, a unique competitive advantage in the market or a high-margin business model.",
+      "question" : "Question 5: Can you talk about a company you admire and what makes them attractive to you?"
+    },
+    "6" : {
+      "answer" : "To assess whether it is viable or not, you must determine whether you can make a profit. For a laundry machine operation, you'd start by looking at the location, estimate how many customers you could get, how frequently they do laundry and how much they pay each time to do their laundry. These figures give you an idea of monthly/annual revenue. On the expenses side, biggest cost would be the upfront construction and/or purchase of the build and machines. You would probably need a loan for this. Then take into account the cost of maintaing and servicing the machines, building maintenance and employee wages. Location is the biggest role in the success of this type of business. If this company was next to an apartment complex where everyone has laundry machines, you're doomed from the beginning.",
+      "question" : "Question 6: Let’s assume you are going to start a laundry machine business. How would you analyze whether it’s viable?"
+    },
+    "7" : {
+      "answer" : "You want to say who the buyer and seller were - include background information on the companies - as well as the price and the multiples if they are readily available. Read the relevant Wall Street Journal article on it, and discuss the dynamics of the deal - how it developed, if anyone else was interested, and what implications it has on the industry.",
+      "question" : "Question 7: Tell me about an M&A deal that interested you recently."
+    },
+    "8" : {
+      "answer" : "Similar to talking about a company you admire. One key difference is that you need to mention specific financial figures. Since the company is public, it shouldn't be too hard to find. Look at Revenue, EBITDA and P/E multiples and saying whether it is higher or lower than competitors is a step in the right direction. Struture: 1) Give the name and summarize what they do 2) Brief overview of its financials 3) State how it is undervalued or more attractive than rivals due to competitive advantages 4) Say how there is a long-term trend in its favor 5) Talk about how good the next 5-10 years will be for the company.",
+      "question" : "Question 8: Pitch me a stock."
+    },
+    "9" : {
+      "answer" : "Banks made mortgage loans to people who were in no position to pay them off or even meet monthly payments. Borrowing was easy because interest rates were at historical lows. At the same time, these mortgage loans were combined and packaged into securities that banks traded, acquired and sold to investors. A typical package might contain mortgages given to credible borrowers as well as risky borrowers, more risky ones were labelled as subprime. The thinking was that even if one defaulted, the rest still had value. As unqualified borrowers defaulted, buyers disappeared overnight and the value of these assets plummeted to $0. As a result, the value of many of these banks approached $0 and went bankrupt - all because these securities were so complex nobody understood their real value and the risks involved.",
+      "question" : "Question 9: Can you explain to me, in simple terms, the subprime crisis?"
+    },
+    "10" : {
+      "answer" : "Give an answer and back it up with solid reasoning. These days, it's probably better to say yes because as we witnessed with teh Lehman Brothers, if a financial institution that's large enough collapses, it can have ripple effects and bring down the rest of the economy and financial markets with it.",
+      "question" : "Question 10: Do you agree with the $700 billion bank bailout?"
+    }
+  }
+
+
 }

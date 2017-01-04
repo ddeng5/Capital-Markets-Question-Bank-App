@@ -41,6 +41,7 @@ angular.module('starter.controllers', [])
   };
 })
 
+//controller for understanding banking
 .controller('UBCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
   //ensure that side menu and navbar is always presenting when entering the view
   $scope.$on('$ionicView.enter', function(e) {
@@ -68,6 +69,61 @@ angular.module('starter.controllers', [])
   //establish firebase connection with understandingbanking child and questions
   question = firebase.database().ref().child("understanding-banking").child(qNum).child("question")
   answer = firebase.database().ref().child("understanding-banking").child(qNum).child("answer")
+
+  //bind question to html element
+  question.once('value', function(datasnapshot) {
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
+    });
+  });
+
+  //bind solution to html element
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();
+      })
+    });
+  };
+
+  //refresh the state to get the next question
+  $scope.nextQ = function() {
+    $timeout(function() {
+      $state.reload();
+    })
+  };
+});
+})
+
+
+//controller for warren buffett questions
+.controller('WBCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
+  //ensure that side menu and navbar is always presenting when entering the view
+  $scope.$on('$ionicView.enter', function(e) {
+    $ionicNavBarDelegate.showBar(true);
+  });
+
+  $timeout(function() {
+
+  //get a random question number, limits (15) need to be adjusted whenever more questions are added or removed
+  qNum = Math.floor((Math.random() * 1) + 1);
+
+  //check if the last question number is the same as this current question number
+  while ($rootScope.first == qNum) {
+    //if it is then grab another question
+    qNum = Math.floor((Math.random() * 1) + 1);
+
+    if (qNum == $rootScope.first) {
+      qNum = Math.floor((Math.random() * 1) + 1);
+    }
+  }
+
+  qNum = qNum.toString();
+  $rootScope.first = qNum;
+
+  //establish firebase connection with understandingbanking child and questions
+  question = firebase.database().ref().child("warren-buffett").child(qNum).child("question")
+  answer = firebase.database().ref().child("warren-buffett").child(qNum).child("answer")
 
   //bind question to html element
   question.once('value', function(datasnapshot) {
