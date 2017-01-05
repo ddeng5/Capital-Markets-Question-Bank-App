@@ -330,36 +330,36 @@
       "question" : "Question 32: What’s the difference between acquiring just the assets of a company and acquiring it on a 'current liabilities assumed' basis?"
     },
     "33" : {
-      "answer" : "",
-      "question" : "Question 9: "
+      "answer" : "Trick question. MARKET CAP DOES NOT EQUAL SHAREHOLDER'S EQUITY. You might be tempted to say something like, 'SE falls!' but the share price of the company does not affect shareholder's equity, which is a book value. What actually happens: as a result of the share price drop, customers, vendors, suppliers and lendors would be more reluctant to do business with the distressed company - so its revenue might fall and its Accounts Payable and Accrued Expenses might climb to unhealthy levels. All of that might cause the company to fail or require more capital, but the share price decline itself does not lead to bankruptcy. In the case of Bear Stears in 2008, overnight lendors lost confidence as a result of the sudden share price declines and it completely ran out of liquidity as a result - which is a big problem when your business depends on overnight lending.",
+      "question" : "Question 33: How could a decline in a company’s share price cause it to go bankrupt?"
     },
     "34" : {
-      "answer" : "",
-      "question" : "Question 10: "
+      "answer" : "They rise and the average AP Days might go well beyond what is 'normal' for the industry - this is because a distressed company has trouble paying its vendors and suppliers.",
+      "question" : "Question 34: What happens to Accounts Payable Days with a distressed company?"
     },
     "35" : {
-      "answer" : "",
-      "question" : "Question 11: "
+      "answer" : "Debt: sometimes if the company is too small or if investors don't believe it has a credible turnaround plan, they will simply refuse to lend it any sort of capital ... Equity: Same as above but worse - since equity investors have a lower priority than debt investors. Plus, for a distressed company to get enough capital, it could mean selling 100% or near 100% of the company due to its depressed market cap.",
+      "question" : "Question 35: Let’s say a distressed company wants to raise debt or equity to fix its financial problems rather than selling or declaring bankruptcy. Why might it not be able to do this?"
     },
     "36" : {
-      "answer" : "",
-      "question" : "Question 12: "
+      "answer" : "In most cases, it will be higher because you're adjusting for higher-than-normal salaries, one-time legal and restructuring charges, and more.",
+      "question" : "Question 36: Will the adjusted EBITDA of a distressed company be higher or lower than the value you would get from its financial statements?"
     },
     "37" : {
-      "answer" : "",
-      "question" : "Question 1: "
+      "answer" : "No. In fact, with distressed companies it's really important to analyze cash flows on a debt-free basis precisely because they might have higher-than-normal debt expenses.",
+      "question" : "Question 37: Would you use Levered Cash Flow for a distressed company in a DCF since it might be encumbered with debt?"
     },
     "38" : {
-      "answer" : "",
-      "question" : "Question 2: "
+      "answer" : "In a Liquidation Valuation you need to adjust the values of the assets to reflect how much you could get if you sold them off separately. You might assume, for example, that you can only recover 50% of the book value of a company's inventory if you tried to sell it off separately. Shareholder's Equity is equal to Assets - Liabilities, but in a Liquidation Valuation we change the values of all the Assets so we can't just use the Shareholder's Equity number.",
+      "question" : "Question 38: Let’s say we’re doing a Liquidation Valuation for a distressed company. Why can’t we just use the Shareholders’ Equity number for its value? Isn’t that equal to Assets minus Liabilities?"
     },
     "39" : {
-      "answer" : "",
-      "question" : "Question 3: "
+      "answer" : "This varies A LOT by industry, company and the specific assets, but some rough guidelines: 1) Cash: probably close to 100% because it is the most liquid 2) Investments: Varies a lot by what they are and how liquid they are - you might get close to 100% for the ones closest to cash, but significantly less than that for equity investments in other companies 3) Accounts Receivables: Less than what you would get for cash because many customers might just not 'pay' a distressed company 4) Inventory: Less than Cash or AR because inventory is of little use to a different company 5) PP&E: Similar to cash for land and buildings but less than that for equipment 6) Intangible Assets: 0% No one will pay you anything for Goodwill or the value of a brand name - or if they will, it's near impossible to quantify",
+      "question" : "Question 39: What kind of recovery can you expect for different assets in a Liquidation Valuation?"
     },
     "40" : {
-      "answer" : "",
-      "question" : "Question 4: "
+      "answer" : "The purpose of an LBO model here is not to determine the private equity firm's IRR, but rather to figure out how quickly the company can pay off its debt obligations as well as what kind of IRR any new debt/equity investors can expect. Other than that, it's not much different from the standard LBO model - the mechanics are the same, but you have different kinds of debt, possibly more tranches, and the returns will probably be lower because it's a distressed company, though occasionally 'bargain' deals can turn out to be very profitable. One structural difference is that a distressed company LBO is more likely to take the form of an asset purchase rather than a stock purchase.",
+      "question" : "Question 40: How would an LBO model for a distressed company be different?"
     }
   },
   "filler-template" : {
