@@ -202,132 +202,132 @@
   },
   "restruct-distress" : {
     "1" : {
-      "answer" : "",
-      "question" : "Question 1: "
+      "answer" : "Restructuring bankers advise distressed comapnies - businesses going bankrupt, in the middle of a bankruptcy or getting out of a bankruptcy - and help them change their capital structure to get out of bankruptcy, avoid it in the first place, or assist with a sale of the company depending on the scenario.",
+      "question" : "Question 1: How much do you know about what you actually do in Restructuring?"
     },
     "2" : {
-      "answer" : "",
-      "question" : "Question 2: "
+      "answer" : "There is the debtor (the company itself) or the creditors (anyone that has lent the company money). It's similar to sell-side and buy-side M&A - in one you're advising the company who's trying to sell or get out of the mess they are in and in the other you are advising buyers and lenders that are trying to take what they can from the company. Note that 'creditors' are often multiple parties since it's anyone who's loaned the company money. You need to research which bank does what, but typically Blackstone and Lazard advise the debtor and Hokey advises the creditor (these 3 are commonly known as the top 3 in the field).",
+      "question" : "Question 2: What are the 2 different “sides” of a Restructuring deal? Do you know which one we usually advise?"
     },
     "3" : {
-      "answer" : "",
-      "question" : "Question 3: "
+      "answer" : "You gain a very specialized skill set (and therefore become more valuable/employable) and much of the work is actually more technical/interesting than M&A, for example. You are get more exposure because you get to see both the bright sides and the not-so-bright sides of companies. If you're coming in with any legal background or have aspirations of doing that in the future, there's a ton of overlap with Restructuring because you have to operate within a legal framework and attorneys are involved at every step of the process - so that can be one of your selling points as well.",
+      "question" : "Question 3: Why are you interested in Restructuring besides the fact that it’s a “hot” area currently?"
     },
     "4" : {
-      "answer" : "",
-      "question" : "Question 4: "
+      "answer" : "See question 3 about the legal and 'better technical skills'. You can also use the experience to work at a Distressed Investments or Special Situations Fund, which most people outside of Restructuring don't have access to. Or you could just go back to M&A or normal investing too, and still have superior technical knowledge to other bankers.",
+      "question" : "Question 4: How are you going to use your experience in Restructuring for your future career goals?"
     },
     "5" : {
-      "answer" : "",
-      "question" : "Question 5: "
+      "answer" : "More so than M&A and IPO processes, Restructuring/Distressed M&A requires extremely specialized knowledge and relationships. There are only a few banks with good practices, and they are selected on the basis of their experience during similar deals in the industry as well as their relationships with all the other parties that will be involved in the deal process. Remember that a Restructuring involves many more parties than a normal M&A or financing deals does - there are lawyers, shareholders, debt investors, suppliers, directors, management, and crisis managers, and managing everyone can be like herding cats. Lawyers can also be a major source of business, since they're heavily involved with any sort of Restructuring/Distress scenario.",
+      "question" : "Question 5: How would a distressed company select its Restructuring bankers?"
     },
     "6" : {
-      "answer" : "",
-      "question" : "Question 6: "
+      "answer" : "1) Company cannot meet its debt obligations/interest payments 2) Creditors accelerate debt payments and force the company into bankruptcy 3) Acquisition has gone poorly or a company has just written down the value of its assets steeply and needs extra capital to stay afloat 4) There is a liquidity crunch and the company cannot afford to pay its vendors or suppliers",
+      "question" : "Question 6: Why would company go bankrupt in the first place?"
     },
     "7" : {
-      "answer" : "",
-      "question" : "Question 7: "
+      "answer" : "1) Refinance and obtain fresh debt/equity 2) Sell the company (either as a whole or divestiture) 3) Restructure its financial obligations to lower interest payments/debt repayments or issue debt with PIK interest to reduce the cash interest expense 4) File for bankruptcy and use that opportunity to obtain additional financing, restructure its obligations and be free of onerous contracts",
+      "question" : "Question 7: What options are available to a distressed company that can't meet debt obligations?"
     },
     "8" : {
-      "answer" : "",
-      "question" : "Question 8: "
+      "answer" : "1) Refinance: Least disruptive to company and would revive confidence, difficult to attract investors to a company on the verge of going bankrupt 2) Sale: Shareholders could get some value and creditors would be less infuriated knowing that funds are coming, unlikely to obtain a good valuation in a distressed sale so it would sell for a fraction of its worth 3) Restructuring: could resolve problems quickly without third party involvement, lenders are often reluctant to increase their exposure to the company and management/lender usually don't see eye-to-eye 4) Bankruptcy: could be the best way to negotiate with lenders, reduce obligations and get additional financing, significant business disruptions and lack of confidence from customers and equity investors would likely lose all their money",
+      "question" : "Question 8: What are the advantages and disadvantages of each option for a distressed company?"
     },
     "9" : {
-      "answer" : "",
-      "question" : "Question 9: "
+      "answer" : "These mirror the options that are available to the company itself in a distressed situation: 1) Lend additional capital/grant equity to company 2) Conditional Finance - only agree to invest if the company meets certain crieria like cutting expense, stop losing money, agrees to other terms and covenants 3) Sale - Force the company to hire an investment bank to sell itself or parts of itself 4) Foreclosure - Bank seizes collatoral and forces a bankruptcy filing ",
+      "question" : "Question 9: From the perspective of the creditors, what different strategies do they have available to recover their capital in a distressed situation?"
     },
     "10" : {
-      "answer" : "",
-      "question" : "Question 10: "
+      "answer" : "They are more complex, involve more parties, require more specialized/technical skills and have to follow the Bankruptcy legal code - unlike most other types of deals bankers work on. The debtor advisor, for example, might have to work with creditors during a forebearance period and then work with lawyers to determine collateral recoveries for each tranche of debt. Also, unlike most standard M&A deals the negotiation extends beyond two 'sides' - it's not just creditors negotiating with the debtors but also the different creditors negotiating with each other.",
+      "question" : "Question 10: How are Restructuring deals different from other types of transactions?"
     },
     "11" : {
-      "answer" : "",
-      "question" : "Question 11: "
+      "answer" : "Chapter 7 bankruptcy is known as a 'liquidation bankruptcy' - the company is too far past the point of reorganization and must instead sell off its asset and pay off creditors. Chapter 11 is more of a 'reorganization' - the company doesn't die, but instead changes the terms on its debt and renegotiates everything to lower interest payments and the dollar value of debt repayments.",
+      "question" : "Question 11: What’s the difference between Chapter 7 and Chapter 11 bankruptcy?"
     },
     "12" : {
-      "answer" : "",
-      "question" : "Question 12: "
+      "answer" : "It is money borrowed by the distressed company that has repayment priority over all other existing secured/unsecured debt, equity, and other claims, and is considered 'safe' by lenders because it is subject to stricter terms than other forms of financing. Theoretically, this makes it easier for distressed companies to emerge from the bankruptcy prcoess - though some argue that DIP financing is actually harmful on an empirical basis. Some DIP lending firms are known for trying to take over companies at a significant discount due to the huge amount of collateral they have. One reason companies might choose to file for Chapter 11 Bankruptcy is to gain access to DIP financing.",
+      "question" : "Question 12: What is debtor-in-possession (DIP) financing and how is it used with distressed companies?"
     },
     "13" : {
-      "answer" : "",
-      "question" : "Question 1: "
+      "answer" : "Here are the most common adjustments: 1) Adjust COGS for higher vendor costs due to lack of trust from supplies 2) Add back non-recurring legal/other professional fees associated with restructuring and/or distressed sale process 3) Add back excess lease expenses (lack of trust) to Operating Income as well as excess salaries (often done so private company owners can save on taxes) 4) Working capital needs to be adjusted for receivables unlikely to turn into cash, overvalued/insufficient inventory and insufficient payables 5) CapEx spending is often off (if it's too high that might be why they're going bankrupt, if it's too low they might be doing that artificially to save money)",
+      "question" : "Question 13: How would you adjust the 3 financial statements for a distressed company when you’re doing valuation or modeling work?"
     },
     "14" : {
-      "answer" : "",
-      "question" : "Question 2: "
+      "answer" : "Most of the above would apply to public companies as well but the point about the excess salaries does not hold true - it's much tougher for public companies to manipulate the system like that and pay abnormal salaries.",
+      "question" : "Question 14: Would those adjustments differ for public companies vs. private companies?"
     },
     "15" : {
-      "answer" : "",
-      "question" : "Question 3: "
+      "answer" : "The SE goes negative (which is actually not that uncommon and happens all the time in LBOs and when a company is unprofitable). A company's Equity Market Cap (shares outstanding x share price) would remain positive because that can never be negative.",
+      "question" : "Question 15: If the market value of a distressed company’s debt is greater than the company’s assets, what happens to its equity?"
     },
     "16" : {
-      "answer" : "",
-      "question" : "Question 4: "
+      "answer" : "1) New debtor-in-possession (DIPs) lenders 2) Secured creditors (revolvers and 'bank debt') 3) Unsecured creditors (high-yield bonds) 4) Subordinated debt investors (similar to high-yield bonds) 5) Mezzanine investors (convertibles, convertible preferred stock, preferred stock, PIK) 6) Shareholders (equity investors)",
+      "question" : "Question 16: In a bankruptcy, what is the order of claims on a company’s assets?"
     },
     "17" : {
-      "answer" : "",
-      "question" : "Question 5: "
+      "answer" : "You'd have to look at the yields of bonds or the spreads of credit default swaps of comparable companies to get a sense of this. You could also just use the current yields on a company's existing debt to estimate this, though it may be difficult if the existing debt is illiquid.",
+      "question" : "Question 17: How do you measure the cost of debt for a company if it is too distressed to issue additional debt (i.e. investors won’t buy any debt from them)?"
     },
     "18" : {
-      "answer" : "",
-      "question" : "Question 6: "
+      "answer" : "1) Use the same methodologies most of the time (comparable companies, precedent transactions, DCF) 2) Look more at the lower range of the multiple and make the accounting adjustments 3) Use lower projections for a DCF and anything else that needs projections because you assume a turnaround period is required 4) You might pay more attention to Revenue Muliples if the company is EBIT/EBITDA/EPS-negative 5) You also look at a liquidation valuation under the assumption that the company's assets will be sold off and used to pay its obligations 6) Somtimes you look at valuations on both an assets-only basis and a current liabilities-assumed basis. This distinction exists because you need to make big adjustments to liabilities with distressed companies",
+      "question" : "Question 18: How would valuation change for a distressed company?"
     },
     "19" : {
-      "answer" : "",
-      "question" : "Question 7: "
+      "answer" : "Even more of the value would come from the terminal value since you normally assume a few years of cash flow-negative turnaround. You might also do a sensitivity table on hitting or missing earnings projections, and also add a premium to WACC to make it higher and account for operating distress.",
+      "question" : "Question 19: How would a DCF analysis be different in a distressed scenario?"
     },
     "20" : {
-      "answer" : "",
-      "question" : "Question 8: "
+      "answer" : "1) Timing is often quick since the company needs to sell or else they'll go bankrupt 2) Sometimes you'll produce fewer upfront marketing materials (Information Memorandum, Management Presentations etc...) in the interest of speed 3) Creditors often initiate the process rather than the company itself 4) Unlike normal M&A deals, distressed sales can't 'fail' - they result in a sale, a bankrutcy or sometimes a restructuring",
+      "question" : "Question 20: Let’s say a distressed company approaches you and wants to hire your bank to sell it in a distressed sale – how would the M&A process be different than it would for a healthy company?"
     },
     "21" : {
-      "answer" : "",
-      "question" : "Question 9: "
+      "answer" : "Yes - in a distressed sale, the seller normally has no negotiating leverage because you represent a company that's about to die. The only real way to improve price for your client is to have multiple bidders.",
+      "question" : "Question 21: Normally in a sell-side M&A process, you always want to have multiple bidders to increase competition. Is there any reason they’d be especially important in a distressed sale?"
     },
     "22" : {
-      "answer" : "",
-      "question" : "Question 10: "
+      "answer" : "In a stock purchase, you acquire 100% of a company's shares as well as all its assets and liabilities (on and off balance sheet). In an asset purchase, you acquire only certain assets of a company and assume only certain liabilities - so you can pick and choose exactly what you're getting. Companies typically use asset purchases for divestitures, distressed M&A, and smaller private companies; anything large, public and healthy generally needs to be acquired through a stock purchase. A buyer almost always prefers an asset purchase so it can avoid assumption of unknown liabilities (there are also tax advantages for the buyer). A distressed seller almost always prefers a stock purchase so it can be rid of all its liabilities and because it gets taxed more heavily when selling assets vs. selling the entire business.",
+      "question" : "Question 22: The 2 basic ways you can buy a company are through a stock purchase and an asset purchase. What’s the difference, and what would a buyer in a distressed sale prefer? What about the seller?"
     },
     "23" : {
-      "answer" : "",
-      "question" : "Question 11: "
+      "answer" : "Other possible outcomes: 1) Foreclose (either official or unofficial) 2) General assignment (faster alternative to bankruptcy) 3) Section 363 asset sale (a faster, less risky version of a normal asset sale) 4) Chapter 11 bankruptcy 5) Chapter 7 bankruptcy",
+      "question" : "Question 23: Sometimes a distressed sale does not end in a conventional stock/asset purchase – what are some other possible outcomes?"
     },
     "24" : {
-      "answer" : "",
-      "question" : "Question 12: "
+      "answer" : "This happens even outside of distressed sales - generally the company does it if they want more bids/want to increase competition to drive a higher purchase price.",
+      "question" : "Question 24: Normally M&A processes are kept confidential – is there any reason why a distressed company would want to announce the involvement of a banker in a sale process?"
     },
     "25" : {
-      "answer" : "",
-      "question" : "Question 1: "
+      "answer" : "Technically, the answer is 'it depends' but practically speaking most of the time the answer is 'no'. If a company is truly distressed, the value of its debts and obligations would most likely exceed the value of its assets - so equity investors rarely get much out of a bankruptcy or distressed sale, especially when it ends in liquidation.",
+      "question" : "Question 25: Are shareholders likely to receive any compensation in a distressed sale or bankruptcy?"
     },
     "26" : {
-      "answer" : "",
-      "question" : "Question 2: "
+      "answer" : "In a lot of cases, aggressive creditors force this to happen - if they won't agree to the restructuring of its obligations or they can't finalize a sale outside court, they might force a company into a Chapter 11 by accelerating debt payments.",
+      "question" : "Question 26: Let’s say a company wants to sell itself or simply restructure its obligations – why might it be forced into a Chapter 11 bankruptcy?"
     },
     "27" : {
-      "answer" : "",
-      "question" : "Question 3: "
+      "answer" : "The motivation is simple, use excess balance sheet cash to buy back debt on-the-cheap and sharply reduce interest expense and obligations going forward. It works because the foregone interest on cash is lower than whatever interest rates they pay on their debt - so they reduce their net interest expense no matter what. Companies take this opporunity to rid themselves of excess cash and cancel out their existing debt. Accounting-wise, it's simple: BS cash goes down and debt on the L&SE side goes down by the same amount to make it balance.",
+      "question" : "Question 27: Recently, there has been news of distressed companies like GM “buying back” their debt for 50 cents on the dollar. What’s the motivation for doing this and how does it work accounting-wise?"
     },
     "28" : {
-      "answer" : "",
-      "question" : "Question 4: "
+      "answer" : "Most likely over-levered companies - ones with too much debt - that were acquired by PE firms in LBOs during the boom years, and now face interest payments they have trouble meeting, along with excess cash.",
+      "question" : "Question 28: What kind of companies would most likely enact debt buy-backs?"
     },
     "29" : {
-      "answer" : "",
-      "question" : "Question 5: "
+      "answer" : "This happens to low-priority creditors all the time. The capital structure indicates that secured creditors always come first and get first claim to all the proceeds from a sale or series of asset sales; if a creditor is lower on the totem pole, they only get what's left of the proceeds so they have to take a loss on their loans/obligations.",
+      "question" : "Question 29: Why might a creditor might have to take a loss on the debt it loaned to a distressed company?"
     },
     "30" : {
-      "answer" : "",
-      "question" : "Question 6: "
+      "answer" : "A restructuring does not change the amount of debt outstanding in and of itself - instead, it changes the terms of the debt, such as interest payments, monthly/quarterly principal repayment requirements and the covenants.",
+      "question" : "Question 30: What is the end goal of a given financial restructuring?"
     },
     "31" : {
-      "answer" : "",
-      "question" : "Question 7: "
+      "answer" : "Restructuring is one possible outcome of a Distressed M&A deal. A company can be 'distressed' for many reasons, but the solution is not always to restructure its debt obligations - it might declare bankruptcy, it might liquidate and sell off its assets, or it might sell 100% of itself to another company. Restructuring just refers to what happens when the distressed company in question decides it wants to change around its debt obligations so that it can better repay them in the future.",
+      "question" : "Question 31: What’s the difference between a Distressed M&A deal and a Restructuring deal?"
     },
     "32" : {
-      "answer" : "",
-      "question" : "Question 8: "
+      "answer" : "When you acquire the assets of a company, you literally get just the assets. But when you acquire the current liabilities as well, you need to make adjustments to account for the fact that a distressed company's working capital can be extremely skewed. Specifically, 'owed expense' line items like Accounts Payable and Accrued Expenses are often much higher than they would be for a healthy company, so you need to subtract the difference if you're assuming the current liabilities. This results in a deduction to your valuation - so in most cases, the valuation is lower if you're assuming current liabilities.",
+      "question" : "Question 32: What’s the difference between acquiring just the assets of a company and acquiring it on a 'current liabilities assumed' basis?"
     },
     "33" : {
       "answer" : "",
