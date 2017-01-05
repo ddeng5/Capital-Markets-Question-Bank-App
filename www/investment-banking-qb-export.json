@@ -176,6 +176,32 @@
   },
   "outside-the-box" : {
     "1" : {
+      "answer" : "Some interviewees take this as a cue to tie your choice back to being a team player, hard worker, or such but that’s not the best approach. For “creativity”-type questions, interviewers want you to be... creative. So think about your real personality and say something that matches that.",
+      "question" : "Question 1: What type of animal / vegetable would you be?"
+    },
+    "2" : {
+      "answer" : "With this type of question you can show more 'banker-like' traits such as ambition and hard work – but you shouldn’t take it too seriously. So maybe the headline states that you climbed Mt. Everest, sold your company in an IPO, or became a best-selling author – you want 'ambition + creativity / coolness' for this type of question.",
+      "question" : "Question 2: Let’s say that in the future your name turns up as the front page headline of a newspaper one day – what would the story be about?"
+    },
+    "3" : {
+      "answer" : "Q: What was the best part of Playboy's IPO? A: The pitch book Q: Why don't sharks attack bankers? A: Professional Courtesy Q:I went to the zoo the other day, there was only one dog in it, it was a shitzu.",
+      "question" : "Question 3: Tell me a joke."
+    },
+    "4" : {
+      "answer" : "Beta in the Capital Asset Pricing Model (CAPM) measures expected return and expected risk. Higher Beta means a higher potential return, but also more risk. You probably want to say above 1.0, but not too much above it – you’re much more ambitious than the average person, which causes you to try lots of new things and achieve quite a bit, so that inevitably carries some risk. Bankers like to think of themselves as 'entrepreneurial' even though banking is extremely different from entrepreneurship, so you should take advantage of this line of thinking and indulge them.",
+      "question" : "Question 4: What’s your personal Beta?"
+    },
+    "5" : {
+      "answer" : "Don’t say 'cocaine' or any other drug / porn-like / illegal activity (this should be common sense but you wouldn’t believe the emails I get). Try to discuss an internship or job experience you had that you never expected to get, or some type of extracurricular/leadership experience that was somewhat random and turned out to be great – and talk about how it was a calculated risk and that you got a lot out of the decision you made.",
+      "question" : "Question 5: What’s the riskiest thing you’ve ever done?"
+    },
+    "6" : {
+      "answer" : "Don’t say, 'I would start my own business...' or 'I would invest it in...' – many people completely ignore the actual question here. It’s best to tie this back to whatever your interests and passions are – so you might use the money to support volunteer work you’ve done, extended travel that you’ve always wanted to take, or maybe even to buy that race car you’ve always wanted. Just make sure your answer is believable – if you have never worked at a non-profit or in a volunteer group in your life, don’t suddenly try to be a saint. If you love cars, say you would think about buying a car you’ve always wanted... among other things.",
+      "question" : "Question 6: Let’s say that you have $1 million, but you are NOT allowed to invest it or otherwise use it to create more money. What would you spend the capital on instead?"
+    }
+  },
+  "restruct-distress" : {
+    "1" : {
       "answer" : "",
       "question" : "Question 1: "
     },
@@ -198,6 +224,142 @@
     "6" : {
       "answer" : "",
       "question" : "Question 6: "
+    },
+    "7" : {
+      "answer" : "",
+      "question" : "Question 7: "
+    },
+    "8" : {
+      "answer" : "",
+      "question" : "Question 8: "
+    },
+    "9" : {
+      "answer" : "",
+      "question" : "Question 9: "
+    },
+    "10" : {
+      "answer" : "",
+      "question" : "Question 10: "
+    },
+    "11" : {
+      "answer" : "",
+      "question" : "Question 11: "
+    },
+    "12" : {
+      "answer" : "",
+      "question" : "Question 12: "
+    },
+    "13" : {
+      "answer" : "",
+      "question" : "Question 1: "
+    },
+    "14" : {
+      "answer" : "",
+      "question" : "Question 2: "
+    },
+    "15" : {
+      "answer" : "",
+      "question" : "Question 3: "
+    },
+    "16" : {
+      "answer" : "",
+      "question" : "Question 4: "
+    },
+    "17" : {
+      "answer" : "",
+      "question" : "Question 5: "
+    },
+    "18" : {
+      "answer" : "",
+      "question" : "Question 6: "
+    },
+    "19" : {
+      "answer" : "",
+      "question" : "Question 7: "
+    },
+    "20" : {
+      "answer" : "",
+      "question" : "Question 8: "
+    },
+    "21" : {
+      "answer" : "",
+      "question" : "Question 9: "
+    },
+    "22" : {
+      "answer" : "",
+      "question" : "Question 10: "
+    },
+    "23" : {
+      "answer" : "",
+      "question" : "Question 11: "
+    },
+    "24" : {
+      "answer" : "",
+      "question" : "Question 12: "
+    },
+    "25" : {
+      "answer" : "",
+      "question" : "Question 1: "
+    },
+    "26" : {
+      "answer" : "",
+      "question" : "Question 2: "
+    },
+    "27" : {
+      "answer" : "",
+      "question" : "Question 3: "
+    },
+    "28" : {
+      "answer" : "",
+      "question" : "Question 4: "
+    },
+    "29" : {
+      "answer" : "",
+      "question" : "Question 5: "
+    },
+    "30" : {
+      "answer" : "",
+      "question" : "Question 6: "
+    },
+    "31" : {
+      "answer" : "",
+      "question" : "Question 7: "
+    },
+    "32" : {
+      "answer" : "",
+      "question" : "Question 8: "
+    },
+    "33" : {
+      "answer" : "",
+      "question" : "Question 9: "
+    },
+    "34" : {
+      "answer" : "",
+      "question" : "Question 10: "
+    },
+    "35" : {
+      "answer" : "",
+      "question" : "Question 11: "
+    },
+    "36" : {
+      "answer" : "",
+      "question" : "Question 12: "
+    },
+    "37" : {
+      "answer" : "",
+      "question" : "Question 1: "
+    },
+    "38" : {
+      "answer" : "",
+      "question" : "Question 2: "
+    },
+    "39" : {
+      "answer" : "",
+      "question" : "Question 3: "
+    },
+    "40" : {
+      "answer" : "",
+      "question" : "Question 4: "
     }
   },
   "filler-template" : {

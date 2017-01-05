@@ -88,12 +88,23 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   })
 
   //outside the box questions
-  .state('app.failure', {
-    url: '/failure',
+  .state('app.outsidethebox', {
+    url: '/outsidethebox',
     views: {
       'menuContent': {
-        templateUrl: 'templates/failure.html',
-        controller: 'FailureCtrl'
+        templateUrl: 'templates/outsidethebox.html',
+        controller: 'outsidetheboxCtrl'
+      }
+    }
+  })
+
+  //outside restructuring/distressed M&A questions
+  .state('app.restructdistress', {
+    url: '/restructdistress',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/restructdistress.html',
+        controller: 'restructdistressCtrl'
       }
     }
   })
