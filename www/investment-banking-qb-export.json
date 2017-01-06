@@ -400,44 +400,45 @@
       "question" : "Question 9: What happens when Accrued Compensation goes up by $10?"
     },
     "10" : {
-      "answer" : "",
+      "answer" : "No changes to IS. Inventory is an asset so it decreases your cash flow by $10. That decreases net change in cash flow by $10 so cash is down $10 in the BS but assets is up $10 so it balances out.",
       "question" : "Question 10: What happens when Inventory goes up by $10, assuming you pay for it with cash?"
     },
     "11" : {
-      "answer" : "",
-      "question" : "Question 11: "
+      "answer" : "This is a common interview mistake - incorrectly stating that Working Capital changes show up on the IS. In the case of Inventory, the expense is only recorded when the goods associated with it are sold - so if it' just sitting in a warehouse, it does not cound as a COGS or Operating Expense until the company manufactures it into a product and sells it.",
+      "question" : "Question 11: Why is the Income Statement not affected by changes in Inventory?"
     },
     "12" : {
-      "answer" : "",
-      "question" : "Question 12: "
+      "answer" : "At the start of year 1, before anything else has happened, there would be no changes to Apple's Income Statement (yet). On the SCF, the additional investment in factories would show up under CF from Investing as a Net Reduction in CF (so CF is down by $100 so far). And the additional $100 worth of debt raised would increase CF under Financing so they would cancel out. Cash number stays the same. On the BS, there is now an additional $100 of factories in the PP&E line so PP&E is up by $100 and Assets is therefore up by $100. On the other side, debt is up by $100 as well so both sides balance out.",
+      "question" : "Question 12: Let’s say Apple is buying $100 worth of new iPod factories with debt. How are all 3 statements affected at the start of “Year 1,” before anything else happens?"
     },
     "13" : {
-      "answer" : "",
-      "question" : "Question 1: "
+      "answer" : "After a year has passed, Apple must pay interest expense and record depreciation. IS: Depreciation expense is $10 and interest expense is $10. Therefore pre-tax is down $20, net income is $12; SCF: Net income is down by $12 but we add back depreciation because it is a non-cash expense. Net change in CF is minus $2; BS: Cash is down by $2, PP&E is down by $10 due to the depreciation, so overall Assets is down by $12. To balance out, SE is down by $12 to balance out. The debt number under Liabilities does not change since we've assumed none of the debt is actually paid back.",
+      "question" : "Question 13: Now let’s go out 1 year, to the start of Year 2. Assume the debt is high-yield so no principal is paid off, and assume an interest rate of 10%. Also assume the factories depreciate at a rate of 10% per year. What happens?"
     },
     "14" : {
-      "answer" : "",
-      "question" : "Question 2: "
+      "answer" : "After 2 years, the value of the factories is now $80 if we go with the 10% a year assumption. It is this $80 we will write down in the 3 statements. IS: $80 write-down shows up in the Pre-Tax Income line and after 40% tax, net income goes down by $32. In SCF, the write-down is a non-cash expense, so we add it back - and therefore CF from Operations is up $32 (-48 + 80). There are no changes under CF for Investing but under CF for Financing, it is down $100 from the loan payback leaving net change CF down $68; BS: Cash is now down $68 and assets is down $80, total Assets is down $148. Liabilities is down $100 and SE is down 48$ to balanace out.",
+      "question" : "Question 14: At the start of Year 3, the factories all break down and the value of the equipment is written down to $0. The loan must also be paid back now. Walk me through the 3 statements.
+"
     },
     "15" : {
-      "answer" : "",
-      "question" : "Question 3: "
+      "answer" : "IS: No changes SCF: CF Operations is down $10 from purchasing the assets, net change in CF is down $10 BS: Cash is down $10 but inventory is up $10 so they balance out.",
+      "question" : "Question 15: Now let’s look at a different scenario and assume Apple is ordering $10 of additional iPod inventory, using cash on hand. They order the inventory, but they have not manufactured or sold anything yet – what happens to the 3 statements?"
     },
     "16" : {
-      "answer" : "",
-      "question" : "Question 4: "
+      "answer" : "IS: Revenue is up by $20, COGS is up by $10, pre-tax income is up $10 so after taxes, net income is up $6. SCF: Net income at the top is up $6, add another $10 from CF Operations from selling the inventory therefore net change in CF is up $16 BS: Cash is up $16, inventory is down $10 so Assets is up $6. To balance it out, SE goes down by $6.",
+      "question" : "Question 16: Now let’s say they sell the iPods for revenue of $20, at a cost of $10. Walk me through the 3 statements under this scenario."
     },
     "17" : {
-      "answer" : "",
-      "question" : "Question 5: "
+      "answer" : "It is common in 2 scenarios: 1) Leveraged buyouts with dividend recapitalizations - it means that the owner of the company has taken out a large portion of its equity (usually in the form of cash), which can sometimes turn the number negative 2) It can also happen if the company has been losing money consistently and therefore has a declining Retained Earnings balance, which is a portion of SE. SE never turns negative IMMEDIATELY after an LBO, it only happens following a dividend recap or continued net loses.",
+      "question" : "Question 17: Could you ever end up with negative shareholders’ equity? What does it mean?"
     },
     "18" : {
-      "answer" : "",
-      "question" : "Question 6: "
+      "answer" : "Working Capital = Current Assets - Current Liabilities; If it's positive, it means a company can pay off its short-term liabilities with its short-term assets. It is often presented as a financial metric and its magnitude and sign (negative and positive) tells you whether or not the company is 'sound'. Bankers look at Operating Working Capital more commonly in models, and that is defined as (Current Assets - Cash and Cash Equivalents) - (Current Liabilities - Debt).",
+      "question" : "Question 18: What is working capital? How is it used?"
     },
     "19" : {
-      "answer" : "",
-      "question" : "Question 7: "
+      "answer" : "Not necessarily. It depends on the type of company and the specific situation - here are a few different things it could mean: 1) Some companies with subscriptions or longer-term contracts often have negative WC because of high deferred revenue balances. 2) Retail and restaurant companies like Amazon, Walk-Mart, and McDonald's often have negative WC because customers pay upfront - so they can use the cash generated to pay off their Accounts Payable rather than keeping a large cash balance on-hand. This can be a sign of business efficiency. 3) In other cases, negative WC could point to financial trouble or possible bankruptcy (for example, when customer's don't pay quickly and upfront and the company is carrying a high debt balance).",
+      "question" : "Question 19: What does negative Working Capital mean? Is that a bad sign?"
     },
     "20" : {
       "answer" : "",
