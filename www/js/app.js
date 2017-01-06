@@ -109,6 +109,18 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
+
+  //technical questions
+  .state('app.accounting', {
+    url: '/accounting',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/accounting.html',
+        controller: 'accountingCtrl'
+      }
+    }
+  })
+
   .state('app.playlists', {
     url: '/playlists',
     views: {

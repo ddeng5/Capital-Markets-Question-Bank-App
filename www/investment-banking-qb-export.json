@@ -362,6 +362,140 @@
       "question" : "Question 40: How would an LBO model for a distressed company be different?"
     }
   },
+  "accounting" : {
+    "1" : {
+      "answer" : "The 3 major financial statements are: Income Statement, Balance Sheet, Statement of Cash Flows; Income statement gives the company's revenue and expenses, and goes down to Net Income, the final line of the statement. The Balance Sheet shows the company's Assets- its resources - such as Cash, Inventory, PP&E, as well as Liabilities - such as Debt and Accounts Payable - and Shareholder's equity. Assets = Liabilities + SE ... The Cash Flow Statement begins with net income, adjusts for non-cash expenses and working capital changes, and then lists cash flow from Investing and Financing activities, at the end you will see the company's net change in cash.",
+      "question" : "Question 1: Walk me through the 3 financial statements."
+    },
+    "2" : {
+      "answer" : "1) Income Statement: Revenue, COGS, Operating Expenses, SG&A, Operating Income, Pretax Income, Net Income 2) Balance Sheet: Cash, Inventory, Accounts Payable, PP&E, Accrued Expenses, Debt, Shareholder's Equity 3) Cash Flow Statements: Net income, Depreciation & Amortization, Stock-Based compensation, Changes in Operating Assets and Liabilities, Cash Flow from Operations, Capital Expenditures, Cash Flow from Investing, Sale/Purchase of Securities/Dividends Issued, Cash Flow from Financing",
+      "question" : "Question 2: Can you give examples of major line items on each of the financial statements?"
+    },
+    "3" : {
+      "answer" : "'To tie the statements together, Net Income from the Income Statement flows into the Shareholder's Equity on the Balance Sheet, and into the top line of the Statement of Cash Flows' Changes to the Balance Sheet items appear as Working Capital changes on the Cash Flow Statemnt, and investing and financing activities affect Balance Sheet items such as PP&E, Debt and Shareholder's Equity. The Cash and Shareholder's Equity items on the Balance Sheet act as 'plugs' with Cash flowing in from the final line on the Cash Flow Statement.",
+      "question" : "Question 3: How do the 3 statements link together?"
+    },
+    "4" : {
+      "answer" : "You would use the Cash Flow Statemnt because it gives a true picture of how much cash the company is generating, independant of all the non-cash expenses you might have. And that's the number #1 thing you care about when analyzing the overall financial health of any business - its cash flow.",
+      "question" : "Question 4: If I were stranded on a desert island, only had 1 statement and I wanted to review the overall health of a company – which statement would I use and why?"
+    },
+    "5" : {
+      "answer" : "You would use the IS and BS because you can create the SCF from both of those, assuming you have before and after versions of the BS that correspond to the same period as IS",
+      "question" : "Question 5: Let’s say I could only look at 2 statements to assess a company’s prospects – which 2 would I use and why?"
+    },
+    "6" : {
+      "answer" : "IS: Operating Income would decline by $10 and assuming a 40% tax rate, Net Income would go down by $6. SFC: Net income at the top goes down by $6, but the $10 depreciation non-cash expense gets added back so overall cash flow from Operations goes UP by $4. There are no changes anywhere else, so the overall net change in Cash goes up by $4. BS: PP&E goes down by $10 on the Assets side because of the Depreciation, and Cash is up $4; Overall, Assets is down by $6. Since Net Income fell by $6 as well, SE is down by $6 and both sides of the Balance Sheet balance. With these questions, go in this order: 1) Income Statement 2) Cash Flow Statement 3) Balance Sheet; Remember that an Asset going up DECREASES your Cash Flow, whereas a Liability going up INCREASES your Cash Flow.",
+      "question" : "Question 6: Walk me through how Depreciation going up by $10 would affect the statements."
+    },
+    "7" : {
+      "answer" : "Although depreciation is a non-cash expense, it is tax-deductible. Since taxes are a cash expense, depreciation affects cash by reducing the amount of amount of taxes you pay.",
+      "question" : "Question 7: If Depreciation is a non-cash expense, why does it affect the cash balance?"
+    },
+    "8" : {
+      "answer" : "It could be in a separate line item, or it could be embedded in Cost of Goods Sold or Operating Expenses - every company does it differently. Note that the end result of accounting questions is the same: Depreciation always reduces Pre-Tax Income.",
+      "question" : "Question 8: Where does Depreciation usually show up on the Income Statement?"
+    },
+    "9" : {
+      "answer" : "Confirm that the accrued compensation is now being recognized as an expense (as opposed to just changing non-accrued to accrued compensation). Assuming that's the case Operating Expenses on the IS go up by $10, Pre-Tax income falls by $10 and Net Income falls by $6 (assuming 40% tax rate). On the SCF, Net income is down $6 and Accrued Compensation will increase CF by $10, so overall CF from Operations is up by $4 and the Net Change in Cash at the bottom is up by $4. On the BS, cash is up by $4 which means assets is up by $4. Accrued Compensation is a liability so Liabilities are up by $10 and Retained Earnings are down by $6 due to the Net Income, so both sides balance.",
+      "question" : "Question 9: What happens when Accrued Compensation goes up by $10?"
+    },
+    "10" : {
+      "answer" : "",
+      "question" : "Question 10: What happens when Inventory goes up by $10, assuming you pay for it with cash?"
+    },
+    "11" : {
+      "answer" : "",
+      "question" : "Question 11: "
+    },
+    "12" : {
+      "answer" : "",
+      "question" : "Question 12: "
+    },
+    "13" : {
+      "answer" : "",
+      "question" : "Question 1: "
+    },
+    "14" : {
+      "answer" : "",
+      "question" : "Question 2: "
+    },
+    "15" : {
+      "answer" : "",
+      "question" : "Question 3: "
+    },
+    "16" : {
+      "answer" : "",
+      "question" : "Question 4: "
+    },
+    "17" : {
+      "answer" : "",
+      "question" : "Question 5: "
+    },
+    "18" : {
+      "answer" : "",
+      "question" : "Question 6: "
+    },
+    "19" : {
+      "answer" : "",
+      "question" : "Question 7: "
+    },
+    "20" : {
+      "answer" : "",
+      "question" : "Question 8: "
+    },
+    "21" : {
+      "answer" : "",
+      "question" : "Question 9: "
+    },
+    "22" : {
+      "answer" : "",
+      "question" : "Question 10: "
+    },
+    "23" : {
+      "answer" : "",
+      "question" : "Question 11: "
+    },
+    "24" : {
+      "answer" : "",
+      "question" : "Question 12: "
+    },
+    "25" : {
+      "answer" : "",
+      "question" : "Question 1: "
+    },
+    "26" : {
+      "answer" : "",
+      "question" : "Question 2: "
+    },
+    "27" : {
+      "answer" : "",
+      "question" : "Question 3: "
+    },
+    "28" : {
+      "answer" : "",
+      "question" : "Question 4: "
+    },
+    "29" : {
+      "answer" : "",
+      "question" : "Question 5: "
+    },
+    "30" : {
+      "answer" : "",
+      "question" : "Question 6: "
+    },
+    "31" : {
+      "answer" : "",
+      "question" : "Question 7: "
+    },
+    "32" : {
+      "answer" : "",
+      "question" : "Question 8: "
+    },
+    "33" : {
+      "answer" : "",
+      "question" : "Question 9: "
+    }
+  },
   "filler-template" : {
     "1" : {
       "answer" : "",
