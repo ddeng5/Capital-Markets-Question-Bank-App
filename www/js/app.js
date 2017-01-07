@@ -110,7 +110,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   })
 
 
-  //technical questions
+  //accounting questions
   .state('app.accounting', {
     url: '/accounting',
     views: {
@@ -120,6 +120,19 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
+
+
+  //advanced accounting questions
+  .state('app.accountingadvanced', {
+    url: '/accountingadvanced',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/accountingadvanced.html',
+        controller: 'accountingAdvancedCtrl'
+      }
+    }
+  })
+
 
   .state('app.playlists', {
     url: '/playlists',

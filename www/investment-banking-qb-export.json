@@ -417,8 +417,7 @@
     },
     "14" : {
       "answer" : "After 2 years, the value of the factories is now $80 if we go with the 10% a year assumption. It is this $80 we will write down in the 3 statements. IS: $80 write-down shows up in the Pre-Tax Income line and after 40% tax, net income goes down by $32. In SCF, the write-down is a non-cash expense, so we add it back - and therefore CF from Operations is up $32 (-48 + 80). There are no changes under CF for Investing but under CF for Financing, it is down $100 from the loan payback leaving net change CF down $68; BS: Cash is now down $68 and assets is down $80, total Assets is down $148. Liabilities is down $100 and SE is down 48$ to balanace out.",
-      "question" : "Question 14: At the start of Year 3, the factories all break down and the value of the equipment is written down to $0. The loan must also be paid back now. Walk me through the 3 statements.
-"
+      "question" : "Question 14: At the start of Year 3, the factories all break down and the value of the equipment is written down to $0. The loan must also be paid back now. Walk me through the 3 statements."
     },
     "15" : {
       "answer" : "IS: No changes SCF: CF Operations is down $10 from purchasing the assets, net change in CF is down $10 BS: Cash is down $10 but inventory is up $10 so they balance out.",
@@ -450,8 +449,7 @@
     },
     "22" : {
       "answer" : "This is counter intuitive. When a liability is wrriten down you record it as a GAIN on the IS (with an asset-down, it's a loss) = so Pre-Tax Income goes up by $100 due to its write-down. Assuming a 40% tax rate, Net Income is up $60 SCF: Net income is up $60 but subtract that debt-write down so CF from Operations is down by $40, and Net Change in Cash is down by $40. BS: Cash is down by $40 so Assets are down by $40. Debt is down by $100 so SE goes up by $60 to balance the two sides out. Writing down debt actually benefits companies accounting-wise.",
-      "question" : "Question 22: Walk me through a $100 write-down of debt – as in OWED debt, a liability – on a company’s balance sheet and how it affects the 3 statements.
-"
+      "question" : "Question 22: Walk me through a $100 write-down of debt – as in OWED debt, a liability – on a company’s balance sheet and how it affects the 3 statements."
     },
     "23" : {
       "answer" : "3 examples comes to mind: 1) Web-based subscription software 2) Cell-phone carriers that sell annual contracts 3) Magazine publishers that sell subscription ... Companies that agree to services in the future often collect cash upfront to ensure stable revenue - this makes investors happy as well since they can better predict a company's performance. Per the rules of GAAP, you only record revenue when you actually perform the services - so the company would not record everything as revenue right away.",
@@ -496,6 +494,68 @@
     "33" : {
       "answer" : "Technically, Goodwill can increase if the company re-assesses its value and finds that it is worth more but that is rare. Usually what happens is 1 of 2 scenarios: 1) The company gets acquired or bought out and Goodwill changes as a result, since it's an accounting 'plug' for the purchase price in an acquisition 2) The company acquires another company and pays more than what its assets are worth - this is then reflected in the Goodwill number",
       "question" : "Question 33: Under what circumstances would Goodwill increase?"
+    }
+  },
+  "accounting-advanced" : {
+    "1" : {
+      "answer" : "",
+      "question" : "Question 1: "
+    },
+    "2" : {
+      "answer" : "",
+      "question" : "Question 2: "
+    },
+    "3" : {
+      "answer" : "",
+      "question" : "Question 3: "
+    },
+    "4" : {
+      "answer" : "",
+      "question" : "Question 4: "
+    },
+    "5" : {
+      "answer" : "",
+      "question" : "Question 5: "
+    },
+    "6" : {
+      "answer" : "",
+      "question" : "Question 6: "
+    },
+    "7" : {
+      "answer" : "",
+      "question" : "Question 7: "
+    },
+    "8" : {
+      "answer" : "",
+      "question" : "Question 8: "
+    },
+    "9" : {
+      "answer" : "",
+      "question" : "Question 9: "
+    },
+    "10" : {
+      "answer" : "",
+      "question" : "Question 10: "
+    },
+    "11" : {
+      "answer" : "",
+      "question" : "Question 11: "
+    },
+    "12" : {
+      "answer" : "",
+      "question" : "Question 12: "
+    },
+    "13" : {
+      "answer" : "",
+      "question" : "Question 4: "
+    },
+    "14" : {
+      "answer" : "",
+      "question" : "Question 5: "
+    },
+    "15" : {
+      "answer" : "",
+      "question" : "Question 6: "
     }
   },
   "filler-template" : {
