@@ -530,8 +530,70 @@
       "question" : "Question 8: Walk me through what flows into Additional Paid-In Capital (APIC)."
     },
     "9" : {
-      "answer" : "",
+      "answer" : "The statement shows the major items that comprise SE and how we arrive at each of them using the numbers elsewhere in the statement. You don't use it too much, but it can be helpful for analyzing companies with unusual stock-based compensation and stock option situations.",
       "question" : "Question 9: What is the Statement of Shareholders’ Equity and why do we use it?"
+    },
+    "10" : {
+      "answer" : "1) Restructuring Charges 2) Goodwill Impairment 3) Legal Expenses 4) Asset Write-Downs 5) Bad-Debt Expenses 6) Disaster Expenses 7) Accounting Problem Changes ... Note that to be an 'add back' or 'non-recurring' charge for EBITDA/EBIT purposes, it needs to affect Operating Income on the INcome Statement. So if you have one of these charges 'below the line' then you do not add it back for the EBITDA/EBIT calculation. Also note that you do add back Depreciation, Amortization, and sometimes Stock-Based Compensation for EBITDA/EBIT, but these are not 'non-recurring charges' because all companies have them every year - these are just non-cash charges.",
+      "question" : "Question 10: What are examples of non-recurring charges we need to add back to a company’s EBIT / EBITDA when looking at its financial statements?"
+    },
+    "11" : {
+      "answer" : "Normally you make very simple assumptions here and assume these are percentages of revenue, operating expenses, or COGS. Examples: 1) AR = % of Revenue 2) Deferred Revenue = % of Revenue 3) Accounts Payable = % of COGS 4) Accrued Expenses = % of Operating Expenses ... Then you either carry the same percentages across in future years or assume slight changes depending on the company.",
+      "question" : "Question 11: How do you project Balance Sheet items like Accounts Receivable and Accrued Expenses in a 3-statement model?"
+    },
+    "12" : {
+      "answer" : "The simple way: project each as a % of revenue or previous PP&E. The most complex way: create a PP&E schedule that splits out different assets by their useful lives, assume straight-line depreciation over each asset's useful life, and then assumes Capital Expenditures based on what the company has invested historically.",
+      "question" : "Question 12: How should you project Depreciation & Capital Expenditures?"
+    },
+    "13" : {
+      "answer" : "The 'quick and diry' way to do this: reduce the Taxable Income by the portion of the NOLs that you can use each year, apply the same tax rate, and then subtract that new Tax number from your old Pretax Income number (which should stay the same). The way you should do this: create a book vs cash tax schedule where you calculate the Taxable Income based on NOLs, and then look at what you would pay in taxes without the NOLs. Then you book the difference as an increase to the Deferred Tax Liability on the BS. This method reflects the fact that you're saving on cash flow - since the DTL, a liability, is rising - but correctly separates the NOL impact into book vs cash taxes.",
+      "question" : "Question 13: How do Net Operating Losses (NOLs) affect a company’s 3 statements?"
+    },
+    "14" : {
+      "answer" : "Operating leases are used for short-term leasing of equipment and property, and do not involve ownership or anything. Operating lease expenses show up as operating expenses on the IS. Capital leases are used for longer-term items and give the lease ownership rights; they depreciate and incur interest payments, and are counted as debt. A lease is a capital lease if any one of the following 4 conditions is true: 1) if there is a transfer of ownership at the end of the term 2) if there is an option to purchase the asset at a bargain price at the end of the term 3) if the term of the lease is greater than 75% of the useful life of the asset 4) if the present value of the lease payments is greater than 90% of the asset's fair market value",
+      "question" : "Question 14: What’s the difference between capital leases and operating leases?"
+    },
+    "15" : {
+      "answer" : "This happens if D&A is embedded in other Income Statement line items. When this ahppens, you need to use the SCF number to arrive at EBITDA because otherwise you're undercounting D&A.",
+      "question" : "Question 15: Why would the Depreciation & Amortization number on the Income Statement be different from what’s on the Cash Flow Statement?"
+    }
+  },
+  "enterprise-EV" : {
+    "1" : {
+      "answer" : "Enterprise Value represents the value of the company that is attributable to all investors; Equity Value only represents the portion available to shareholders (equity investors). You look at both because Equity Value is the number the public-at-large sees while Enterprise Value is its true value.",
+      "question" : "Question 1: Why do we look at both Enterprise Value and Equity Value?"
+    },
+    "2" : {
+      "answer" : "Enterprise Value, because that's how much an acquirer really 'pays' and includes the often mandatory debt payment.",
+      "question" : "Question 2: When looking at an acquisition of a company, do you pay more attention to Enterprise or Equity Value?"
+    },
+    "3" : {
+      "answer" : "Enterprise Value = Equity Value + Debt + Preferred Stock + Minority Interest - Cash ... This formula does not tell the whole story and can get more complex - see the Advanced Questions. Most of the time you can get away with stating this formula in an interview, though.",
+      "question" : "Question 3: What’s the formula for Enterprise Value?"
+    },
+    "4" : {
+      "answer" : "Whenever a company owns over 50% of another company, it is required to report the financial performance of the other company as part of its own performance. So even thought it doesn't own 100%, it reports 100% of the majority-owned subsidiary's financial performance. In keep with the 'apples-to-apples' theme, you must add Minority Interest to get to Enterprise Value so that the numerator and denominator both reflect 100% of the majority-owned subsidiary.",
+      "question" : "Question 4: Why do you need to add Minority Interest to Enterprise Value?"
+    },
+    "5" : {
+      "answer" : "Take the basic share count and add in the dilutive effect of stock options and any other dilutive securities, such as warrants, convertible debt or convertible preferred stock. To calculate the dilutive effect of options, you use the Treasury Stock Method.",
+      "question" : "Question 5: How do you calculate fully diluted shares?"
+    },
+    "6" : {
+      "answer" : "",
+      "question" : "Question 6: "
+    },
+    "7" : {
+      "answer" : "",
+      "question" : "Question 7: "
+    },
+    "8" : {
+      "answer" : "",
+      "question" : "Question 8: "
+    },
+    "9" : {
+      "answer" : "",
+      "question" : "Question 9: "
     },
     "10" : {
       "answer" : "",

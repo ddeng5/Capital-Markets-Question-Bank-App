@@ -134,6 +134,18 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   })
 
 
+  //enterprise/equity value questions
+  .state('app.enterpriseEv', {
+    url: '/enterpriseEv',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/enterpriseEv.html',
+        controller: 'enterpriseEvCtrl'
+      }
+    }
+  })
+
+
   .state('app.playlists', {
     url: '/playlists',
     views: {
