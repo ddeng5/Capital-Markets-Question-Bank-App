@@ -498,40 +498,40 @@
   },
   "accounting-advanced" : {
     "1" : {
-      "answer" : "",
-      "question" : "Question 1: "
+      "answer" : "1) GAAP is accrual-based but tax is cash-based 2) GAAP uses straight-line depreciation or a few other methods whereas tax accounting is different (accelerated depreciation) 3) GAAP is more complex and more accurately tracks assets/liabilities whereas tax accounting is only concerned with revenue/expenses in the current period and what income tax you owe",
+      "question" : "Question 1: How is GAAP accounting different from tax accounting?"
     },
     "2" : {
-      "answer" : "",
-      "question" : "Question 2: "
+      "answer" : "They arise because of temporary differences between what a company can deduct for cash tax purposes vs. what they can deduct for book tax purposes. Deferred Tax Liabilities arise when you have a tax expense on the IS but you haven't actually paid that tax in cold, hard cash yet; Deferred Tax Assets arise when you pay taxes in cash but haven't expensed them on the IS yet. The most common way they occur is with asset write-ups and write-downs in M&A deals - an asset write-up will produce a deferred tax liability while a write-down will produce a deferred tax asset.",
+      "question" : "Question 2: What are deferred tax assets/liabilities and how do they arise?"
     },
     "3" : {
-      "answer" : "",
-      "question" : "Question 3: "
+      "answer" : "There are 2 ways you could do this: a bottom-up or top-down build: Bottoms-up) Start with individual products/customers, estimate the average sale value or customer value, and then the growth rate in sales and sale values to tie everything together Tops-Down) Start with 'big-picture' metrics like overall market size, then estimate the company's market share and how that will change in coming years, and multiply to get their revenue ... Bottoms-up is more common and is taken more seriously because estimating 'big picture' numbers is almost impossible.",
+      "question" : "Question 3: Walk me through how you create a revenue model for a company."
     },
     "4" : {
-      "answer" : "",
-      "question" : "Question 4: "
+      "answer" : "To do a true bottoms-up build, you start with each different department of a company, the # of employees in each, the average salary, bonuses, and benefits, and then make assumptions on those going forward. Usually you assume that the number of employees is tied to revenue, and then you assume growth rates for salary, bonuses, benefits, and other metrics. COGS should be tied directly to Revenue and each 'unit' produced should incur an expense. Other items such as rent, Capital Expenditures, and miscellaneous expenses are either linked to the company's internal plans for build expansion plans (if they have them) or to Revenue for a more simple model.",
+      "question" : "Question 4: Walk me through how you create an expense model for a company."
     },
     "5" : {
-      "answer" : "",
-      "question" : "Question 5: "
+      "answer" : "Use estimates. For the revenue, if you don't have enough information to look at separate product lines or divisions of the company, you can just assume a simple growth rate into future years. For the expenses, if you don't have employee-level information then you can just assume that major expenses like SG&A are a percent of revenue and carry that assumption forward.",
+      "question" : "Question 5: Let’s say we’re trying to create these models but don’t have enough information or the company doesn’t tell us enough in its filings – what do we do?"
     },
     "6" : {
-      "answer" : "",
-      "question" : "Question 6: "
+      "answer" : "Common items include: 1) Common stock: simply the par value of however much stock the company has issued 2) Retained Earnings: How much of the company's Net Income it has 'saved up' over time 3) Additional Paid in Capital: this keeps track of how much stock based compensation has been issued and how much new stock employees excercising option have created 4) Treasury Stock: The dollar amount of shares that the company has bought back 5) Accumulated Other Comprehensive Income: This is a 'catch' that includes other items that don't fit anywhere else, like the effect of foreign currency exchange rates changing",
+      "question" : "Question 6: Walk me through the major items in Shareholders’ Equity."
     },
     "7" : {
-      "answer" : "",
-      "question" : "Question 7: "
+      "answer" : "Retained Earnings = Old Retained Earnings + Net Income - Dividends Issued ... If you're calculating Retained Earnings for the current year, take last year's RE, add this year's Net Income, and subtract however much the company paid out in dividends.",
+      "question" : "Question 7: Walk me through what flows into Retained Earnings."
     },
     "8" : {
-      "answer" : "",
-      "question" : "Question 8: "
+      "answer" : "APIC = Old APIC + Stock Based Compensation + Stock Created by Option Excercise",
+      "question" : "Question 8: Walk me through what flows into Additional Paid-In Capital (APIC)."
     },
     "9" : {
       "answer" : "",
-      "question" : "Question 9: "
+      "question" : "Question 9: What is the Statement of Shareholders’ Equity and why do we use it?"
     },
     "10" : {
       "answer" : "",
