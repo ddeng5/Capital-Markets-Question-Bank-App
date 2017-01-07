@@ -441,60 +441,61 @@
       "question" : "Question 19: What does negative Working Capital mean? Is that a bad sign?"
     },
     "20" : {
-      "answer" : "",
-      "question" : "Question 8: "
+      "answer" : "IS: the $100 write-down shows up in the Pre-Tax Income line. With a 40% tax rate, Net Income declines by $60 SCF: This gets brought over to the SCF, and the write-down gets added back because its a non-cash expense - therefore CF from Operations is up $40. Overall, net change in cash is up $40 BS: Cash is up $40, assets is down $100 so SE needs to go down by $60 to balance.",
+      "question" : "Question 20: Recently, banks have been writing down their assets and taking huge quarterly losses. Walk me through what happens on the 3 statements when there’s a write- down of $100."
     },
     "21" : {
-      "answer" : "",
-      "question" : "Question 9: "
+      "answer" : "First, confirm what type of 'bailout' this is - Debt? Equity? A combination? The most common scenario here is an equity investment from the government so here's what happens: 1) IS: No changes 2) SCF: Cash Flow from Financing goes up $100 to reflect the government investment, so the Net Change in Cash is up by $100 3) BS: Cash is up by $100, so Assets are up by $100; on the other side SE is up by $100 to make it balance.",
+      "question" : "Question 21: Walk me through a $100 'bailout' of a company and how it affects the 3 statements."
     },
     "22" : {
-      "answer" : "",
-      "question" : "Question 10: "
+      "answer" : "This is counter intuitive. When a liability is wrriten down you record it as a GAIN on the IS (with an asset-down, it's a loss) = so Pre-Tax Income goes up by $100 due to its write-down. Assuming a 40% tax rate, Net Income is up $60 SCF: Net income is up $60 but subtract that debt-write down so CF from Operations is down by $40, and Net Change in Cash is down by $40. BS: Cash is down by $40 so Assets are down by $40. Debt is down by $100 so SE goes up by $60 to balance the two sides out. Writing down debt actually benefits companies accounting-wise.",
+      "question" : "Question 22: Walk me through a $100 write-down of debt – as in OWED debt, a liability – on a company’s balance sheet and how it affects the 3 statements.
+"
     },
     "23" : {
-      "answer" : "",
-      "question" : "Question 11: "
+      "answer" : "3 examples comes to mind: 1) Web-based subscription software 2) Cell-phone carriers that sell annual contracts 3) Magazine publishers that sell subscription ... Companies that agree to services in the future often collect cash upfront to ensure stable revenue - this makes investors happy as well since they can better predict a company's performance. Per the rules of GAAP, you only record revenue when you actually perform the services - so the company would not record everything as revenue right away.",
+      "question" : "Question 23: When would a company collect cash from a customer and not record it as revenue?"
     },
     "24" : {
-      "answer" : "",
-      "question" : "Question 12: "
+      "answer" : "Usually it goes into Deferred Revenue balance on the BS under liabilities. Over time, as the services are performed, the Deferred Revenue balance 'turns into' real revenue on the Income Statement.",
+      "question" : "Question 24: If cash collected is not recorded as revenue, what happens to it?"
     },
     "25" : {
-      "answer" : "",
-      "question" : "Question 1: "
+      "answer" : "Accounts receivables has not yet been collected in cash from customers, whereas deferred revenue has been. Accounts receivable is how much the company is waiting to collect where Deferred Revenue is how much the company is waiting to record as revenue.",
+      "question" : "Question 25: What’s the difference between accounts receivable and deferred revenue?"
     },
     "26" : {
-      "answer" : "",
-      "question" : "Question 2: "
+      "answer" : "It is dependant on the company, particularly the industry but generally the AR days are in the 40-50 day range, though it is higher for companies selling high-end items and it might be lower for smaller, lower-transaction value companies.",
+      "question" : "Question 26: How long does it usually take for a company to collect its accounts receivable balance?"
     },
     "27" : {
-      "answer" : "",
-      "question" : "Question 3: "
+      "answer" : "Cash-based accounting recognizes revenue and expenses when cash is actually received or paid out; accrual accounting recognizes revenue when collection is reasonably certain and recognizes expenses when they are incurred rather than when they are paid out in cash. Most large companies use accrual accounting because paying with credit cards and lines of credit is so prevalent these days; very small businesses may use cash-based accounting to simplify their financial statements.",
+      "question" : "Question 27: What’s the difference between cash-based and accrual accounting?"
     },
     "28" : {
-      "answer" : "",
-      "question" : "Question 4: "
+      "answer" : "In cash-based accounting, the revenue would not show up until the company charges the customer's credit card, receives authorization, and deposits the funds in its bank account - at which point it would show up as both Revenue on the Income Statement and Cash on the Balance Sheet. In Accrual accounting, it would show up as Revenue right away but instead of appearing as Cash on the BS, it appears as Accounts Payable at first. Then, when the cash is deposited it gets converted into cash on the BS.",
+      "question" : "Question 28: Let’s say a customer pays for a TV with a credit card. What would this look like under cash-based vs. accrual accounting?"
     },
     "29" : {
-      "answer" : "",
-      "question" : "Question 5: "
+      "answer" : "If the asset has a useful life of over 1 year, it is capitalized (put on the BS rather than shown as an expense on the IS). It is depreciated (tangible assets) or amortized (intangible assets) over a certain number of years. Purchases like factories, equipment and land all last longer than a year and therefore show up on the BS. Employee salaries and the cost of manufacturing products (COGS) only cover a short period of operations and therefore show up on the IS as normal expenses instead.",
+      "question" : "Question 29: How do you decide when to capitalize rather than expense a purchase?"
     },
     "30" : {
-      "answer" : "",
-      "question" : "Question 6: "
+      "answer" : "These days, many companies have 'non-cash' charges such as Amortization of Intangibles, Stock-based compensation, and Deferred REvenue Write-Downs in their Income Statements. As a result, some argue that IS under GAAP no longer reflects how profitable most companies truly are. Non-GAAP earnings are almost always higher because these expenses are excluded.",
+      "question" : "Question 30: Why do companies report both GAAP and non-GAAP (or 'Pro Forma') earnings?"
     },
     "31" : {
-      "answer" : "",
-      "question" : "Question 7: "
+      "answer" : "1) The company is spending too much on Capital Expenditures - these are not reflected at all in EBITDA, but it could still be cash-flow negative 2) The company has high interest expense and is no longer able to afford its debt 3) The company's debt all matures on one date and it is unable to refinance it due to a 'credit crunch' - and it runs out of cash completely when paying back debt 4) It has significant one-time charges (from litigation, for example) and those are high enough to bankrupt the company ... EBITDA excludes investment in (and depreciation of) long term assets, interest and one-time charges - and all those could end up bankrupting the company.",
+      "question" : "Question 31: A company has had positive EBITDA for the past 10 years, but it recently went bankrupt. How could this happen?"
     },
     "32" : {
-      "answer" : "",
-      "question" : "Question 8: "
+      "answer" : "Usually this happens when a company has been acquired and the acquirer re-assesses its intangible assets (such as customers, brand, intellectual property, talent) and finds that they are significantly less than they originally thought. It often happens in acquisitions where the buyer 'overpaid' for the seller and can result in a large net loss on the IS (see Ebay/Skype). It can also happen when a company discontinues part of its operation and must impair the associated goodwill.",
+      "question" : "Question 32: Normally Goodwill remains constant on the Balance Sheet – why would it be impaired and what does Goodwill Impairment mean?"
     },
     "33" : {
-      "answer" : "",
-      "question" : "Question 9: "
+      "answer" : "Technically, Goodwill can increase if the company re-assesses its value and finds that it is worth more but that is rare. Usually what happens is 1 of 2 scenarios: 1) The company gets acquired or bought out and Goodwill changes as a result, since it's an accounting 'plug' for the purchase price in an acquisition 2) The company acquires another company and pays more than what its assets are worth - this is then reflected in the Goodwill number",
+      "question" : "Question 33: Under what circumstances would Goodwill increase?"
     }
   },
   "filler-template" : {
