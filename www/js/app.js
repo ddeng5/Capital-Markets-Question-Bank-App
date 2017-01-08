@@ -134,13 +134,26 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   })
 
 
-  //enterprise/equity value questions
+  //basic enterprise/equity value questions
   .state('app.enterpriseEv', {
     url: '/enterpriseEv',
     views: {
       'menuContent': {
-        templateUrl: 'templates/enterpriseEv.html',
+        templateUrl: 'templates/enterpriseEV.html',
         controller: 'enterpriseEvCtrl'
+      }
+    }
+  })
+
+
+
+  //advanced enterprise/equity value questions
+  .state('app.advEnterpriseEv', {
+    url: '/advEnterpriseEv',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/advEnterpriseEV.html',
+        controller: 'advEnterpriseEvCtrl'
       }
     }
   })

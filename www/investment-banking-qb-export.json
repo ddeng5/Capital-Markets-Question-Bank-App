@@ -580,44 +580,58 @@
       "question" : "Question 5: How do you calculate fully diluted shares?"
     },
     "6" : {
-      "answer" : "",
-      "question" : "Question 6: "
+      "answer" : "Its basic equity value is $1000 ($100 x 10 = $1000). To calculate the dilutive effect of the options, first you note that the options are all 'in-the-money' - their excercise price is less than the current share price. When these options are excercised, there will be 10 new shares created - so the share count is now 110 rather than 100. However, this doesn't tell the entire story. In order to excercise the options, we had to 'pay' the company $5 for each option (the excercise price). As a result, it now has $50 additional cash, which it now use to buy back 5 of the new shares we created. So the fully diluted share count is 105, and the fully diluted equity value is $1050.",
+      "question" : "Question 6: Let’s say a company has 100 shares outstanding, at a share price of $10 each. It also has 10 options outstanding at an exercise price of $5 each – what is its fully diluted equity value?"
     },
     "7" : {
-      "answer" : "",
-      "question" : "Question 7: "
+      "answer" : "$1000. In this case, the options' excercise price is above the current share price, so they have no dilutive effect.",
+      "question" : "Question 7: Let’s say a company has 100 shares outstanding, at a share price of $10 each. It also has 10 options outstanding at an exercise price of $15 each – what is its fully diluted equity value?"
     },
     "8" : {
-      "answer" : "",
-      "question" : "Question 8: "
+      "answer" : "Official Reason: Cash is subtracted because it's considered a non-operating asset and because Euity Value implicitly accounts for it ... The Way I Think About It: In an acquisition, the buyer would 'get' the cash of the seller, so it effectively pays less for the company based on how large its cash balance is. Remember, Enterprise Value (EV) tells us how much you'd really have to 'pay' to acquire another company ... It's not always accurate because technically you should be subtracting only excess cash - the amount of cash a company has above the minimum cash it requires to operate.",
+      "question" : "Question 8: Why do you subtract cash in the formula for Enterprise Value? Is that always accurate?"
     },
     "9" : {
-      "answer" : "",
-      "question" : "Question 9: "
+      "answer" : "In most cases, yes, because the terms of a debt agreement usually says that debt must be refinanced in an acquisition. And in most cases a buyer will pay off a seller's debt, so its accurate to say that any debt 'adds' to the purchase price. However, there could always be exceptions where the buyer does not pay off the debt. These are rare and I've personally never seen it, but once again 'never say never' applies.",
+      "question" : "Question 9: Is it always accurate to add Debt to Equity Value when calculating Enterprise Value?"
     },
     "10" : {
-      "answer" : "",
-      "question" : "Question 10: "
+      "answer" : "Yes it means that the company has an extremely large cash balance, or an extremely low market capitalization (or both). You see it with: 1) Companies on the brink of bankruptcy 2) Financial institutions, such as banks, that have large cash balances",
+      "question" : "Question 10: Could a company have a negative Enterprise Value? What would that mean?"
     },
     "11" : {
-      "answer" : "",
-      "question" : "Question 11: "
+      "answer" : "No. This is not possible because you cannot have a negative share count and you cannot have a negative share price.",
+      "question" : "Question 11: Could a company have a negative Equity Value? What would that mean?"
     },
     "12" : {
-      "answer" : "",
-      "question" : "Question 12: "
+      "answer" : "Preferred stock pays out a fixed dividend, and the preferred stock holders also have a higher claim to a company's assets than equity investors do. As a result, it is seen as more similar to debt than common stock.",
+      "question" : "Question 12: Why do we add Preferred Stock to get to Enterprise Value?"
     },
     "13" : {
-      "answer" : "",
-      "question" : "Question 4: "
+      "answer" : "If the convertible bonds are 'in-the-money', meaning that the conversion price is below the current share price, then you count them as additional dilution to the Equity Value; if they're 'out-of-the-money' then you count the face value of the convertibles as part of the company's Debt.",
+      "question" : "Question 13: How do you account for convertible bonds in the Enterprise Value formula?"
     },
     "14" : {
-      "answer" : "",
-      "question" : "Question 5: "
+      "answer" : "This gets confusing because of the different units involved. First, note that these convertible bonds are 'in-the-money' because the company's share price is $100 but the conversion price is $50. So we count them as additional shares rather than debt. Next, we need to divide the value of the convertible bonds - $10 million - by teh par value - $1000 - to figure out how many individual bonds we get ($10 million / $1000 = 1,0000 convertible bonds). Next, we need to figure out how many shares this number represents. The number of shares per bond is the par value divided by the conversion price ($1,000 / $50 = 20 shares per bond). So we have 200,000 new shares (10,000 * 20) created by the convertibles, giving us 1.2 million diluted shares outstanding. WE DO NOT USE THE TREASURY METHOD WITH CONVERTIBLES because the company is not 'receiving' any cash from us.",
+      "question" : "Question 14: A company has 1 million shares outstanding at a value of $100 per share. It also has $10 million of convertible bonds, with par value of $1,000 and a conversion price of $50. How do I calculate diluted shares outstanding?"
     },
     "15" : {
+      "answer" : "Equity value is the MARKET VALUE and SE is the BOOK VALUE. Equity value can never be negative because shares outstanding and share prices can never be negative, whereas SE could be any value. For healthy companies, Equity Value usually far exceeds Shareholder's Equity.",
+      "question" : "Question 15: What’s the difference between Equity Value and Shareholders’ Equity?"
+    }
+  },
+  "advanced-enterprise-EV" : {
+    "1" : {
+      "answer" : "Yes - it's too simple. There are lots of other things you need to add into the formula with real comapnies: 1) Net Operating Losses - should be valued and arguably added in, similar to cash (-) 2) Long-term Investment - These should be counted similar to cash (-) 3) Equity Investments - Any investments in other companies should also be added in, similar to cash (though they might be discounted) 4) Capital Leases - like debt, these have interest payments - so they should be added in like debt (+) 5) (Some) Operating Leases - Sometimes you need to convert operating leases to capital leases and add them as well (+) 6) Pension Obligations - sometimes these are counted as debt (+)",
+      "question" : "Question 1: Are there any problems with the Enterprise Value formula you just gave me?"
+    },
+    "2" : {
       "answer" : "",
-      "question" : "Question 6: "
+      "question" : "Question 2: "
+    },
+    "3" : {
+      "answer" : "",
+      "question" : "Question 3: "
     }
   },
   "filler-template" : {
