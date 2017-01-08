@@ -159,6 +159,20 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   })
 
 
+
+  //basic valuation questions
+  .state('app.valuation', {
+    url: '/valuation',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/valuation.html',
+        controller: 'valuationCtrl'
+      }
+    }
+  })
+
+
+
   .state('app.playlists', {
     url: '/playlists',
     views: {
