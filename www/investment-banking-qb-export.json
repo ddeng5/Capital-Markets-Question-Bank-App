@@ -656,20 +656,20 @@
       "question" : "Question 5: When would you use a Liquidation Valuation?"
     },
     "6" : {
-      "answer" : "",
+      "answer" : "This is most often used when a company has completely different, unrelated divisions -a conglomerate like General Electric, for example. If you have a plastics division, a TV and entertainment divsion, an energy division, a consumer financing division and a technology division, value each one separately, and then add them together to get the Combined Value.",
       "question" : "Question 6: When would you use Sum of the Parts?"
     },
     "7" : {
-      "answer" : "",
-      "question" : "Question 7: "
+      "answer" : "Obviously you use this whenever you're looking at a Leveraged Buyout - but it is also used to establish how much a private equity firm could pay, which is usually lower than what companies would pay. It is often used to set a 'floor' on a possible Valuation for the company you're looking at.",
+      "question" : "Question 7: When do you use an LBO Analysis as part of your Valuation?"
     },
     "8" : {
-      "answer" : "",
-      "question" : "Question 8: "
+      "answer" : "1) EV/Revenue 2) EV/EBITDA 3) EV/EBIT 4) P/E (Share Price/Earnings Per Share) 5) P/BV (Share Price/Book Value)",
+      "question" : "Question 8: What are the most common multiples used in Valuation?"
     },
     "9" : {
-      "answer" : "",
-      "question" : "Question 9: "
+      "answer" : "1) Technology (Internet): EV/Unique Visitors, EV/Pageviews 2) Retail/Airlines: EV/EBITDAR (Earnings Before Interest, Taxes, Depreciation, Amortization and Rent) 3) Energy: P/MCFE, P/MCFE/D (MCFE = 1 Million Cubic Foot Equivalent, MCFE/D = MCFE per Day), P/Nav (Share Price/Net Asset Value) ",
+      "question" : "Question 9: What are some examples of industry-specific multiples?"
     },
     "10" : {
       "answer" : "",
