@@ -712,72 +712,72 @@
       "question" : "Question 19: Skip this question."
     },
     "20" : {
-      "answer" : "",
+      "answer" : "Sometimes this simple fact getslost in discussion of Valuation methodologies. You take the median multiple of a set of companies or transactions, and then multiply it by the relevant metric from the company you're valuing. Example: If the median EBITDA multiple from your set of Precendent Transactions is 8x and your company's EBITDA is $500 million, the implied Enterprise Value would be $4 billion.",
       "question" : "Question 20: How do you apply the 3 valuation methodologies to actually get a value for the company you’re looking at?"
     },
-    "9" : {
-      "answer" : "",
-      "question" : "Question 9: "
+    "21" : {
+      "answer" : "Usually you use it in pitch books and in client presentations when you're providing updates and telling them what they should expect for their own valuation. It's also used right before a deal closes in a Fairness Opinion, a document a bank creates that 'proves' the value their client is paying or receiving is 'fair' from a financial point of view. Valuations can also be used in defense analyses, merger models, LBO models, DCFs (because terminal multiples are based off of comps) and pretty much anything else in finance.",
+      "question" : "Question 21: What do you actually use a valuation for?"
     },
-    "10" : {
-      "answer" : "",
-      "question" : "Question 10: "
+    "22" : {
+      "answer" : "This could happen for a number of reasons: 1) The company has just reported earnings well-above expectations and its stock price has risen recently 2) It has some type of competitive advantage not reflected in its financial, such as a key patent or other intellectual property",
+      "question" : "Question 22: Why would a company with similar growth and profitability to its Comparable Companies be valued at a premium?"
     },
-    "11" : {
+    "23" : {
       "answer" : "",
-      "question" : "Question 11: "
+      "question" : "Question 23: "
     },
-    "12" : {
+    "24" : {
       "answer" : "",
-      "question" : "Question 12: "
+      "question" : "Question 24: "
     },
-    "1" : {
+    "25" : {
       "answer" : "",
-      "question" : "Question 1: "
+      "question" : "Question 25: "
     },
-    "2" : {
+    "26" : {
       "answer" : "",
-      "question" : "Question 2: "
+      "question" : "Question 26: "
     },
-    "3" : {
-      "answer" : "",
-      "question" : "Question 3: "
+    "27" : {
+      "answer" : "1) Past transactions are rarely 100% comparable - the transaction structure, size of the company, and market sentiment all have huge effects 2) Data on precedent transactions is generally more difficult to find than it is for public company comparables, especially for acquisitions of small private companies",
+      "question" : "Question 27: What are some flaws with precedent transactions?"
     },
-    "4" : {
-      "answer" : "",
-      "question" : "Question 4: "
+    "28" : {
+      "answer" : "Possible reasons: 1) One process was more competitive and had a lot more companies bidding on the target 2) One company had recent bad news or depressed stock price so it was acquired at a discount 3) They were in industries with different median multiples",
+      "question" : "Question 28: Two companies have the exact same financial profile and are bought by the same acquirer, but the EBITDA multiple for one transaction is twice the multiple of the other transaction – how could this happen?"
     },
-    "5" : {
-      "answer" : "",
-      "question" : "Question 5: "
+    "29" : {
+      "answer" : "Warren Buffett once famously said, 'Does management think the tooth fair pays for capital expenditures?' He dislikes EBITDA because it excludes the often sizeable Capital Expenditures companies make and hides how much cash they are actually using to finance their operations. In some industries thereis also a large gap between EBIT and EBITDA -anything that is very capital-intensive, for example, will show a big disparity.",
+      "question" : "Question 29: Why does Warren Buffett prefer EBIT multiples to EBITDA multiples?"
     },
-    "6" : {
-      "answer" : "",
-      "question" : "Question 6: "
+    "30" : {
+      "answer" : "P/E depends on the company's capital structure whereas EV/EBIT and EV/EBITDA are capital-structure neutral. Therefore, you use P/E for banks, financial institutions, and other companies where interest payments/expenses are critical. But shares -the ability to buy individual pieces of a company rather than the whole thing - can be either liquid (if it's public) or illiquid (if it's private). Some shares of public companies are always more liquid, you would discount public company comparable multiples to account for this.",
+      "question" : "Question 30: The EV / EBIT, EV / EBITDA, and P / E multiples all measure a company’s profitability. What’s the difference between them, and when do you use each one?"
     },
-    "7" : {
-      "answer" : "",
-      "question" : "Question 7: "
+    "31" : {
+      "answer" : "Only in the context of precedent transactions - it would make no sense to include them for public company comparables or as part of the Cost of Equity/WACC calculation in a DCF because they are not public and therefore have no values for market cap or Beta.",
+      "question" : "Question 31: Can you use private companies as part of your valuation?"
     },
-    "8" : {
+    "32" : {
       "answer" : "",
-      "question" : "Question 8: "
+      "question" : "Question 32: "
     },
-    "9" : {
+    "33" : {
       "answer" : "",
-      "question" : "Question 9: "
+      "question" : "Question 33: "
     },
-    "10" : {
+    "34" : {
       "answer" : "",
-      "question" : "Question 10: "
+      "question" : "Question 34: "
     },
-    "11" : {
+    "35" : {
       "answer" : "",
-      "question" : "Question 11: "
+      "question" : "Question 35: "
     },
-    "12" : {
+    "36" : {
       "answer" : "",
-      "question" : "Question 12: "
+      "question" : "Question 36: "
     }
   },
   "filler-template" : {
