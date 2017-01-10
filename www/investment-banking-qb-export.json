@@ -868,52 +868,52 @@
       "question" : "Question 8: How do you get to Beta in the Cost of Equity calculation?"
     },
     "9" : {
-      "answer" : "",
-      "question" : "Question 9: "
+      "answer" : "Again, keep in mind our 'apples-to-apples' theme. When you look up the Betas on Bloomberg (or whatever source you're using) they will be leverd to reflect the debt already assumed by each company. But each company's capital structure is different and we want to look at how 'risky' a company is regardless of what % debt or equity it has. To get that, we need to un-lever Beta each time. But at the end of the calculation, we need to re-lever it because we want the Beta used in Cost of Equity to reflect the true risk of our company, taking into account its capital structure this time.",
+      "question" : "Question 9: Why do you have to un-lever and re-lever Beta?"
     },
     "10" : {
-      "answer" : "",
-      "question" : "Question 10: "
+      "answer" : "A technology company, because technology is viewed as a 'riskier' industry than manufacturing.",
+      "question" : "Question 10: Would you expect a manufacturing company or a technology company to have a higher Beta?"
     },
     "11" : {
-      "answer" : "",
-      "question" : "Question 11: "
+      "answer" : "Levered Free Cash Flow gives you the Equity Value rather than the Enterprise Value, since the cash flow is only available to Equity Investors (debt investors have already been 'paid' with the interest payments).",
+      "question" : "Question 11: Let’s say that you use Levered Free Cash Flow rather than Unlevered Free Cash Flow in your DCF – what is the effect?"
     },
     "12" : {
-      "answer" : "",
-      "question" : "Question 12: "
+      "answer" : "You would use Cost of Equity rather than WACC since we're not concerned with Debt or Preferred Stock in this case - we're calculating Equity Value, not Enterprise Value.",
+      "question" : "Question 12: If you use Levered Free Cash Flow, what should you use as the Discount Rate? "
     },
-    "1" : {
-      "answer" : "",
-      "question" : "Question 1: "
+    "13" : {
+      "answer" : "You can either apply an exit multiple to the company's Year 5 EBITDA, EBIT or FCF (Multiples Method) or you can use the Gordon Growth method to estimate its value based on its growth rate into perpetuity. The formula for TV using Gordon Growth is: TM = Year 5 FCF * (1 + Growth Rate)/(Discount Rate - Growth Rate)",
+      "question" : "Question 13: How do you calculate the Terminal Value?"
     },
-    "2" : {
-      "answer" : "",
-      "question" : "Question 2: "
+    "14" : {
+      "answer" : "In banking, you almost always use the Multiples Method to calculate Terminal Value in a DCF. It's much easier to get appropriate data for exit multiples since they are based on Comparable Companies- picking a long-term growth rate, by contrast, is always a shot in the dark. However, you might use Gordon Growth if you have no good Comparable Companies or if you have reason to believe that multiples will change significantly in teh industry several years down the road. For example, if an industry is very cyclical, you might be better off using long-term growth rates rather than exit multiples.",
+      "question" : "Question 14: Why would you use Gordon Growth rather than the Multiples Method to calculate the Terminal Value?"
     },
-    "3" : {
-      "answer" : "",
-      "question" : "Question 3: "
+    "15" : {
+      "answer" : "Normally you would use the country's long-term GDP growth rate, the rate of inflation, or something similarly conservative. For companies in mature economies, a long-term growth rate over 5% would be quite aggressive since most developed economies are growing at less than 5% per year.",
+      "question" : "Question 15: What’s an appropriate growth rate to use when calculating the Terminal Value?"
     },
-    "4" : {
-      "answer" : "",
-      "question" : "Question 4: "
+    "16" : {
+      "answer" : "Normally you look at the Comparable Companies and pick the median of the set, or something close to it. As with anything else in finance, you always show a range of exit multiples and what the Terminal Value looks like over that range rather than picking on specific number. So if the median EBITDA multiple of the set were 8x, you might show a range of values using multiples from 6x to 10px.",
+      "question" : "Question 16: How do you select the appropriate exit multiple when calculating Terminal Value?"
     },
-    "5" : {
-      "answer" : "",
-      "question" : "Question 5: "
+    "17" : {
+      "answer" : "It's hard to generalize because both are highly dependent on the assumptions you make. In general, the Multiples Method will be more VARIABLE than the Gordon Growth method because exit multiples tend to span a wider range than possible long-term growth rates.",
+      "question" : "Question 17: Which method of calculating Terminal Value will give you a higher valuation?"
     },
-    "6" : {
-      "answer" : "",
-      "question" : "Question 6: "
+    "18" : {
+      "answer" : "The median multiples may change greatly in the next 5-10 years so it may no longer be accurate by the end of the period you're looking at. This is why you normally look at a wide range of multiples and do a sensitivity table to see how the valuation changes over that range. This method is particularly problematic with cyclical industries (eg. semiconductors).",
+      "question" : "Question 18: What’s the flaw with basing terminal multiples on what public company comparables are trading at?"
     },
-    "7" : {
-      "answer" : "",
-      "question" : "Question 7: "
+    "19" : {
+      "answer" : "The 'standard' answer: if significantly more than 50% of the company's Enterprise Value comes from its TV, your DCF is probably too dependent on future assumptions. In reality, almost all DCFs are 'too dependent on future assumptions' - it's actually quite rare to see a case where the TV is LESS than 50% of the Enterprise Value. But when it gets to be in the 80-90% range, you know that you may need to re-think your assumptions...",
+      "question" : "Question 19: How do you know if your DCF is too dependent on future assumptions?"
     },
-    "8" : {
-      "answer" : "",
-      "question" : "Question 8: "
+    "20" : {
+      "answer" : "It should be higher for the $500m company, because all else being equal, smaller companies are expected to outperform large companies in the stock market (and therefore be more 'risky'). Using a Size Premium in your calculation would also ensure that Cost of Equity is higher for the $500m company.",
+      "question" : "Question 20: Should Cost of Equity be higher for a $5 billion or $500 million market cap company?"
     },
     "9" : {
       "answer" : "",
