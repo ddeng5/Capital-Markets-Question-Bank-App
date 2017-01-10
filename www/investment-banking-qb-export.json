@@ -704,12 +704,12 @@
       "question" : "Question 17: What would you use in conjunction with Free Cash Flow multiples – Equity Value or Enterprise Value?"
     },
     "18" : {
-      "answer" : "",
-      "question" : "Question 18: Skip this question."
+      "answer" : "Never say never. It's very rare to see this, but sometimes large financial institutions with big cash balances have negative Enterprise Values - so you might use Equity Value/Revenue instead. You might see Equity Value/Revenue if you've listed a set of financial and non-financial companies on a slide, you're showing Revenue multiples for the financial companies, and you want to show something similar for the financials.",
+      "question" : "Question 18: You never use Equity Value / EBITDA, but are there any cases where you might use Equity Value / Revenue?"
     },
     "19" : {
-      "answer" : "",
-      "question" : "Question 19: Skip this question."
+      "answer" : "There are 3 main ways to select companies and transactions: 1) Industry Classification 2) Financial Critera (Revenue, EBITDA etc...) 3) Geography ... For Precendent Transactions, you often limit the set based on date and only look at transactioins within the past 1-2 years. The most important factor is industry - that is always used to screen companies/transactions, and the rest may or may not be used depending on how specific you want to be. Here are a few examples: Comparable Company Screen:Oil and gas producers with market caps over $5b; CCS:Digital media companies with over $100m in revenue ... Precendent Transaction Screen:Airline M&A transactions over the past 2 years involving sellers with over $1b in revenue; PTS:Retail M&A transactions over the past year",
+      "question" : "Question 19: How do you select Comparable Companies / Precedent Transactions?"
     },
     "20" : {
       "answer" : "Sometimes this simple fact getslost in discussion of Valuation methodologies. You take the median multiple of a set of companies or transactions, and then multiply it by the relevant metric from the company you're valuing. Example: If the median EBITDA multiple from your set of Precendent Transactions is 8x and your company's EBITDA is $500 million, the implied Enterprise Value would be $4 billion.",
@@ -724,20 +724,20 @@
       "question" : "Question 22: Why would a company with similar growth and profitability to its Comparable Companies be valued at a premium?"
     },
     "23" : {
-      "answer" : "",
-      "question" : "Question 23: "
+      "answer" : "1) No company is 100% comparable to another company2) The stock market is 'emotional' - your multiples might be dramatically higher or lower on certain dates depending on the market's movement 3) Share prices for small companies wtihin thinly-traded stocks may not reflect their full value",
+      "question" : "Question 23: What are the flaws with public company comparables?"
     },
     "24" : {
-      "answer" : "",
-      "question" : "Question 24: "
+      "answer" : "1) Look at the 75th percentile or higher for the multiples rather than the Medians 2) Add in a premium to some of the multiples 3) Use more aggressive projections for the company ... In practice, you rarely do all of the above - theses are just possibilities.",
+      "question" : "Question 24: How do you take into account a company’s competitive advantage in a valuation?"
     },
     "25" : {
-      "answer" : "",
-      "question" : "Question 25: "
+      "answer" : "There's no 'rule' that you have to do this, but in most cases you do because you want to use values from the middle range of the set. But if the company you're valuing is distressed, is not performing well, or is at a competitive disadvantage, you might use the 25th percentile or something in the lower range instead - and vice versa if it's doing well.",
+      "question" : "Question 25: Do you ALWAYS use the median multiple of a set of public company comparables or precedent transactions?"
     },
     "26" : {
-      "answer" : "",
-      "question" : "Question 26: "
+      "answer" : "Sometimes this happens when there is a substantial mismatch between the M&A market and the public market. For example, no public companies have been acquired recently but there have been a lot of small private companies acquired at extremely low valuations. For the most part, this generalization is true but keep in mind that there are exceptions to almost every 'rule' in finance.",
+      "question" : "Question 26: You mentioned that Precedent Transactions usually produce a higher value than Comparable Companies – can you think of a situation where this is not the case?"
     },
     "27" : {
       "answer" : "1) Past transactions are rarely 100% comparable - the transaction structure, size of the company, and market sentiment all have huge effects 2) Data on precedent transactions is generally more difficult to find than it is for public company comparables, especially for acquisitions of small private companies",
@@ -760,24 +760,78 @@
       "question" : "Question 31: Can you use private companies as part of your valuation?"
     },
     "32" : {
-      "answer" : "",
-      "question" : "Question 32: "
+      "answer" : "You would pay more for theone where you lease the machines. Enterprise Value would be the same for both companies, but with the depreciated situation the charge is not reflected in EBITDA - so EBITDA is higher, and the EV/EBITDA multiple is lower as a result. For the leased situation, the lease would show up in SG&A so it would be reflected in EBITDA, making EBITDA lower and the EV/EBITDA multiple higher.",
+      "question" : "Question 32: If you were buying a vending machine business, would you pay a higher multiple for a business where you owned the machines and they depreciated normally, or one in which you leased the machines? The cost of depreciation and lease are the same dollar amounts and everything else is held constant."
     },
     "33" : {
-      "answer" : "",
-      "question" : "Question 33: "
+      "answer" : "You would use the same methodologies as with public companies: public company comparables, precedent transactions, and DCF. But there are some differences: 1) You might apply a 10-15% (or more) discount to the public company comparable multiples because the private company you're valuing is not as 'liquid' as the public comps 2) You can't use a premium analysis or future share price analysis because a private company doesn't have a share price 3) Your valuation shows the EV for the company as opposed to the implied per-share price with public companies 4) A DCF gets tricky because a pivate company doesn't have a market capitalization or Beta - you would probably just estimate WACC based on the public comps' WACC rather than trying to calculate it",
+      "question" : "Question 33: How do you value a private company?"
     },
     "34" : {
-      "answer" : "",
-      "question" : "Question 34: "
+      "answer" : "There's no discount because with precedent transactions, you're acquiring the entire company - once it's acquired, the shares immediately become illiquid. But shares - the ability to buy individual 'pieces' of a company rather than the whole thing - can be either liquid (if it's public) or illiquid (if it's private). Since shares of public companies are always more liquid, you would discount company comparable multiples to account for this.",
+      "question" : "Question 34: Let’s say we’re valuing a private company. Why might we discount the public company comparable multiples but not the precedent transaction multiples?"
     },
     "35" : {
+      "answer" : "Only in the context of precedent transactions - it would make no sense to include them for public company comparables or as part of the Cost of Equity/WACC calculation in a DCF because they are not public and therefore have no values for market cap or Beta.",
+      "question" : "Question 35: Can you use private companies as part of your valuation?"
+    }
+  },
+  "advanced-valuation" : {
+    "1" : {
       "answer" : "",
-      "question" : "Question 35: "
+      "question" : "Question 1: "
     },
-    "36" : {
+    "2" : {
       "answer" : "",
-      "question" : "Question 36: "
+      "question" : "Question 2: "
+    },
+    "3" : {
+      "answer" : "",
+      "question" : "Question 3: "
+    },
+    "4" : {
+      "answer" : "",
+      "question" : "Question 4: "
+    },
+    "5" : {
+      "answer" : "",
+      "question" : "Question 5: "
+    },
+    "6" : {
+      "answer" : "",
+      "question" : "Question 6: "
+    },
+    "7" : {
+      "answer" : "",
+      "question" : "Question 7: "
+    },
+    "8" : {
+      "answer" : "",
+      "question" : "Question 8: "
+    },
+    "9" : {
+      "answer" : "",
+      "question" : "Question 9: "
+    },
+    "10" : {
+      "answer" : "",
+      "question" : "Question 10: "
+    },
+    "11" : {
+      "answer" : "",
+      "question" : "Question 11: "
+    },
+    "12" : {
+      "answer" : "",
+      "question" : "Question 12: "
+    },
+    "13" : {
+      "answer" : "",
+      "question" : "Question 11: "
+    },
+    "14" : {
+      "answer" : "",
+      "question" : "Question 12: "
     }
   },
   "filler-template" : {

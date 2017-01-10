@@ -449,7 +449,7 @@ angular.module('starter.controllers', [])
 
 
 
-//controller accounting advanced questions
+//basic enterprise/equity questions
 .controller('enterpriseEvCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
   //ensure that side menu and navbar is always presenting when entering the view
   $scope.$on('$ionicView.enter', function(e) {
@@ -504,7 +504,7 @@ angular.module('starter.controllers', [])
 
 
 
-//controller accounting advanced questions
+//advanced enterprise/equity value controller
 .controller('advEnterpriseEvCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
   //ensure that side menu and navbar is always presenting when entering the view
   $scope.$on('$ionicView.enter', function(e) {
@@ -560,7 +560,7 @@ angular.module('starter.controllers', [])
 
 
 
-//controller accounting advanced questions
+//basic valuation controller
 .controller('valuationCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
   //ensure that side menu and navbar is always presenting when entering the view
   $scope.$on('$ionicView.enter', function(e) {
@@ -569,15 +569,15 @@ angular.module('starter.controllers', [])
 
   $timeout(function() {
 
-  qNum = Math.floor((Math.random() * 34) + 1);
+  qNum = Math.floor((Math.random() * 35) + 1);
 
   //check if the last question number is the same as this current question number
   while ($rootScope.first == qNum) {
     //if it is then grab another question
-    qNum = Math.floor((Math.random() * 34) + 1);
+    qNum = Math.floor((Math.random() * 35) + 1);
 
     if (qNum == $rootScope.first) {
-      qNum = Math.floor((Math.random() * 34) + 1);
+      qNum = Math.floor((Math.random() * 35) + 1);
     }
   }
 
@@ -586,6 +586,61 @@ angular.module('starter.controllers', [])
 
   question = firebase.database().ref().child("valuation").child(qNum).child("question")
   answer = firebase.database().ref().child("valuation").child(qNum).child("answer")
+
+  //bind question to html element
+  question.once('value', function(datasnapshot) {
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
+    });
+  });
+
+  //bind solution to html element
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();
+      })
+    });
+  };
+
+  //refresh the state to get the next question
+  $scope.nextQ = function() {
+    $timeout(function() {
+      $state.reload();
+    })
+  };
+});
+})
+
+
+
+
+//controller accounting advanced questions
+.controller('advValuationCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
+  //ensure that side menu and navbar is always presenting when entering the view
+  $scope.$on('$ionicView.enter', function(e) {
+    $ionicNavBarDelegate.showBar(true);
+  });
+
+  $timeout(function() {
+
+  qNum = Math.floor((Math.random() * 14) + 1);
+
+  //check if the last question number is the same as this current question number
+  while ($rootScope.first == qNum) {
+    //if it is then grab another question
+    qNum = Math.floor((Math.random() * 14) + 1);
+
+    if (qNum == $rootScope.first) {
+      qNum = Math.floor((Math.random() * 14) + 1);
+    }
+  }
+
+  qNum = qNum.toString();
+  $rootScope.first = qNum;
+
+  question = firebase.database().ref().child("advanced-valuation").child(qNum).child("question")
+  answer = firebase.database().ref().child("advanced-valuation").child(qNum).child("answer")
 
   //bind question to html element
   question.once('value', function(datasnapshot) {

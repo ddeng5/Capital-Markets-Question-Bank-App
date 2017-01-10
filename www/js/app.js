@@ -173,6 +173,20 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 
 
+
+  //advanced valuation questions
+  .state('app.advValuation', {
+    url: '/advValuation',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/advValuation.html',
+        controller: 'advValuationCtrl'
+      }
+    }
+  })
+
+
+
   .state('app.playlists', {
     url: '/playlists',
     views: {
