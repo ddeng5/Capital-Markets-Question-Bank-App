@@ -778,12 +778,12 @@
   },
   "advanced-valuation" : {
     "1" : {
-      "answer" : "",
-      "question" : "Question 1: "
+      "answer" : "You mostly use the same methodologies, except: 1) You look at P/E and P/BV (Book Value) multiples rather than EV/Revenue, EV/EBITDA, and other 'normal' multiples, since banks have unique capital structures 2) You pay more attention to bank-specific metrics like NAV (Net Asset Value) and you might screen companies and precedent transactions based on those 3) Rather than a DCF, you use a Divident Discount Model (DDM) which is similar but is based on the present value of the company's dividends rather than it's free cash flows ... You need to use these methodologies and multiples because interest is a critical component of a bank's revenue and because debt is part of its business model rather than just a way to finance acquisitions or expand the business.",
+      "question" : "Question 1: How do you value banks and financial institutions differently from other companies?"
     },
     "2" : {
-      "answer" : "",
-      "question" : "Question 2: "
+      "answer" : "1) Unlike normal valuations, for an IPO Valuation we only care about public company comparables 2) After picking the public company comparables we decide on the most relevant multiple to use and tehne estimate our company's Enterprise Value based on that 3) Once we have the EV, we work backward to get the Equity Value AND ALSO SUBTRACT THE IPO PROCEEDS BECASE THIS IS 'NEW' CASH 4) Then we divide the total number of shares (old and newly created) to get its per-share price. When people say 'An IPO priced at...' this is what they're referring to ... If you were using P/E or any other 'Equity Value-based multiple' for the multiple in step #2 here, then you would get to Equity Value instead and then subtract the IPO proceeds from there. ",
+      "question" : "Question 2: Walk me through an IPO valuation for a company that's about to go public."
     },
     "3" : {
       "answer" : "",
