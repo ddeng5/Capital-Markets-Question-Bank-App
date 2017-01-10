@@ -668,52 +668,52 @@
       "question" : "Question 8: What are the most common multiples used in Valuation?"
     },
     "9" : {
-      "answer" : "1) Technology (Internet): EV/Unique Visitors, EV/Pageviews 2) Retail/Airlines: EV/EBITDAR (Earnings Before Interest, Taxes, Depreciation, Amortization and Rent) 3) Energy: P/MCFE, P/MCFE/D (MCFE = 1 Million Cubic Foot Equivalent, MCFE/D = MCFE per Day), P/Nav (Share Price/Net Asset Value) ",
+      "answer" : "1) Technology (Internet): EV/Unique Visitors, EV/Pageviews 2) Retail/Airlines: EV/EBITDAR (Earnings Before Interest, Taxes, Depreciation, Amortization and Rent) 3) Energy: P/MCFE, P/MCFE/D (MCFE = 1 Million Cubic Foot Equivalent, MCFE/D = MCFE per Day), P/Nav (Share Price/Net Asset Value) 4) Real Estate Investment Trusts (REITs): Price/FFO,Price/AFFO (Funds from Operations, Adjust Funds from Operations) ... Technology and Energy should be straightforward -you're looking at traffic and energy reserves as value drivers rather than revenue or profit. For Retail/Airlines, you often remove Rent because it is a major expense and one that varies significantly between different types of companies. For REITs, FFO is a common metric that adds back Depreciation and subtracts gains on the sale of property. Depreciation is a non-cash yet extremely large expense in real estate, and gains on sales of properties aare assumed to be non-recurring, as FFO is viewed as a 'normalized' picture of the cash flow the REIT is generating.",
       "question" : "Question 9: What are some examples of industry-specific multiples?"
     },
     "10" : {
-      "answer" : "",
-      "question" : "Question 10: "
+      "answer" : "You use Enterprise Value because those scientists or subscribers are 'available' to all the investors (both debt and equity) in a company. The same logic doesn't apply to everything, though - you need to think through the multiple and see which investors the particular metric is 'available' to.",
+      "question" : "Question 10: When you’re looking at an industry-specific multiple like EV / Scientists or EV / Subscribers, why do you use Enterprise Value rather than Equity Value?"
     },
     "11" : {
-      "answer" : "",
-      "question" : "Question 11: "
+      "answer" : "Technically it could go either way, but in most cases the LBO will give you a lower valuation. Here's the easiest way to think about it: with an LBO, you do not get any value from the cash flows of a company in between Year 1 and the final year - you're only valuing it based on its terminal value. With a DCF, by contrast, you're taking into accoun BOTH the company's cash flows in between and its terminal value, so values tend to be higher. Note: Unlike a DCF, an LBO model by itself does not give a specific valuation. Instead, you set a desired IRR and determine how much you would pay for the company (the valuation) based on that.",
+      "question" : "Question 11: Would an LBO or DCF give a higher valuation?"
     },
     "12" : {
-      "answer" : "",
-      "question" : "Question 12: "
+      "answer" : "Usually you use a 'football field' chart where you show the valuation range implied by each methodology. You ALWAYS show a range rather than one specific number.",
+      "question" : "Question 12: How would you present these Valuation methodologies to a company or its investors?"
     },
-    "1" : {
-      "answer" : "",
-      "question" : "Question 1: "
+    "13" : {
+      "answer" : "The same way you would value a company: by looking at what comparable apple trees are worth (relative valuation) and the value of the apple tree's cash flows (intrinsic valuation).",
+      "question" : "Question 13: How would you value an apple tree?"
     },
-    "2" : {
-      "answer" : "",
-      "question" : "Question 2: "
+    "14" : {
+      "answer" : "EBITDA is available to all investors in the company - rather than just equity holders. Similarly, Enterprise Value is also available to all shareholders so it makes sense to pair them together. Equity Value/EBITDA, however, is comparing apples to oranges because Equity Value does not reflect the company's entire capital structure - only the part availableto equity investors.",
+      "question" : "Question 14: Why can’t you use Equity Value / EBITDA as a multiple rather than Enterprise Value / EBITDA?"
     },
-    "3" : {
-      "answer" : "",
-      "question" : "Question 3: "
+    "15" : {
+      "answer" : "This is highly unusual, but it could happen if the company had substantial hard assets but the market was severely undervaluing it for a specific reason (such as an earnings miss or cyclicality). As a result, the company's Comparable Companies and Precedent Transactions would likely produce lower values as well- if its assets were valued highly enough, Liquidation Valuation might give a higher value than other methodologies.",
+      "question" : "Question 15: When would a Liquidation Valuation produce the highest value?"
     },
-    "4" : {
-      "answer" : "",
-      "question" : "Question 4: "
+    "16" : {
+      "answer" : "You would use Comparable Companies and Precedent Transactions and look at more 'creative' muliples such as EV/Unique Visitors, EV/Pageviews rather than EV/EBITDA or EV/Revenue. You would NOT use a 'far in the future DCF' because you can't reasonably predict cash flow, use other metrics - don't try to predict cash flow anyway!",
+      "question" : "Question 16: Let’s go back to 2004 and look at Facebook back when it had no profit and no revenue. How would you value it?"
     },
-    "5" : {
-      "answer" : "",
-      "question" : "Question 5: "
+    "17" : {
+      "answer" : "Trick Question. For UNLEVERED Free Cash Flow, you would use Enterprise Value, for Levered Free Cash Flow, you would use Equity Value. Remember, Unlevered FCF excludes Interest and thus represents money available to all investors, whereas Levered already includes Interest and the money is therefore only available to equity investors. Debt investors have already 'been paid' with the interest payments they received.",
+      "question" : "Question 17: What would you use in conjunction with Free Cash Flow multiples – Equity Value or Enterprise Value?"
     },
-    "6" : {
+    "18" : {
       "answer" : "",
-      "question" : "Question 6: "
+      "question" : "Question 18: Skip this question."
     },
-    "7" : {
+    "19" : {
       "answer" : "",
-      "question" : "Question 7: "
+      "question" : "Question 19: Skip this question."
     },
-    "8" : {
+    "20" : {
       "answer" : "",
-      "question" : "Question 8: "
+      "question" : "Question 20: How do you apply the 3 valuation methodologies to actually get a value for the company you’re looking at?"
     },
     "9" : {
       "answer" : "",
