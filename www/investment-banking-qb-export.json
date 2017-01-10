@@ -786,52 +786,52 @@
       "question" : "Question 2: Walk me through an IPO valuation for a company that's about to go public."
     },
     "3" : {
-      "answer" : "",
-      "question" : "Question 3: "
+      "answer" : "The formula to calendarize financial statements is as follows: TTM = Most Recent Fiscal Year + New Partial Period - Old Partial Period ... So in the example above, we would take the company's Q1 numbers, add the most recent fiscal year's numbers, and then subtract the Q1 numbers from that most recent fiscal year. For US companies, you can find these quarterly numbers in the 10-Q; for international companies they're in the 'interim' reports.",
+      "question" : "Question 3: I’m looking at financial data for a public company comparable, and it’s April (Q2) right now. Walk me through how you would “calendarize” this company’s financial statements to show the Trailing Twelve Months as opposed to just the last Fiscal Year."
     },
     "4" : {
-      "answer" : "",
-      "question" : "Question 4: "
+      "answer" : "The purpose of this analusis is to look at similar transactions and see the premiums that buyers have paid to sellers' share prices when acquiring them. For example, if a company is trading at $10.00/share and the buyer acquires it for $15.00/share, that's a 50% premium. 1) First, select the precedent transactions based on industry, date (past 2-3 years for example), and size (example: over $1b market cap) 2) For each transaction, get the seller's share price 1 day, 20 days, and 60 days before the transactions was announced (you can also look at even longer intervals) 3) Then, calculate the 1-day premium, 20-day premium, etc. by dividing the per share purchase price by the appropriate share price on each day 4) Get the medians for each set, and then apply them to your company's current share price, share price 20 days ago, etc. to estimate how much of a premium the buy might pay for it. Note that you can only use this analysis when valuing public companies because private companies don't have share prices. Sometimes the set of companies here is exactly the same as your set of precedent transactions but typically it is broader.",
+      "question" : "Question 4: Walk me through an M&A premiums analysis."
     },
     "5" : {
-      "answer" : "",
-      "question" : "Question 5: "
+      "answer" : "The purpose of this analysis is to project what a company's share price might be 1 or 2 years from now and then discount it back to its present value. 1) Get the median historical (usually TTM) P/E of your public company comparables 2) Apply this P/E multiple to your company's 1 year-forward or 2-year forward projected EPS to get its implied future share price 3) Then, discount this back to its present value by using a discounted rate in-line with the company's Cost of Equity figures ... You normally look at a range of P/E multiples as well as a range of discount rates for this type of analysis, and make a sensitivity table with these as inputs.",
+      "question" : "Question 5: Walk me through a future share price analysis."
     },
     "6" : {
-      "answer" : "",
-      "question" : "Question 6: "
+      "answer" : "1) All the sellers in the M&A premium analysis must be public 2) Usually we use a broader set of transactions for M&A premiums - we might use fewer than 10 precendent transactions but we might have dozens of M&A premiums. The industry and financial screens are usually less stringent 3) Aside from those, the screening criteria is similar - financial, industry, geography and date",
+      "question" : "Question 6: Both M&A premiums analysis and precedent transactions involve looking at previous M&A transactions. What’s the difference in how we select them?"
     },
     "7" : {
-      "answer" : "",
-      "question" : "Question 7: "
+      "answer" : "In a Sum-of-the-Parts analysis, you value each division of a company using separate comparables and transactions, get to reparate multiples, and then add up each division's value to get the total for the company. Example: We have a manufacturing division with $100m EBITDA, an entertainment division with $50m EBITDA and a consumer goods division with $75m EBITDA. We've selected comparable companies and transactions for each division, and the median multiple come out to 5x EBITDA for manufacturing, 8x EBITDA for entertainment, and 4x EBITDA for consumer goods. Our calculation would be 100*5 + 50*8 + 75*4 = 1.2b for the company's total value.",
+      "question" : "Question 7: Walk me through a Sum-of-the-Parts analysis."
     },
     "8" : {
-      "answer" : "",
-      "question" : "Question 8: "
+      "answer" : "You value NOLs based on how much they'll save the company in taxes in future years, and then take the present value of teh sum of tax savings in future years. Two ways to assess the tax savings in future years: 1) Assume that a company can use its NOLs to completely offset its taxable income until the NOLs run out 2) In an acquisition scenario, use Section 382 and multiply the adjust long-term rate by the equity purchase price of the seller to determine the maximum allowed NOL usage in each year - and then the seller to determine the maximum allowed NOL usage in each year - and then use that to figure out the offset to taxable income ... You mightlook at NOLs in a valuation but you rarely add them in - if you did, they would be similar to cash and you would subtract NOLs to go from Equity Value to Enterprise Value, and vice versa.",
+      "question" : "Question 8: How do you value Net Operating Losses and take them into account in a valuation?"
     },
     "9" : {
-      "answer" : "",
-      "question" : "Question 9: "
+      "answer" : "This varies by bank and group, but two common methods: 1) You pick the report with the most detailed information 2) You pick the report with numbers in the middle of the range ... Note that you do not pick reports based on which bank they're coming from. So if you're at Goldman Sachs, you would not pick all Goldman Sachs equity research - in fact that would be bad because then your valuation would not be objective.",
+      "question" : "Question 9: I have a set of public company comparables and need to get the projections from equity research. How do I select which report to use?"
     },
     "10" : {
-      "answer" : "",
-      "question" : "Question 10: "
+      "answer" : "1) Search online and see if you can find press releases or articles in the financial press with these numbers 2) Failing that, look in equity research for the buyer around the time of the transaction and see if any of the analysts estimate the seller's numbers 3) Also look on online sources like Capital IQ and Factset and see if any of them disclose numbers or give estimates",
+      "question" : "Question 10: I have a set of precedent transactions but I’m missing information like EBITDA for a lot of the companies – how can I find it if it’s not available via public sources?"
     },
     "11" : {
-      "answer" : "",
-      "question" : "Question 11: "
+      "answer" : "Usually you look at the TTM (Trailing Twelve Months) period for both sets, and then you look forward either 1 or 2 years. You're more likely to look backward more than 1 year and go forward more than 2 years for public company comparables; for precedent transactions it's odd to go forward more than 1 year because your information is more limited.",
+      "question" : "Question 11: How far back and forward do we usually go for public company comparable and precedent transaction multiples?"
     },
     "12" : {
-      "answer" : "",
-      "question" : "Question 12: "
+      "answer" : "There's no 'rule' that says that is wrong or not allowed, but it can be misleading to compare companies with dramatically different margins. Due to basic arithmetic, the 40% margin company will usually have a lower multiple - whether or not its actual value is lower. In this situation, we might consider screening based on marings and remove the outliers - you would never try to 'normalize' the EBITDA multiples based on margins.",
+      "question" : "Question 12: I have one company with a 40% EBITDA margin trading at 8x EBITDA, and another company with a 10% EBITDA margin trading at 16x EBITDA. What’s the problem with comparing these two valuations directly?"
     },
     "13" : {
-      "answer" : "",
-      "question" : "Question 11: "
+      "answer" : "You use the same methodologies, except: 1) You look at indistry-specific multiples like P/MCFE and P/NAV in addition to the more standard ones 2) You need to project the prices of commodities like oil and natural gas, and also the company's reserves to determine its revenue and cash flows in future years 3) Rather than a DCF, you use a NAV (Net Asset Value) model - it's similar but everything flows from the company's reserves rather than simple revenue growth/EBITDA margin projections ... In addition to all of the above, there are also some accounting complications with energy companies and you need to think about what a 'proven' reserve is vs. what is more speculative.",
+      "question" : "Question 13: Walk me through how we might value an oil & gas company and how it’s different from a “standard” company."
     },
     "14" : {
-      "answer" : "",
-      "question" : "Question 12: "
+      "answer" : "Similar to energy, real estate is asset-intensive and a company's value depends on how much cash flow specific properties generate: 1) You look at Price/FFO, Price/AFFO (Funds from Operations), which add back Depreciation and subtract gains on property sales; NAV (Net Asset Value) is also important 2) You value properties by dividing Net Operating Income (NOI) (Property's Gross Income - Operating Expenses) by the capitaliztion rate (based on market data) 3) Replacement Valuation is more common because you can actually estimate the cost of buying new land and building new properties 4) A DCF is still a DCF, but it flows from specific properties and it might be useless depending on what kind of company you're valuing.",
+      "question" : "Question 14: Walk me through how we would value a REIT (Real Estate Investment Trust) and how it differs from a “normal” company."
     }
   },
   "filler-template" : {
