@@ -615,7 +615,7 @@ angular.module('starter.controllers', [])
 
 
 
-//controller accounting advanced questions
+//advanced valuation controller
 .controller('advValuationCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
   //ensure that side menu and navbar is always presenting when entering the view
   $scope.$on('$ionicView.enter', function(e) {
@@ -667,6 +667,60 @@ angular.module('starter.controllers', [])
 });
 })
 
+
+
+
+//basic dfc controller
+.controller('dcfCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
+  //ensure that side menu and navbar is always presenting when entering the view
+  $scope.$on('$ionicView.enter', function(e) {
+    $ionicNavBarDelegate.showBar(true);
+  });
+
+  $timeout(function() {
+
+  qNum = Math.floor((Math.random() * 32) + 1);
+
+  //check if the last question number is the same as this current question number
+  while ($rootScope.first == qNum) {
+    //if it is then grab another question
+    qNum = Math.floor((Math.random() * 32) + 1);
+
+    if (qNum == $rootScope.first) {
+      qNum = Math.floor((Math.random() * 32) + 1);
+    }
+  }
+
+  qNum = qNum.toString();
+  $rootScope.first = qNum;
+
+  question = firebase.database().ref().child("dcf").child(qNum).child("question")
+  answer = firebase.database().ref().child("dcf").child(qNum).child("answer")
+
+  //bind question to html element
+  question.once('value', function(datasnapshot) {
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
+    });
+  });
+
+  //bind solution to html element
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();
+      })
+    });
+  };
+
+  //refresh the state to get the next question
+  $scope.nextQ = function() {
+    $timeout(function() {
+      $state.reload();
+    })
+  };
+});
+})
 
 
 

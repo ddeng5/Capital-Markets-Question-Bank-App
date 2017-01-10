@@ -834,6 +834,152 @@
       "question" : "Question 14: Walk me through how we would value a REIT (Real Estate Investment Trust) and how it differs from a “normal” company."
     }
   },
+  "dcf" : {
+    "1" : {
+      "answer" : "'A DCF values a company based on teh Present Value of its Cash Flows and the Net Present Value of its Terminal Value' First, you project out a company's financials using assumptions for revenue growth, expenses and Working Capital; then you get down to Free Cash Flow for each year which you then sum up and discount to a Net Present Value, based on your discount rate - usually the Weighted Average Cost of Capital. Once you have the present value of the Cash Flows, you determine the company's Terminal Value, using either the Multiples Method or the Gordon Growth Method, and then discount that back to its Net Present Value using WACC. Finally, you add the two together to determine the company's Enterprise Value.",
+      "question" : "Question 1: Walk me through a DCF."
+    },
+    "2" : {
+      "answer" : "Subtract COGS and Operating Expenses to get to Operating Income (EBIT). Then you multiply by (1-Tax Rate), add back Depreciation and other non-cash charges, and subtract Capital Expenditures and the change in Working Capital. This gets you to unlevered FCF since you went off EBIT rather than EBT. You might want to confirm that this is what the interviewer is looking for.",
+      "question" : "Question 2: Walk me through how you get from Revenue to Free Cash Flow in the projections."
+    },
+    "3" : {
+      "answer" : "Take Cash Flow from Operations and subtract CapEx - that gets you to Leverd Cash Flow.To get to Unlevered Cash Flow, you then need to add back the tax-adjust Interest Expense and subtract the tax-adjusted Interest Income.",
+      "question" : "Question 3: What’s an alternate way to calculate Free Cash Flow aside from taking Net Income, adding back Depreciation, and subtracting Changes in Operating Assets / Liabilities and CapEx?"
+    },
+    "4" : {
+      "answer" : "That's usually about as far as you can reasonably predict into the future. Less than 5 years would be too short to be useful, and over 10 years is too difficult to predict for most companies.",
+      "question" : "Question 4: Why do you use 5 or 10 years for DCF projections?"
+    },
+    "5" : {
+      "answer" : "Normally you use WACC (Weighted Average Cost of Capital) though you might also use Cost of Equity depending on how you've set up the DCF.",
+      "question" : "Question 5: What do you usually use for the discount rate?"
+    },
+    "6" : {
+      "answer" : "The formula is: Cost of Equity * (% Equity) + Cost of Debt * (% Debt)*(1 - Tax Rate) + Cost of Preferred * (% Preferred) ... In all cases, the percentages refer to how much of the company's capital structure is taken up by each component. For Cost of Equity, you can use the Capital Asset Pricing Model (CAPM) and for others you usually look at comparable companies/debt issuances and the interest rates and yields issued by similar companies to get estimates.",
+      "question" : "Question 6: How do you calculate WACC?"
+    },
+    "7" : {
+      "answer" : "Cost of Equity = Risk-Free Rate + (Beta * Equity Risk Premium) The risk-free rate represents how much a 10-year or 20 year US Treasury should yield; Beta is calculated based on the 'riskiness' of Comparable Companies and the Equity Risk Premium is the % by which stocks are expected to out-perform risk-less assets. Normally you pull the Equity Risk Premium from a publication called Ibbotson's. Note:This formula does not tell the whole story. Depending on the bank and how precise you want to be, you could also add in a 'size premium' and 'industry premium' to account for how much a company is expected to out-perform its peers is according to its market cap or industry. Small company stocks are expected to out-perform large company stocks and certain industries are expected to out-perform others, and these premiums reflect these expectations.",
+      "question" : "Question 7: How do you calculate the Cost of Equity?"
+    },
+    "8" : {
+      "answer" : "You look up the Beta for each Comparable Company (usually on Bloomberg), un-lever each one, take the median of the set and then lever it based on your company's capital structure. Then you use this Levered Beta in the Cost of Equity calculation. Unlevered Beta = Levered Beta/(1+((1 - Tax Rate) * (Total Debt/Equity))) and rearrange formula to get Levered Beta",
+      "question" : "Question 8: How do you get to Beta in the Cost of Equity calculation?"
+    },
+    "9" : {
+      "answer" : "",
+      "question" : "Question 9: "
+    },
+    "10" : {
+      "answer" : "",
+      "question" : "Question 10: "
+    },
+    "11" : {
+      "answer" : "",
+      "question" : "Question 11: "
+    },
+    "12" : {
+      "answer" : "",
+      "question" : "Question 12: "
+    },
+    "1" : {
+      "answer" : "",
+      "question" : "Question 1: "
+    },
+    "2" : {
+      "answer" : "",
+      "question" : "Question 2: "
+    },
+    "3" : {
+      "answer" : "",
+      "question" : "Question 3: "
+    },
+    "4" : {
+      "answer" : "",
+      "question" : "Question 4: "
+    },
+    "5" : {
+      "answer" : "",
+      "question" : "Question 5: "
+    },
+    "6" : {
+      "answer" : "",
+      "question" : "Question 6: "
+    },
+    "7" : {
+      "answer" : "",
+      "question" : "Question 7: "
+    },
+    "8" : {
+      "answer" : "",
+      "question" : "Question 8: "
+    },
+    "9" : {
+      "answer" : "",
+      "question" : "Question 9: "
+    },
+    "10" : {
+      "answer" : "",
+      "question" : "Question 10: "
+    },
+    "11" : {
+      "answer" : "",
+      "question" : "Question 11: "
+    },
+    "12" : {
+      "answer" : "",
+      "question" : "Question 12: "
+    },
+    "1" : {
+      "answer" : "",
+      "question" : "Question 1: "
+    },
+    "2" : {
+      "answer" : "",
+      "question" : "Question 2: "
+    },
+    "3" : {
+      "answer" : "",
+      "question" : "Question 3: "
+    },
+    "4" : {
+      "answer" : "",
+      "question" : "Question 4: "
+    },
+    "5" : {
+      "answer" : "",
+      "question" : "Question 5: "
+    },
+    "6" : {
+      "answer" : "",
+      "question" : "Question 6: "
+    },
+    "7" : {
+      "answer" : "",
+      "question" : "Question 7: "
+    },
+    "8" : {
+      "answer" : "",
+      "question" : "Question 8: "
+    },
+    "9" : {
+      "answer" : "",
+      "question" : "Question 9: "
+    },
+    "10" : {
+      "answer" : "",
+      "question" : "Question 10: "
+    },
+    "11" : {
+      "answer" : "",
+      "question" : "Question 11: "
+    },
+    "12" : {
+      "answer" : "",
+      "question" : "Question 12: "
+    }
+  },
   "filler-template" : {
     "1" : {
       "answer" : "",

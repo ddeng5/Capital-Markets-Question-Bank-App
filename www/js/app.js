@@ -187,6 +187,22 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 
 
+  //basic dcf questions
+  .state('app.dcf', {
+    url: '/dcf',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/dcf.html',
+        controller: 'dcfCtrl'
+      }
+    }
+  })
+
+
+
+
+
+
   .state('app.playlists', {
     url: '/playlists',
     views: {
