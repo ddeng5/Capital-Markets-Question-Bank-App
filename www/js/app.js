@@ -200,6 +200,18 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 
 
+  //advanced dcf questions
+  .state('app.advDcf', {
+    url: '/advDcf',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/advDcf.html',
+        controller: 'advDcfCtrl'
+      }
+    }
+  })
+
+
 
 
 

@@ -947,37 +947,51 @@
       "answer" : "This is problematic because private companies don't have market caps or Betas. In this case you would most likely just estimate WACC based on work done by auditors or valuation specialists, or based on what WACC for comparable public companies is.",
       "question" : "Question 28: How do you calculate WACC for a private company?"
     },
+    "29" : {
+      "answer" : "You can take a few different approaches: 1) You can create your own projections 2) You can modify management's projections downward to make them more conservative 3) You can show a sensitivity table based on differnt growth rates and margins and show the values assuming managements' projections and assuming a more conservative set of numbers ... In reality, you'd probably do all of these if you had unrealistic projections.",
+      "question" : "Question 29: What should you do if you don’t believe management’s projections for a DCF model?"
+    },
+    "30" : {
+      "answer" : "Banks use debt differently than other companies and do not re-invest it in the business - they use it to create products instead. Also, interest is a critical part of bank's business models and working capital takes up a huge part of their Balance Sheets - so a DCF for a financial model would not make much sense. For financial institutions, it's more common to use a dividend discount model for valuation purposes.",
+      "question" : "Question 30: Why would you not use a DCF for a bank or other financial institution?"
+    },
+    "31" : {
+      "answer" : "Example sensitivities: 1) Revenue Growth vs. Terminal Multiple 2) EBITDA Margin vs. Terminal Multiple 3) Terminal Multiple vs. Discount Rate 4) Long-Term Growth Rate vs Discount Rate ... And any combination of these (except Terminal Multiple vs. Long-Term Growth Rate which would make no sense).",
+      "question" : "Question 31: What types of sensitivity analyses would we look at in a DCF?"
+    },
+    "32" : {
+      "answer" : "Trick question. You don't account for this at all in a DCF, because paying off debt principal shows up in Cash Flow from Financing on the Cash Flow Statement - but we only go down to Cash Flow from Operations and then subtract Capital Expenditures to get to Free Cash Flow. If we were looking at Levered Cash Flow, then our interest expense would decline in future years due to the principal being paid off - but we still wouldn't account the principal repayments themselves anywhere.",
+      "question" : "Question 32: A company has a high debt load and is paying off a significant portion of its principal each year. How do you account for this in a DCF?"
+    }
+  },
+  "adv-dcf" : {
+    "1" : {
+      "answer" : "You would use it to represent the fact that a company's cash flow does not come 100% at the end of each year - instead, it comes in evenly throughout each year. In a DCF without mid-year convention, we would use discount period numbers of 1 for the first year, 2 for the second year,3 for the third year, and so on. With a mid-year convention, we would instead use 0.5 for the first year, 1.5 for the second year, 2.5 for the third year, and so on.",
+      "question" : "Question 1: Explain why we would use the mid-year convention in a DCF."
+    },
+    "2" : {
+      "answer" : "The rule is that you divide the stub discount period by 2, and then you simply subtract 0.5 from the 'normal' discount periods for the future years.",
+      "question" : "Question 2: What discount period numbers would I use for the mid-year convention if I have a stub period – e.g. Q4 of Year 1 – in my DCF?"
+    },
+    "3" : {
+      "answer" : "When you're discounting the terminal value back to the present value, you use different numbers for the discount period depending on whether you're using the Multiples Method of Gordon Growth Method: Multiples Method = You add 0.5 to the final year discount number to reflect the fact that you're assuming the company gets sold at the END of the year; Gordon Growth Method: You use the final year discount number as is, because you're assuming the cash flows grow into perpetuity and that they are still received throughout the year rather than just at the end.",
+      "question" : "Question 3: How does the terminal value calculation change when we use the mid-year convention?"
+    },
+    "4" : {
+      "answer" : "Once you get to Enterprise Value, ADD cash and then subtract debt, preferred stock, and minority interest (and any other debt-like items) to get to Equity Value. Then, you need to use a circular calculation that takes into account the basic shares oustanding, options, warrants, convertibles, and other dilutive securities. It's circular because the diluation from these depends on the per-share price - but the per-share price depends on number of shares outstanding, which depends on teh per-share price. To resolve this, you need to enable iterative calculations in Excel so that it can cycle through to find an approximate per-share price.",
+      "question" : "Question 4: If I’m working with a public company in a DCF, how do I calculate its per-share value?"
+    },
     "5" : {
-      "answer" : "",
-      "question" : "Question 5: "
+      "answer" : "The mechanics are the same as a DCF, but we use dividends rather than free cash flows: 1) Project out the company’s earnings, down to earnings per share (EPS) 2) Assume a dividend payout ratio – what percentage of the EPS actually gets paid out to shareholders in the form of dividends – based on what the firm has done historically and how much regulatory capital it needs 3) Use this to calculate dividends over the next 5-10 years 4) Discount each dividend to its present value based on Cost of Equity- NOT WACC - and then sum these up 5) Calculate the terminal value based on P/E and EPS in the final year, and then discount this to its present value based on Cost of Equity 6) Sum the present value of the terminal value and the present values of the dividends to get the company's net present per-share value",
+      "question" : "Question 5: Walk me through a Dividend Discount Model (DDM) that you would use in place of a normal DCF for financial institutions."
     },
     "6" : {
-      "answer" : "",
-      "question" : "Question 6: "
+      "answer" : "Trick question. If the convertible debt is in-the-money then you do not count it as debt but instead assume that it contributes to dilution, so the company's Equity Value is higher. If it's out-of-the-money then you count it as debt and use the interest rate on the convertible for Cost of Debt.",
+      "question" : "Question 6: When you’re calculating WACC, let’s say that the company has convertible debt. Do you count this as debt when calculating Levered Beta for the company?"
     },
     "7" : {
-      "answer" : "",
-      "question" : "Question 7: "
-    },
-    "8" : {
-      "answer" : "",
-      "question" : "Question 8: "
-    },
-    "9" : {
-      "answer" : "",
-      "question" : "Question 9: "
-    },
-    "10" : {
-      "answer" : "",
-      "question" : "Question 10: "
-    },
-    "11" : {
-      "answer" : "",
-      "question" : "Question 11: "
-    },
-    "12" : {
-      "answer" : "",
-      "question" : "Question 12: "
+      "answer" : "In this scenario, you would add CapEx spending of $100 in year 4 of the DCF, which would reduce FCF for that year by $100. The Enterprise Value, in turn, would fall by the present value of that $100 decrease in FCF. The actual math here is messy but you would calculate the present value by dividing $100 by ((1 + Discount Rate) ^ 4) - the '4' just represents year 4 here. Then you would subtract this amount from the Enterprise Value.",
+      "question" : "Question 7: We’re creating a DCF for a company that is planning to buy a factory for $100 in cash (no debt or other financing) in Year 4. Currently the present value of its Enterprise Value according to the DCF is $200. How would we change the DCF to account for the factory purchase, and what would our new Enterprise Value be?"
     }
   },
   "filler-template" : {
