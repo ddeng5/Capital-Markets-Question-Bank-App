@@ -915,37 +915,37 @@
       "answer" : "It should be higher for the $500m company, because all else being equal, smaller companies are expected to outperform large companies in the stock market (and therefore be more 'risky'). Using a Size Premium in your calculation would also ensure that Cost of Equity is higher for the $500m company.",
       "question" : "Question 20: Should Cost of Equity be higher for a $5 billion or $500 million market cap company?"
     },
-    "9" : {
-      "answer" : "",
-      "question" : "Question 9: "
+    "21" : {
+      "answer" : "This is a bit of a trick question because it depends on whether or not the capital structure is the same for both companies. If the capital structure is the same in terms of percentages and interest rates and such, then WACC should be higher for the $500m company because Cost of Equity would be higher. If the capital structure is not the same, then it could go either way depending on how much debt/preferred stock each one has and what the interest rates are.",
+      "question" : "Question 21: What about WACC – will it be higher for a $5 billion or $500 million company?"
     },
-    "10" : {
-      "answer" : "",
-      "question" : "Question 10: "
+    "22" : {
+      "answer" : "More debt means that the company is more risky, so the company's Levered Beta will be higher - all these being equal, additional debt would raise the Cost of Equity, and less debt would lower the Cost of Equity.",
+      "question" : "Question 22: What’s the relationship between debt and Cost of Equity?"
     },
-    "11" : {
-      "answer" : "",
-      "question" : "Question 11: "
+    "23" : {
+      "answer" : "Trick-question. Dividend yields are already factored into Beta, because Beta describes returns in excess of the market as a whole - and those returns include dividends.",
+      "question" : "Question 23: Cost of Equity tells us what kind of return an equity investor can expect for investing in a given company – but what about dividends? Shouldn’t we factor dividend yield into the formula?"
     },
-    "12" : {
-      "answer" : "",
-      "question" : "Question 12: "
+    "24" : {
+      "answer" : "There is an alternate formula: Cost of Equity = (Dividends per Share / Share Price) + Growth Rate of Dividends ... This is less common than the 'standard' formula but sometimes you use it for companies where dividends are more important or when you lack proper information on Beta and other variables that go into calculating Cost of Equity with CAPM.",
+      "question" : "Question 24: How can we calculate Cost of Equity WITHOUT using CAPM?"
     },
-    "1" : {
-      "answer" : "",
-      "question" : "Question 1: "
+    "25" : {
+      "answer" : "Tricky question - the one without debt will have a higher WACC up to a certain point because debt is 'less expensive' than equity. Why? 1) Interest on debt is tax-deductible (hence the (1 - Tax Rate) multiplication in the WACC formula) 2) Debt is senior to equity in a company's capital structure - debt holders would be paid first in a liquidation or bankruptcy 3) Intuitively, interest rates on debt are usually lower than the Cost of Equity numbers you see (usually over 10%). As a result, the Cost of Debt portion of WACC will contribute less to the total figure than the Cost of Equity portion will. However, the above is true only to a certain point. Once a company's debt goes up high enough, the interest rate will rise dramatically to reflect teh additional risk and so the Cost of Debt would start to increase - if it gets high enough, it might become higher tahn Cost of Equity and additional debt would INCREASE WACC. It's a 'U-shape' curve where debt DECREASES WACC to a point, then starts increasing it.",
+      "question" : "Question 25: Two companies are exactly the same, but one has debt and one does not – which one will have the higher WACC?"
     },
-    "2" : {
-      "answer" : "",
-      "question" : "Question 2: "
+    "26" : {
+      "answer" : "You should start by saying, it 'depends' but most of the time the 10% difference in revenue will have more of an impact. That change in revenue doesn't affect only the current year's revenue, but also the revenue/EBITDA far into the future and even the terminal value.",
+      "question" : "Question 26: Which has a greater impact on a company’s DCF valuation – a 10% change in revenue or a 1% change in the discount rate?"
     },
-    "3" : {
-      "answer" : "",
-      "question" : "Question 3: "
+    "27" : {
+      "answer" : "In this case, the discount rate is likely to have a bigger impact on the valuation, though the correct answer should start with , 'It could go either way, but most of the time...'",
+      "question" : "Question 27: What about a 1% change in revenue vs. a 1% change in the discount rate?"
     },
-    "4" : {
-      "answer" : "",
-      "question" : "Question 4: "
+    "28" : {
+      "answer" : "This is problematic because private companies don't have market caps or Betas. In this case you would most likely just estimate WACC based on work done by auditors or valuation specialists, or based on what WACC for comparable public companies is.",
+      "question" : "Question 28: How do you calculate WACC for a private company?"
     },
     "5" : {
       "answer" : "",
