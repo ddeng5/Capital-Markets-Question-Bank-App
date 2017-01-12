@@ -226,6 +226,18 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   })
 
 
+  //advanced merger model questions
+  .state('app.advMerger', {
+    url: '/advMerger',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/advMerger.html',
+        controller: 'advMergerCtrl'
+      }
+    }
+  })
+
+
 
 
   .state('app.playlists', {

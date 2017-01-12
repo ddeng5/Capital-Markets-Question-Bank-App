@@ -1012,8 +1012,106 @@
       "question" : "Question 4: Why would an acquisition be dilutive?"
     },
     "5" : {
-      "answer" : "",
+      "answer" : "If the deal involves just cash and debt, you can sum up the interest expense for debt and the foregone interest on cash, then compare it against the seller's Pre-Tax Income. If it's an all stock deal you can use a shortcut to assess whether it is accretive (see question 7). But if the deal involves cash, stock, and debt, there's no quick rule-of-thumb you can use unless you're lightning fast with mental math.",
       "question" : "Question 5: Is there a rule of thumb for calculating whether an acquisition will be accretive or dilutive?"
+    },
+    "6" : {
+      "answer" : "Trick question. You can't tell unless you ALSO know it is an all-stock deal. If it's an all-cash or all-debt deal, the P/E multiples of the buyer and seller don't matter because no stock is being issued. Sure, generally getting more earnings for less is good and is more likely to be accretive but there's no hard-and-fast rule unless it's an all-stock deal.",
+      "question" : "Question 6: A company with a higher P/E acquires one with a lower P/E – is this accretive or dilutive?"
+    },
+    "7" : {
+      "answer" : "In an all-stock deal, if the buyer has a higher P/E than the seller, it will be accretive; if the buyer has a lower P/E, it will be dilutive. On an intuitive level if you're paying more for earnings than what the market values your own earnings at, you can guess it will be dilutive; and likewise, if you're paying less for earnings than what the market values your own earnings at, you can guess that it would be accretive.",
+      "question" : "Question 7: What is the rule of thumb for assessing whether an M&A deal will be accretive or dilutive?"
+    },
+    "8" : {
+      "answer" : "1) Foregone Interest on Cash - the buyer loses the interest it would have otherwise earned if it uses cash for the acquisition 2) Additional Interest on Debt - the buyer pays additional interest expense if it uses debt 3) Additional Shares Outstanding - if the buyer pays with stick, it must issue additional shares 4) Combined Financial Statements - after the acquisition, the seller's financials are added to the buyer's 5) Creation of Goodwill & Other Intangibles - these balance sheet items that represent a 'premium' paid to a company's 'fair value' also get created ... There's actually more than this (see advanced questions), but this is usually sufficient to mention in interviews.",
+      "question" : "Question 8: What are the complete effects of an acquisition?"
+    },
+    "9" : {
+      "answer" : "It might be saving its cash for something else or it might be concerned about running low if business takes a turn for the worst; its stock may also be trading at an all-time high and it might be eager to use that instead (in finance terms this would be 'more expensive' but a lot of executives value having a safety cushion in the form of a large cash balance).",
+      "question" : "Question 9: If a company were capable of paying 100% in cash for another company, why would it choose NOT to do so?"
+    },
+    "10" : {
+      "answer" : "Because the strategic acquirer can realize revenue and cost synergies that the private equity firm cannot unless it combines the company with a complementary portfolio company. Those synergies boost the effective valuation for the target company.",
+      "question" : "Question 10: Why would a strategic acquirer typically be willing to pay more for a company than a private equity firm would?"
+    },
+    "11" : {
+      "answer" : "These represent the value over the 'fair market value' of the seller that the buyer has paid. You calculate the number by subtracting the book value of a company from its equity purchase price. More specifically, Goodwill and Other Intangibles represent things like the value of customer relationships, brand names and intellectual property – valuable, but not true financial Assets that show up on the Balance Sheet.",
+      "question" : "Question 11: Why do Goodwill & Other Intangibles get created in an acquisition?"
+    },
+    "12" : {
+      "answer" : "Goodwill typically stays the same over many years and is not amortized. It changes only if there’s goodwill impairment (or another acquisition). Other Intangible Assets, by contrast, are amortized over several years and affect the Income Statement by hitting the Pre-Tax Income line. There’s also a difference in terms of what they each represent, but bankers rarely go into that level of detail – accountants and valuation specialists worry about assigning each one to specific items.",
+      "question" : "Question 12: What is the difference between Goodwill and Other Intangible Assets?"
+    },
+    "13" : {
+      "answer" : "Yes. You could also have a Purchased In-Process R&D Write-off and a Deferred Revenue Write-off. The first refers to any Research & Development projects that were purchased in the acquisition but which have not been completed yet. The logic is that unfinished R&D projects require significant resources to complete, and as such, the 'expense' must be recognized as part of the acquisition. The second refers to cases where the seller has collected cash for a service but not yet recorded it as revenue, and the buyer must write-down the value of the Deferred Revenue to avoid 'double-counting' revenue.",
+      "question" : "Question 13: Is there anything else 'intangible' besides Goodwill & Other Intangibles that could also impact the combined company?"
+    },
+    "14" : {
+      "answer" : "Synergies refer to cases where 2 + 2 = 5 (or 6, or 7...) in an acquisition. Basically, the buyer gets more value than out of an acquisition than what the financials would predict. There are 2 types: Revenue Synergies: The combined company can cross-sell products to new customers or up-sell new products to existing customers. It might also be able to expand into new geographies as a result of the deal; Cost Synergies: The combined company can consolidate buildings and administrative staff and can lay off redundant employees. It might also be able to shut down redundant stores or locations.",
+      "question" : "Question 14: What are synergies, and can you provide a few examples?"
+    },
+    "15" : {
+      "answer" : "Revenue Synergies: Normally you add these to the Revenue figure for the combined company and then assume a certain margin on the Revenue – this additional Revenue then flows through the rest of the combined Income Statement ... Cost Synergies: Normally you reduce the combined COGS or Operating Expenses by this amount, which in turn boosts the combined Pre-Tax Income and thus Net Income, raising the EPS and making the deal more accretive.",
+      "question" : "Question 15: How are synergies used in merger models?"
+    },
+    "16" : {
+      "answer" : "No one in M&A takes revenue synergies seriously because they’re so hard to predict. Cost synergies are taken a bit more seriously because it’s more straightforward to see how buildings and locations might be consolidated and how many redundant employees might be eliminated. That said, the chances of any synergies actually being realized are almost 0 so few take them seriously at all.",
+      "question" : "Question 16: Are revenue or cost synergies more important?"
+    },
+    "17" : {
+      "answer" : "Assuming the buyer had unlimited resources, it would always prefer to use cash when buying another company. Why? 1) Cash is 'cheaper' than debt because interest rates on cash are usually under 5% whereas debt interest rates are almost always higher than that. Thus, foregone interest on cash is almost always less than additional interest paid on debt for the same amount of cash/debt 2) Cash is also less 'risky' than debt because there’s no chance the buyer might fail to raise sufficient funds from investors 3) It’s hard to compare the “cost” directly to stock, but in general stock is the most 'expensive' way to finance a transaction – remember how the Cost of Equity is almost always higher than the Cost of Debt? That same principle applies here 3) Cash is also less risky than stock because the buyer’s share price could change dramatically once the acquisition is announced.",
+      "question" : "Question 17: All else being equal, which method would a company prefer to use when acquiring another company – cash, stock, or debt?"
+    },
+    "18" : {
+      "answer" : "Generally you would look at Comparable Companies/Precedent Transactions to determine this. You would use the combined company's LTM (Last Twelve Months) EBITDA figure, find the median Debt/EBITDA ratio of whatever companies you're looking at, and apply that to your own EBITDA figure to get a rough idea of how much debt you could raise. You would also look at 'Debt Comps' for companies in the same industry and see what types of debt and how many tranches they have used.",
+      "question" : "Question 18: How much debt could a company issue in a merger or acquisition?"
+    },
+    "19" : {
+      "answer" : "You use the same Valuation methodologies we already discussed. If the sller is a public company, you would pay more attention to the premium paid over the current share price to make sure it's 'sufficient' (generally in the 15-30% range) to win shareholder approval. For private sellers, more weight is placed on the traditional methodologies.",
+      "question" : "Question 19: How do you determine the Purchase Price for the target company in an acquisition?"
+    },
+    "20" : {
+      "answer" : "There would be an incredibly high amount of Goodwill and Other Intangibles created if the price is far above the fair market value of the company. Depending on how the acquisition goes, there might be a large goodwill impairment damage charge later on if the company decides it overpaid. A recent example is the eBay/Skype deal, in which eBay paid a huge premium and extremely high multiple for Skype. It created excess Goodwill and Other Intangibles, and eBay later ended up writing down much of the value and taking a large quaterly loss as a result.",
+      "question" : "Question 20: Let’s say a company overpays for another company – what typically happens afterwards and can you give any recent examples?"
+    },
+    "21" : {
+      "answer" : "The buyer’s share price would fall by whatever per-share dollar amount corresponds to the $50 million loss in value. Note that it would not necessarily be cut in half. Depending on how the deal was structured, the seller would effectively only be receiving half of what it had originally negotiated. This illustrates one of the major risks of all-stock deals: sudden changes in share price could dramatically impact valuation.",
+      "question" : "Question 21: A buyer pays $100 million for the seller in an all-stock deal, but a day later the market decides it’s only worth $50 million. What happens?"
+    },
+    "22" : {
+      "answer" : "Like so many things, M&A is 'easier said than done'. In practice, it's very difficult to acquire and integrate a different company, actually realize synergies and also turn the acquired company into a profitable division. Many deals are also done for the wrong reason, such as CEOs ego or pressure from shareholders. Any deal done without both parties' best interests in mind is likely to fail.",
+      "question" : "Question 22: Why do most mergers and acquisitions fail?"
+    },
+    "23" : {
+      "answer" : "The model is used as a sanity check and is used to test various assumptions. A company would NEVER decide to do a deal based on the output of a model. It might say, 'Ok the model tell us this deal could work and be moderately accretive - it's worth exploring more'. It would never say 'Aga! This model predicts 21% accretion - we should definitely acquire them now!' Emotions, ego and personalities play a far bigger role in M&A (and any type of negotiations) than numbers do.",
+      "question" : "Question 23: What role does a merger model play in deal negotiations?"
+    },
+    "24" : {
+      "answer" : "The most common variables to look at are Purchase Price, % Stock/Cash/Debt, Revenue Synergies, Expense Synergies. Sometimes you also look at different operative sensitivities like Revenue Growth or EBITDA Margin, but it's more common to build these into your model as different scenarios instead. You might look at sensitivity tables showing the EPS accretion/dilution at different ranges for the Purchase Price vs Cost Synergies, Purchase Price vs Revenue Synergies, or Purchase Price vs % Cash (and so on).",
+      "question" : "Question 24: What types of sensitivities would you look at in a merger model? What variables would you look at?"
+    }
+  },
+  "adv-merger" : {
+    "1" : {
+      "answer" : "In purchase accounting the seller’s shareholders’ equity number is wiped out and the premium paid over that value is recorded as Goodwill on the combined balance sheet post-acquisition. In pooling accounting, you simply combine the 2 shareholders’ equity numbers rather than worrying about Goodwill and the related items that get created. There are specific requirements for using pooling accounting, so in 99% of M&A deals you will use purchase accounting.",
+      "question" : "Question 1: What’s the difference between Purchase Accounting and Pooling Accounting in an M&A deal?"
+    },
+    "2" : {
+      "answer" : "'Let’s say that Microsoft is going to acquire Yahoo. Yahoo makes money from search advertising online, and they make a certain amount of revenue per search (RPS). Let’s say this RPS is $0.10 right now. If Microsoft acquired it, we might assume that they could boost this RPS by $0.01 or $0.02 because of their superior monetization. So to calculate the additional revenue from this synergy, we would multiply this $0.01 or $0.02 by Yahoo’s total # of searches, get the total additional revenue, and then select a margin on it to determine how much flows through to the combined company’s Operating Income.'",
+      "question" : "Question 2: Walk me through a concrete example of how to calculate revenue synergies."
+    },
+    "3" : {
+      "answer" : "'Let’s say that Microsoft still wants to acquire Yahoo!. Microsoft has 5,000 SG&A-related employees, whereas Yahoo has around 1,000. Microsoft calculates that post-transaction, it will only need about 200 of Yahoo’s SG&A employees, and its existing employees can take over the rest of the work. To calculate the Operating Expenses the combined company would save, we would multiply these 800 employees Microsoft is going to fire post-transaction by their average salary.'",
+      "question" : "Question 3: Walk me through an example of how to calculate expense synergies."
+    },
+    "4" : {
+      "answer" : "You apply Section 382 to determine how much of the seller’s NOLs are usable each year. Allowable NOLs = Equity Purchase Price * Highest of Past 3 Months’ Adjusted Long Term Rates So if our equity purchase price were $1 billion and the highest adjusted long-term rate were 5%, then we could use $1 billion * 5% = $50 million of NOLs each year. If the seller had $250 million in NOLs, then the combined company could use $50 million of them each year for 5 years to offset its taxable income.",
+      "question" : "Question 4: How do you take into account NOLs in an M&A deal?"
+    },
+    "5" : {
+      "answer" : "These get created when you write up assets – both tangible and intangible – and when you write down assets in a transaction. An asset write-up creates a deferred tax liability, and an asset write-down creates a deferred tax asset. You write down and write up assets because their book value – what’s on the balance sheet – often differs substantially from their 'fair market value.'' An asset write-up creates a deferred tax liability because you’ll have a higher depreciation expense on the new asset, which means you save on taxes in the short-term – but eventually you’ll have to pay them back, hence the liability. The opposite applies for an asset write-down and a deferred tax asset.",
+      "question" : "Question 5: Why do deferred tax liabilities (DTLs) and deferred tax assets (DTAs) get created in M&A deals?"
     },
     "6" : {
       "answer" : "",
