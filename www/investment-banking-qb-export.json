@@ -994,6 +994,104 @@
       "question" : "Question 7: We’re creating a DCF for a company that is planning to buy a factory for $100 in cash (no debt or other financing) in Year 4. Currently the present value of its Enterprise Value according to the DCF is $200. How would we change the DCF to account for the factory purchase, and what would our new Enterprise Value be?"
     }
   },
+  "merger" : {
+    "1" : {
+      "answer" : "'A merger model is used to analyze the financial profiles of 2 companies, the purchase price and how the purchase is made, and determines whether the buyer's EPS increases or decreases. Step 1 is making assumptions about the acquisition - the price and whether it was cash, stock or debt or some combination of those. Next, you determine the valuations and shares outstanding of the buyer and seller and project out an Income Statement for each one. Finally, you combine the IS, adding up line items such as Revenue and Operating Expenses, and adjusting for Foregone Interest on Cash and Interest Piad on Debt in the Combined Pre-Tax Income line;you apply the buyer's Tax Rate to get the Combined Net Income, and then divide by the new share count to determine the combined EPS.",
+      "question" : "Question 1: Walk me through a basic merger model."
+    },
+    "2" : {
+      "answer" : "There's always a buyer and a seller in any M&A deal - the difference between 'merger' and 'acquisition' is more semantic than anything. In a merger, the companies are close to the same size, whereas in an acquisition the buyer is significantly larger.",
+      "question" : "Question 2: What’s the difference between a merger and an acquisition?"
+    },
+    "3" : {
+      "answer" : "Several possible reasons: 1) The buyer wants to gain market share by buying a competitor 2) The buyer needs to grow more quickly and sees an acquisition as a way to do that 3) The buyer believes the seller is undervalued 4) The buyer wants to acquire the seller's customers so it can up-sell and cross-sell to them 5) The buyer thinks the seller has a critical technology, intellectual property or some other 'secrete sauce' it can use to significantly enhance its business 6) The buyer believes it can achieve significant synergies and therefore make the deal accretive for its shareholders",
+      "question" : "Question 3: Why would a company want to acquire another company?"
+    },
+    "4" : {
+      "answer" : "An acquisition is dilutive if the additional amount of Net Income the seller contributes is not enough to offset the buyer's foregone interest on cash, additional interest paid on debt, and the effects of issuing additional shares. Acquisition effects - such as amortization of intangibles - can also make an acquisition dilutive.",
+      "question" : "Question 4: Why would an acquisition be dilutive?"
+    },
+    "5" : {
+      "answer" : "",
+      "question" : "Question 5: Is there a rule of thumb for calculating whether an acquisition will be accretive or dilutive?"
+    },
+    "6" : {
+      "answer" : "",
+      "question" : "Question 6: "
+    },
+    "7" : {
+      "answer" : "",
+      "question" : "Question 7: "
+    },
+    "8" : {
+      "answer" : "",
+      "question" : "Question 8: "
+    },
+    "9" : {
+      "answer" : "",
+      "question" : "Question 9: "
+    },
+    "10" : {
+      "answer" : "",
+      "question" : "Question 10: "
+    },
+    "11" : {
+      "answer" : "",
+      "question" : "Question 11: "
+    },
+    "12" : {
+      "answer" : "",
+      "question" : "Question 12: "
+    },
+    "1" : {
+      "answer" : "",
+      "question" : "Question 1: "
+    },
+    "2" : {
+      "answer" : "",
+      "question" : "Question 2: "
+    },
+    "3" : {
+      "answer" : "",
+      "question" : "Question 3: "
+    },
+    "4" : {
+      "answer" : "",
+      "question" : "Question 4: "
+    },
+    "5" : {
+      "answer" : "",
+      "question" : "Question 5: "
+    },
+    "6" : {
+      "answer" : "",
+      "question" : "Question 6: "
+    },
+    "7" : {
+      "answer" : "",
+      "question" : "Question 7: "
+    },
+    "8" : {
+      "answer" : "",
+      "question" : "Question 8: "
+    },
+    "9" : {
+      "answer" : "",
+      "question" : "Question 9: "
+    },
+    "10" : {
+      "answer" : "",
+      "question" : "Question 10: "
+    },
+    "11" : {
+      "answer" : "",
+      "question" : "Question 11: "
+    },
+    "12" : {
+      "answer" : "",
+      "question" : "Question 12: "
+    }
+  },
   "filler-template" : {
     "1" : {
       "answer" : "",
