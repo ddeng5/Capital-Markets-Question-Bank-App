@@ -240,6 +240,20 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 
 
+  //basic leveraged buyout questions
+  .state('app.lbo', {
+    url: '/lbo',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/lbo.html',
+        controller: 'lboCtrl'
+      }
+    }
+  })
+
+
+
+
   .state('app.playlists', {
     url: '/playlists',
     views: {

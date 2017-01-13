@@ -1170,8 +1170,98 @@
       "question" : "Question 19: What are the main 3 transaction structures you could use to acquire another company?"
     },
     "20" : {
-      "answer" : "",
+      "answer" : "A seller almost always prefers a stock purchase to avoid double taxation and to get rid of all its liabilities. The buyer almost always prefers an asset deal so it can be more careful about what it acquires and to get the tax benefit from being able to deduct depreciation and amortization of asset write-ups for tax purposes.",
       "question" : "Question 20: Would a seller prefer a stock purchase or an asset purchase? What about the buyer?"
+    },
+    "21" : {
+      "answer" : "A contribution analysis compares how much revenue, EBITDA, Pre-Tax Income, cash, and possibly other items the buyer and seller are “contributing” to estimate what the ownership of the combined company should be. For example, let’s say that the buyer is set to own 50% of the new company and the seller is set to own 50%. But the buyer has $100 million of revenue and the seller has $50 million of revenue – a contribution analysis would tell us that the buyer “should” own 66% instead because it’s contributing 2/3 of the combined revenue. It's most common to look at this with MERGER OF EQUALS scenarios, and less common when the buyer is significantly larger than the seller.",
+      "question" : "Question 21: Explain what a contribution analysis is and why we might look at it in a merger model."
+    },
+    "22" : {
+      "answer" : "In the 'old days' you used to capitalize these expenses and then amortize them; with the new accounting rules, you’re supposed to expense transaction and miscellaneous fees upfront, but capitalize the financing fees and amortize them over the life of the debt. Expensed transaction fees come out of Retained Earnings when you adjust the Balance Sheet, while capitalized financing fees appear as a new Asset on the Balance Sheet and are amortized each year according to the tenor of the debt.",
+      "question" : "Question 22: How do you account for transaction costs, financing fees, and miscellaneous expenses in a merger model?"
+    }
+  },
+  "lbo" : {
+    "1" : {
+      "answer" : "'1) Step 1: Make assumptions about the Purchase Price, Debt/Equity ratio, Interest Rate on Debt and other variables; you might also assume something about the company’s operations, such as Revenue Growth or Margins, depending on how much information you have 2) Step 2: Create a Sources & Uses section, which shows how you finance the transaction and what you use the capital for; this also tells you how much Investor Equity is required 3) Step 3: Adjust the company’s Balance Sheet for the new Debt and Equity figures, and also add in Goodwill & Other Intangibles on the Assets side to make everything balance 4) Step 4: Project out the company’s Income Statement, Balance Sheet and Cash Flow Statement, and determine how much debt is paid off each year, based on the available Cash Flow and the required Interest Payments 5) Step 5: Make assumptions about the exit after several years, usually assuming an EBITDA Exit Multiple, and calculate the return based on how much equity is returned to the firm.",
+      "question" : "Question 1: Walk me through a basic LBO model."
+    },
+    "2" : {
+      "answer" : "To boost your return. Remember, any debt you use in an LBO is not 'your money' – so if you’re paying $5 billion for a company, it’s easier to earn a high return on $2 billion of your own money and $3 billion borrowed from elsewhere vs. $3 billion of your own money and $2 billion of borrowed money. A secondary benefit is that the firm also has more capital available to purchase other companies because they've used leverage.",
+      "question" : "Question 2: Why would you use leverage when buying a company?"
+    },
+    "3" : {
+      "answer" : "Purchase and exit multiples have the biggest impact on the returns of a model. After How do you pick purchase multiples and exit multiples in an LBO model?that, the amount of leverage (debt) used also has a significant impact, followed by operational characteristics such as revenue growth and EBITDA margins.",
+      "question" : "Question 3: What variables impact an LBO model the most?"
+    },
+    "4" : {
+      "answer" : "The same way you do it anywhere else: you look at what comparable companies are trading at, and what multiples similar LBO transactions have had. As always, you also show a range of purchase and exit multiples using sensitivity tables. Sometimes you set purchase and exit multiples based on a specific IRR target that you’re trying to achieve – but this is just for valuation purposes if you’re using an LBO model to value the company.",
+      "question" : "Question 4: How do you pick purchase multiples and exit multiples in an LBO model?"
+    },
+    "5" : {
+      "answer" : "'Ideal' candidates have stable and predictable cash flows, low-risk businesses, not much need for ongoing investments such as Capital Expenditures, as well as an opportunity for expense reductions to boost their margins. A strong management team also helps, as does a base of assets to use as collateral for debt. The most important part is stable cash flow.",
+      "question" : "Question 5: What is an 'ideal' candidate for an LBO?"
+    },
+    "6" : {
+      "answer" : "You use it to value a company by setting a targeted IRR (for example, 25%) and then back-solving in Excel to determine what purchase price the PE firm could pay to achieve that IRR. This is sometimes called a 'floor valuation' because PE firms almost always pay less for a company than a strategic acquirer.",
+      "question" : "Question 6: How do you use an LBO model to value a company, and why do we sometimes say that it sets the 'floor valuation' for the company?"
+    },
+    "7" : {
+      "answer" : "The most common example is taking out a mortgage when you buy a house. Here's how the analogy works: 1) Down Payment = Investor Equity in an LBO 2) Mortgage = Debt in an LBO 3) Mortgage Interest Payments = Debt Interest in an LBO 4) Mortgage Repayments = Debt Principal Repayments in an LBO 5) Selling the House = Selling the Company/Taking it Public in an LBOCan you explain how the Balance Sheet is adjusted in an LBO model?",
+      "question" : "Question 7: Give an example of a 'real-life' LBO."
+    },
+    "8" : {
+      "answer" : "First, the Liabilities and Equities side is adjusted - the new debt is added on, and the SE is 'wiped out' and replaced by however much equity the private equity firm is contributing. On the Assets side, Cash is adjusted for any cash used to finance the transaction and then Goodwill and Other Intangibles are used as a 'plug' to make the BS balance. Depending on the transaction, there could be other effects as well - such as capitalized financing fees added to the Assets side.Why are Goodwill & Other Intangibles created in an LBO?",
+      "question" : "Question 8: Can you explain how the Balance Sheet is adjusted in an LBO model?"
+    },
+    "9" : {
+      "answer" : "Remember, these both represent the premium paid to the 'fair market value' of the company. In an LBO, they act as a 'plug' and ensure that the changes to the Liabilities & Equity side are balanced by changes to the Assets side.",
+      "question" : "Question 9: Why are Goodwill & Other Intangibles created in an LBO?"
+    },
+    "10" : {
+      "answer" : "It's a different scenario because: 1) The PE form does not intend to hold the company for the long-term - it usually sells it after a few years, so it is less concerned with the 'expense' of cash vs. debt and more concerned about using leverage to boost its returns by reducing the amount of capital it has to contribute upfront 2) In an LBO, the debt is 'owed' by the company, so they assume much of the risk. Whereas in a strategic acquisition, the buyer 'owns' the debt so it is more risky for them",
+      "question" : "Question 10: We saw that a strategic acquirer will usually prefer to pay for another company in cash – if that’s the case, why would a PE firm want to use debt in an LBO?"
+    },
+    "11" : {
+      "answer" : "Yes there are shortcuts and you don;t necessarily need to project all 3 statements. For example, you do not need to create a full BS - bankers sometimes skip this if they are in a rush. You DO need some form of INcome Statement, something to track how the Debt balances change and some type of Cash Flow Statement to show how much cash is available to repay debt. But a full-blown BS is not strictly required, because you can just make assumptions on the Net Change in Working Capital rather than looking at each item individually.",
+      "question" : "Question 11: Do you need to project all 3 statements in an LBO model? Are there any 'shortcuts?'"
+    },
+    "12" : {
+      "answer" : "Usually you would look at Comparable LBOs and see the terms of the debt and how many tranches each of them used. You would look at companies in a similar size range and industry and use those criteria to determine the debt your company can raise.",
+      "question" : "Question 12: How would you determine how much debt can be raised in an LBO and how many tranches there would be?"
+    },
+    "13" : {
+      "answer" : "This is completely dependent on the company, the industry, and the levereage and covereage ratios for comparable LBO transactions. To figure out the numbers, you would look at 'debt comps' showing the types, tranches and terms of debt that similarly sized companies in the industry have used recently. There are SOME general rules: for example, you would never lever a company at 50x EBITDA, and even during the bubble leverage rarely exceeded 5-10x EBITDA.",
+      "question" : "Question 13: Let’s say we’re analyzing how much debt a company can take on, and what the terms of the debt should be. What are reasonable leverage and coverage ratios?"
+    },
+    "14" : {
+      "answer" : "This is a simplification, but broadly speaking there are 2 types of debt: 'bank debt' and 'high-yield debt'. There are many differnces, but here are a few of the most important ones: 1) High-yield debt tends to have higher interest rates than bank debt (hence the name 'high-yield') 2) High-yield debt interest rates are usually fixed whereas bank debt if floating - they change based on LIBOR or Fed intrest rates 3) High-yield debt has INCURRENCE COVENANTS while bank debt has MAINTENANCE COVENANTS. The main difference is that incurrence covenants prevent you from doing something (such as selling an asset, buying a factory etc...) while maintenance covenants REQUIRE you to maintain a minimum financial performance (for example, the DEBT/EBITDA ratio must be below 5x at all times) 4) Bank debt is usually AMORTIZED - the principal must be paid off over time - whereas with high-yield debt, the entire principal is due at the end (bullet maturity) ... Usually in a sizeable LBO, the PE firm uses both types of debt. Again, there are many different types of debt - this is a simplification, but it's enough for entry-level interviews.",
+      "question" : "Question 14: What is the difference between bank debt and high-yield debt?"
+    },
+    "3" : {
+      "answer" : "",
+      "question" : "Question 3: "
+    },
+    "4" : {
+      "answer" : "",
+      "question" : "Question 4: "
+    },
+    "5" : {
+      "answer" : "",
+      "question" : "Question 5: "
+    },
+    "6" : {
+      "answer" : "",
+      "question" : "Question 6: "
+    },
+    "7" : {
+      "answer" : "",
+      "question" : "Question 7: "
+    },
+    "8" : {
+      "answer" : "",
+      "question" : "Question 8: "
     },
     "9" : {
       "answer" : "",
