@@ -1239,45 +1239,37 @@
       "answer" : "This is a simplification, but broadly speaking there are 2 types of debt: 'bank debt' and 'high-yield debt'. There are many differnces, but here are a few of the most important ones: 1) High-yield debt tends to have higher interest rates than bank debt (hence the name 'high-yield') 2) High-yield debt interest rates are usually fixed whereas bank debt if floating - they change based on LIBOR or Fed intrest rates 3) High-yield debt has INCURRENCE COVENANTS while bank debt has MAINTENANCE COVENANTS. The main difference is that incurrence covenants prevent you from doing something (such as selling an asset, buying a factory etc...) while maintenance covenants REQUIRE you to maintain a minimum financial performance (for example, the DEBT/EBITDA ratio must be below 5x at all times) 4) Bank debt is usually AMORTIZED - the principal must be paid off over time - whereas with high-yield debt, the entire principal is due at the end (bullet maturity) ... Usually in a sizeable LBO, the PE firm uses both types of debt. Again, there are many different types of debt - this is a simplification, but it's enough for entry-level interviews.",
       "question" : "Question 14: What is the difference between bank debt and high-yield debt?"
     },
-    "3" : {
-      "answer" : "",
-      "question" : "Question 3: "
+    "15" : {
+      "answer" : "If the PE firm intends to refinance the company at some point or they don’t believe their returns are too sensitive to interest payments, they might use high-yield debt. They might also use the high-yield option if they don’t have plans for major expansion or selling off the company’s assets.",
+      "question" : "Question 15: Why would a PE firm prefer high-yield debt instead?"
     },
-    "4" : {
-      "answer" : "",
-      "question" : "Question 4: "
+    "16" : {
+      "answer" : "If the PE firm or the company is concerned about meeting interest payments and wants a lower-cost option, they might use bank debt; they might also use bank debt if they are planning on major expansion or Capital Expenditures and don’t want to be restricted by incurrence covenants",
+      "question" : "Question 16: Why might you use bank debt rather than high-yield debt in an LBO?"
     },
-    "5" : {
-      "answer" : "",
-      "question" : "Question 5: "
+    "17" : {
+      "answer" : "Although technology is more 'risky' than other markets, remember that there are mature, cash flow-stable companies in almost every industry. There are some PE firms that specialize in very specific goals, such as: 1) Industry Consolidation - buying competitors in a similar market and combining them to increase efficiency and win more customers 2) Turnarounds - taking struggling companies and making them function properly again 3) Divestitures - selling off divisions of a company or taking a division and turning it into a strong stand-alone entity ... So even if a company isn't doing well or seems risky, the firm might buy it if it falls into one of these categories.",
+      "question" : "Question 17: Why would a private equity firm buy a company in a “risky” industry, such as technology?"
     },
-    "6" : {
-      "answer" : "",
-      "question" : "Question 6: "
+    "18" : {
+      "answer" : "1) Lower the Purchase Price in the model 2) Raise the Exit Multiple/Exit Price 3) Increase the leverage (debt) 4) Increase the company's growth rate (organically or via acquisitions) 5) Increase margins by reducing expenses (cutting employees, consolidating buildings etc...) Note that these are all 'theoretical' and refer to the model rather than reality - in practice it's hard to actually implement these.",
+      "question" : "Question 18: How could a private equity firm boost its return in an LBO?"
     },
-    "7" : {
-      "answer" : "",
-      "question" : "Question 7: "
+    "19" : {
+      "answer" : "This means that the interest a firm pays on debt is tax-deductible – so they save money on taxes and therefore increase their cash flow as a result of having debt from the LBO. Note, however, that their cash flow is still lower than it would be without the debt – saving on taxes helps, but the added interest expenses still reduces Net Income over what it would be for a debt-free company.",
+      "question" : "Question 19: What is meant by the “tax shield” in an LBO?"
     },
-    "8" : {
-      "answer" : "",
-      "question" : "Question 8: "
+    "20" : {
+      "answer" : "In a dividend recap, the company takes on new debt solely to pay a special dividend out to the PE firm that bought it. It would be like if you made your friend take out a personal loan just so he/she could pay you a lump sum of cash with the loan proceeds. As you might guess, dividend recaps have developed a bad reputation, though they’re still commonly used.",
+      "question" : "Question 20: What is a dividend recapitalization (“dividend recap”)?"
     },
-    "9" : {
-      "answer" : "",
-      "question" : "Question 9: "
+    "21" : {
+      "answer" : "Primarily to boost returns. Remember, all else being equal, more levereage means a higher return to the firm. With a dividend recap, the PE firm is 'recovering' some of its equity investment in the company - and as we saw earlier, the lower the equity investment, the better, since it's easier to earn a higher return on a smaller amount of capital.",
+      "question" : "Question 21: Why would a PE firm choose to do a dividend recap of one of its portfolio companies?"
     },
-    "10" : {
-      "answer" : "",
-      "question" : "Question 10: "
-    },
-    "11" : {
-      "answer" : "",
-      "question" : "Question 11: "
-    },
-    "12" : {
-      "answer" : "",
-      "question" : "Question 12: "
+    "22" : {
+      "answer" : "No changes to the Income Statement. On the Balance Sheet, Debt would go up and Shareholders’ Equity would go down and they would cancel each other out so that everything remained in balance. On the Cash Flow Statement, there would be no changes to Cash Flow from Operations or Investing, but under Financing the additional Debt raised would cancel out the Cash paid out to the investors, so Net Change in Cash would not change.",
+      "question" : "Question 22: How would a dividend recap impact the 3 financial statements in an LBO?"
     }
   },
   "filler-template" : {
