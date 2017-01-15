@@ -1417,6 +1417,62 @@ and why you went there?excellent academic reputation, its strong business/financ
       "question" : "Question 10: Tell me something interesting about you that’s not listed on your resume."
     }
   },
+  "career" : {
+    "1" : {
+      "answer" : "Talk about how you dislike the limited advancement opportunities and how your work didn’t affect the world at large – only what that specific company was doing. You want to do finance because you like the business aspect of technology more than the technology aspect of technology and because you want to make an impact with your work and become an investor or advisor one day.",
+      "question" : "Question 1: You’ve had tons of engineering experience and you’ve worked at many tech companies. Why do you want to be an investment banker now?"
+    },
+    "2" : {
+      "answer" : "Because your accounting work was boring and mundane, and because there were limited advancement opportunities. Finance is faster-paced and you’ve realized that after speaking with a lot of friends and doing your own research that it’s just more suited to your personality.",
+      "question" : "Question 2: You’ve done Big 4 accounting for the past year – why would you want a job that’s a lot more stressful with twice the hours?"
+    },
+    "3" : {
+      "answer" : "Emphasize how business people never respect lawyers and view them as nuisances rather than as a critical part of the team – as a banker, you’d be making deals happen and actually advising companies rather than just proofreading documents and doing 'Find-and-Replace' in Word. Of course, you do a lot of this in banking anyway but this angle still works because bankers really do look down on lawyers.",
+      "question" : "Question 3: I see you’ve practiced law at Wilson Sonsini for the past 4 years – if you’ve been there that long, you’re probably on Partner-track by now. Why would you want to leave a lucrative career in law and go back to being an entry-level Associate in banking?"
+    },
+    "4" : {
+      "answer" : "Yes. Although you worked at McKinsey, you realized you didn’t like consulting because of the wishy-washy nature of the work (making reports and billing by the hour rather than billing by the result) and the constant travel and lack of quantitative skills/learning. You enjoyed your Citi internship much more and realized you wanted to be in banking rather than consulting.",
+      "question" : "Question 4: I see you worked at McKinsey one summer and then went to Citi investment banking the next year. Are you sure you want to do investment banking?"
+    },
+    "5" : {
+      "answer" : "You don’t view things in those terms. Although you did well, there’s always room to learn and banking would be a great learning opportunity for you. You’ve spoken with many friends in the industry and have been impressed by what you’ve heard, and you want to broaden your experience and knowledge so that you can move into higher-stakes business.",
+      "question" : "Question 5: Wow. I must be honest, I rarely see people who have accomplished as much as you have at your age. You sold your own company for over $1 million within 2 years of starting it, and became a leading real estate investor in Asia at the same time. Why would you ever want to work for other people in banking if you’ve been so successful on your own?"
+    },
+    "6" : {
+      "answer" : "You didn’t like the culture of trading, and wanted to have more of an impact by advising companies on major strategic decisions rather than just making small trades and investments each day. Banking excites you more because of the broader range of opportunities and experiences it gives you.",
+      "question" : "Question 6: You’ve worked at a few prop trading firms and also in Sales & Trading. They get paid pretty well and work market hours – so they have it a lot better than us. Why would you want to switch to investment banking?"
+    }
+  },
+  "commitment" : {
+    "1" : {
+      "answer" : "Just banking. You’re not interested in consulting / other options and don’t want to waste recruiters’ time. You need to say this even if you’re so uncertain that you’re deciding between opening a zebra ranch, going on a spiritual journey to Nepal, going back to McKinsey or starting a laundromat with your roommate’s uncle.",
+      "question" : "Question 1: Where else are you interviewing? Is it just banking? Consulting? Other companies?"
+    },
+    "2" : {
+      "answer" : "Mostly larger banks, but you have received some interest from other places so you’re looking at a couple options. If you can mention specific names, that makes your answer even better. If you’re interviewing in a group like M&A or Healthcare, talk about how you’re mostly speaking with similar groups to show you’re serious about that one area.",
+      "question" : "Question 2: Are you mostly interviewing at larger banks like us? What kinds of options within banking are you considering?"
+    },
+    "3" : {
+      "answer" : "Although you switched jobs pre-MBA, it’s quite common to move when better opportunity arises. However, you’ve done a lot of research, spoken with friends, alumni and other connections and are certain banking is for you after doing your own due diligence. You’ve actually looked into other career options and nothing is as attractive to you as banking.",
+      "question" : "Question 3: Before you entered business school, I see you switched jobs about once a year. How do I know that you’re here to stay for the long-term?"
+    },
+    "4" : {
+      "answer" : "You looked into investing but realized you don’t like the nature of the work – there’s too Tell me about a time when you failed to honor a commitment.much due diligence and “looking at deals” rather than taking action and actually doing deals. As a result, after all your research speaking with alumni and other connections, you’re set on banking.",
+      "question" : "Question 4: Recently some Analysts and Associates have left “early” and jumped to hedge funds or private equity. If the opportunity comes up, why would you stay here instead?"
+    },
+    "5" : {
+      "answer" : "The key with this type of question is to bring up a “failure” briefly and then to spend most of your time talking about what you’ve learned from it and how you’ve improved rather than dwelling on the failure itself.",
+      "question" : "Question 5: Tell me about a time when you failed to honor a commitment."
+    },
+    "6" : {
+      "answer" : "'Yes, show me the dotted line and I’d sign it right now.' Even if this is a lie, you still have to say it in an interview or you won’t get an offer.",
+      "question" : "Question 6: If I gave you an offer right now on the spot would you take it?"
+    },
+    "7" : {
+      "answer" : "'Show it to me and I’ll sign and accept it right now.' Some people think this is 'unethical' if you’re really not certain, but keep in mind that until you’ve signed something in writing you can do whatever you want. No, they won’t like you if you verbally accept and then renege, but it’s not the end of the world – just the end of your relationship with that bank.",
+      "question" : "Question 7: Let’s say that we were to give you an offer – how long would you need to decide whether or not to accept it?"
+    }
+  },
   "filler-template" : {
     "1" : {
       "answer" : "",

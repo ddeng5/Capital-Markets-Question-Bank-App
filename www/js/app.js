@@ -306,6 +306,44 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 
 
+  //career questions
+  .state('app.career', {
+    url: '/career',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/career.html',
+        controller: 'careerCtrl'
+      }
+    }
+  })
+
+
+
+  //commitment questions
+  .state('app.commitment', {
+    url: '/commitment',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/commitment.html',
+        controller: 'commitmentCtrl'
+      }
+    }
+  })
+
+
+
+  //culture questions
+  .state('app.culture', {
+    url: '/culture',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/culture.html',
+        controller: 'cultureCtrl'
+      }
+    }
+  })
+
+
 
 
   .state('app.single', {
