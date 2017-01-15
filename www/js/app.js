@@ -267,6 +267,22 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 
 
+  //brain teaser questions
+  .state('app.brainteaser', {
+    url: '/brainteaser',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/brainteaser.html',
+        controller: 'brainteaserCtrl'
+      }
+    }
+  })
+
+
+
+
+
+
   .state('app.playlists', {
     url: '/playlists',
     views: {
