@@ -1033,8 +1033,8 @@ angular.module('starter.controllers', [])
   qNum = qNum.toString();
   $rootScope.first = qNum;
 
-  question = firebase.database().ref().child("brain-teaser").child(qNum).child("question")
-  answer = firebase.database().ref().child("brain-teaser").child(qNum).child("answer")
+  question = firebase.database().ref().child("brainteaser").child(qNum).child("question")
+  answer = firebase.database().ref().child("brainteaser").child(qNum).child("answer")
 
   //bind question to html element
   question.once('value', function(datasnapshot) {
@@ -1064,16 +1064,341 @@ angular.module('starter.controllers', [])
 
 
 
-.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
+
+
+
+//brain teasers controller
+.controller('brainteaserCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
+  //ensure that side menu and navbar is always presenting when entering the view
+  $scope.$on('$ionicView.enter', function(e) {
+    $ionicNavBarDelegate.showBar(true);
+  });
+
+  $timeout(function() {
+
+  qNum = Math.floor((Math.random() * 4) + 1);
+
+  //check if the last question number is the same as this current question number
+  while ($rootScope.first == qNum) {
+    //if it is then grab another question
+    qNum = Math.floor((Math.random() * 4) + 1);
+
+    if (qNum == $rootScope.first) {
+      qNum = Math.floor((Math.random() * 4) + 1);
+    }
+  }
+
+  qNum = qNum.toString();
+  $rootScope.first = qNum;
+
+  question = firebase.database().ref().child("brainteaser").child(qNum).child("question")
+  answer = firebase.database().ref().child("brainteaser").child(qNum).child("answer")
+
+  //bind question to html element
+  question.once('value', function(datasnapshot) {
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
+    });
+  });
+
+  //bind solution to html element
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();
+      })
+    });
+  };
+
+  //refresh the state to get the next question
+  $scope.nextQ = function() {
+    $timeout(function() {
+      $state.reload();
+    })
+  };
+});
 })
+
+
+
+
+
+//brain teasers controller
+.controller('brainteaserCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
+  //ensure that side menu and navbar is always presenting when entering the view
+  $scope.$on('$ionicView.enter', function(e) {
+    $ionicNavBarDelegate.showBar(true);
+  });
+
+  $timeout(function() {
+
+  qNum = Math.floor((Math.random() * 4) + 1);
+
+  //check if the last question number is the same as this current question number
+  while ($rootScope.first == qNum) {
+    //if it is then grab another question
+    qNum = Math.floor((Math.random() * 4) + 1);
+
+    if (qNum == $rootScope.first) {
+      qNum = Math.floor((Math.random() * 4) + 1);
+    }
+  }
+
+  qNum = qNum.toString();
+  $rootScope.first = qNum;
+
+  question = firebase.database().ref().child("brainteaser").child(qNum).child("question")
+  answer = firebase.database().ref().child("brainteaser").child(qNum).child("answer")
+
+  //bind question to html element
+  question.once('value', function(datasnapshot) {
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
+    });
+  });
+
+  //bind solution to html element
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();
+      })
+    });
+  };
+
+  //refresh the state to get the next question
+  $scope.nextQ = function() {
+    $timeout(function() {
+      $state.reload();
+    })
+  };
+});
+})
+
+
+
+
+
+//brain teasers controller
+.controller('brainteaserCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
+  //ensure that side menu and navbar is always presenting when entering the view
+  $scope.$on('$ionicView.enter', function(e) {
+    $ionicNavBarDelegate.showBar(true);
+  });
+
+  $timeout(function() {
+
+  qNum = Math.floor((Math.random() * 4) + 1);
+
+  //check if the last question number is the same as this current question number
+  while ($rootScope.first == qNum) {
+    //if it is then grab another question
+    qNum = Math.floor((Math.random() * 4) + 1);
+
+    if (qNum == $rootScope.first) {
+      qNum = Math.floor((Math.random() * 4) + 1);
+    }
+  }
+
+  qNum = qNum.toString();
+  $rootScope.first = qNum;
+
+  question = firebase.database().ref().child("brainteaser").child(qNum).child("question")
+  answer = firebase.database().ref().child("brainteaser").child(qNum).child("answer")
+
+  //bind question to html element
+  question.once('value', function(datasnapshot) {
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
+    });
+  });
+
+  //bind solution to html element
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();
+      })
+    });
+  };
+
+  //refresh the state to get the next question
+  $scope.nextQ = function() {
+    $timeout(function() {
+      $state.reload();
+    })
+  };
+});
+})
+
+
+
+
+
+//brain teasers controller
+.controller('brainteaserCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
+  //ensure that side menu and navbar is always presenting when entering the view
+  $scope.$on('$ionicView.enter', function(e) {
+    $ionicNavBarDelegate.showBar(true);
+  });
+
+  $timeout(function() {
+
+  qNum = Math.floor((Math.random() * 4) + 1);
+
+  //check if the last question number is the same as this current question number
+  while ($rootScope.first == qNum) {
+    //if it is then grab another question
+    qNum = Math.floor((Math.random() * 4) + 1);
+
+    if (qNum == $rootScope.first) {
+      qNum = Math.floor((Math.random() * 4) + 1);
+    }
+  }
+
+  qNum = qNum.toString();
+  $rootScope.first = qNum;
+
+  question = firebase.database().ref().child("brainteaser").child(qNum).child("question")
+  answer = firebase.database().ref().child("brainteaser").child(qNum).child("answer")
+
+  //bind question to html element
+  question.once('value', function(datasnapshot) {
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
+    });
+  });
+
+  //bind solution to html element
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();
+      })
+    });
+  };
+
+  //refresh the state to get the next question
+  $scope.nextQ = function() {
+    $timeout(function() {
+      $state.reload();
+    })
+  };
+});
+})
+
+
+
+
+//analytical controller
+.controller('analyticalCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
+  //ensure that side menu and navbar is always presenting when entering the view
+  $scope.$on('$ionicView.enter', function(e) {
+    $ionicNavBarDelegate.showBar(true);
+  });
+
+  $timeout(function() {
+
+  qNum = Math.floor((Math.random() * 9) + 1);
+
+  //check if the last question number is the same as this current question number
+  while ($rootScope.first == qNum) {
+    //if it is then grab another question
+    qNum = Math.floor((Math.random() * 9) + 1);
+
+    if (qNum == $rootScope.first) {
+      qNum = Math.floor((Math.random() * 9) + 1);
+    }
+  }
+
+  qNum = qNum.toString();
+  $rootScope.first = qNum;
+
+  question = firebase.database().ref().child("analytical").child(qNum).child("question")
+  answer = firebase.database().ref().child("analytical").child(qNum).child("answer")
+
+  //bind question to html element
+  question.once('value', function(datasnapshot) {
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
+    });
+  });
+
+  //bind solution to html element
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();
+      })
+    });
+  };
+
+  //refresh the state to get the next question
+  $scope.nextQ = function() {
+    $timeout(function() {
+      $state.reload();
+    })
+  };
+});
+})
+
+
+
+
+//background controller
+.controller('backgroundCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
+  //ensure that side menu and navbar is always presenting when entering the view
+  $scope.$on('$ionicView.enter', function(e) {
+    $ionicNavBarDelegate.showBar(true);
+  });
+
+  $timeout(function() {
+
+  qNum = Math.floor((Math.random() * 10) + 1);
+
+  //check if the last question number is the same as this current question number
+  while ($rootScope.first == qNum) {
+    //if it is then grab another question
+    qNum = Math.floor((Math.random() * 10) + 1);
+
+    if (qNum == $rootScope.first) {
+      qNum = Math.floor((Math.random() * 10) + 1);
+    }
+  }
+
+  qNum = qNum.toString();
+  $rootScope.first = qNum;
+
+  question = firebase.database().ref().child("background").child(qNum).child("question")
+  answer = firebase.database().ref().child("background").child(qNum).child("answer")
+
+  //bind question to html element
+  question.once('value', function(datasnapshot) {
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
+    });
+  });
+
+  //bind solution to html element
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();
+      })
+    });
+  };
+
+  //refresh the state to get the next question
+  $scope.nextQ = function() {
+    $timeout(function() {
+      $state.reload();
+    })
+  };
+});
+})
+
+
+
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 });

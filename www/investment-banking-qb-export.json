@@ -1274,48 +1274,147 @@
   },
   "adv-lbo" : {
     "1" : {
-      "answer" : "",
-      "question" : "Question 1: "
+      "answer" : "All of this is very similar to what you would see in a merger model – you calculate Goodwill, Other Intangibles, and the rest of the write-ups in the same way, and then the Balance Sheet adjustments (e.g. subtracting cash, adding in capitalized financing fees, writing up assets, wiping out goodwill, adjusting the deferred tax assets / liabilities, adding in new debt, etc.) are almost the same. The key differences: 1) In an LBO model you assume that the existing Shareholders’ Equity is wiped out and replaced by the equity the private equity firm contributes to buy the company; you may also add in Preferred Stock, Management Rollover, or Rollover from Option Holders to this number as well depending on what you’re assuming for transaction financing 2) In an LBO model you’ll usually be adding a lot more tranches of debt vs. what you would see in a merger model 3) In an LBO model you’re not combining two companies’ Balance Sheets",
+      "question" : "Question 1: How would an asset write-up or write-down affect an LBO model? / Walk me through how you adjust the Balance Sheet in an LBO model."
     },
     "2" : {
-      "answer" : "",
-      "question" : "Question 2: "
+      "answer" : "For the debt investors, you need to calculate the interest and principal payments they receive from the company each year. Then you simply use the IRR function in Excel and start with the negative amount of the original debt for “Year 0,” assume that the interest and principal payments each year are your “cash flows” and then assume that the remaining debt balance in the final year is your “exit value.” Most of the time, returns for debt investors will be lower than returns for the equity investors – but if the deal goes poorly or the PE firm can’t sell the company for a good price, the reverse could easily be true.",
+      "question" : "Question 2: Normally we care about the IRR for the equity investors in an LBO – the PE firm that buys the company – but how do we calculate the IRR for the debt investors?"
     },
     "3" : {
-      "answer" : "",
-      "question" : "Question 3: "
+      "answer" : "This is done for the same reason you have an Earnout in an M&A deal: the PE firm wants to incentivize the management team and keep everyone on-board until they exit the investment. The difference is that there’s no technical limit on how much management might receive from such an option pool: if they hit it out of the park, maybe they’ll all become millionaires. In your LBO model, you would need to calculate a per-share purchase price when the PE firm exits the investment, and then calculate how much of the proceeds go to the management team based on the Treasury Stock Method. An option pool by itself would reduce the PE firm’s return, but this is offset by the fact that the company should perform better with this incentive in place.",
+      "question" : "Question 3: Why might a private equity firm allot some of a company’s new equity in an LBO to a management option pool, and how would this affect the model?"
     },
     "4" : {
-      "answer" : "",
-      "question" : "Question 4: "
+      "answer" : "Unlike 'normal' debt, a PIK loan does not require the borrower to make cash interest payments – instead, the interest just accrues to the loan principal, which keeps going up over time. A PIK 'toggle' allows the company to choose whether to pay the interest in cash or have it accrue to the principal (these have disappeared since the credit crunch). PIK is more risky than other forms of debt and carries with it a higher interest rate than traditional bank debt or high yield debt. Adding it to the debt schedules is similar to adding high-yield debt with a bullet maturity – except instead of assuming cash interest payments, you assume that the interest accrues to the principal instead. You should then include this interest on the Income Statement, but you need to add back any PIK interest on the Cash Flow Statement because it’s a non-cash expense.",
+      "question" : "Question 4: Why you would you use PIK (Payment In Kind) debt rather than other types of debt, and how does it affect the debt schedules and the other statements?"
     },
     "5" : {
-      "answer" : "",
-      "question" : "Question 5: "
+      "answer" : "Incurrence Covenants: 1) Company cannot take on more than $2b of total debt 2) Proceeds from any asset sales must be earmarked to repay debt 3) Company cannot make acquisitions of over $200m in size 4) Company cannot spend more than $100m on CapEx each year ... Maintenance Covenants: 1) Total Debt/EBITDA cannot exceed 3x 2) Senior Debt/EBITDA cannot exceed 2.0x 3) (Total Cash Payable Debt + Capitalized Leases) / EBITDAR cannot exceed 4.0x 4) EBITDA / Interest Expense cannot fall below 5.0x 5) EBITDA / Cash Interest Expense cannot fall below 3.0x 6) (EBITDA – CapEx) / Interest Expense cannot fall below 2.0x",
+      "question" : "Question 5: What are some examples of incurrence covenants? Maintenance covenants?"
     },
     "6" : {
-      "answer" : "",
-      "question" : "Question 6: "
+      "answer" : "In most cases, no – because one of the requirements for Section 338(h)(10) is that the buyer must be a C corporation. Most private equity firms are organized as LLCs or Limited Partnerships, and when they acquire companies in an LBO, they create an LLC shell company that “acquires” the company on paper.",
+      "question" : "Question 6: Just like a normal M&A deal, you can structure an LBO either as a stock purchase or as an asset purchase. Can you also use Section 338(h)(10) election?"
     },
     "7" : {
-      "answer" : "",
-      "question" : "Question 7: "
+      "answer" : "First, note that you only look at optional repayments for Revolvers and Term Loans – high-yield debt doesn’t have a prepayment option, so effectively it’s always $0. First, you check how much cash flow you have available based on your Beginning Cash Balance, Minimum Cash Balance, Cash Flow Available for Debt Repayment from the Cash Flow Statement, and how much you use to make Mandatory Debt Repayments. Then, if you’ve used your Revolver at all you pay off the maximum amount that you can with the cash flow you have available. Next, for Term Loan A you assume that you pay off the maximum you can, taking into account that you’ve lost any cash flow you used to pay down the Revolver. You also need to take into account that you might have paid off some of Term Loan A’s principal as part of the Mandatory Repayments. Finally, you do the same thing for Term Loan B, subtracting from the “cash flow available for debt repayment” what you’ve already used up on the Revolver and Term Loan A. And just like Term Loan A, you need to take into account any Mandatory Repayments you’ve made so that you don’t pay off more than the entire Term Loan B balance. The formulas here get very messy and depend on how your model is set up, but this is the basic idea for optional debt repayments.",
+      "question" : "Question 7: Walk me through how you calculate optional repayments on debt in an LBO model."
     },
     "8" : {
-      "answer" : "",
-      "question" : "Question 8: "
+      "answer" : "You use a Revolver when the cash required for your Mandatory Debt Repayments exceeds the cash flow you have available to repay them. The formula is: Revolver Borrowing = MAX(0, Total Mandatory Debt Repayment – Cash Flow Available to Repay Debt). The Revolver starts off “undrawn,” meaning that you don’t actually borrow money and don’t accrue a balance unless you need it – similar to how credit cards work. You add any required Revolver Borrowing to your running total for cash flow available for debt repayment before you calculate Mandatory and Optional Debt Repayments. Within the debt repayments themselves, you assume that any Revolver Borrowing from previous years is paid off first with excess cash flow before you pay off any Term Loans.",
+      "question" : "Question 8: Explain how a Revolver is used in an LBO model."
     },
     "9" : {
-      "answer" : "",
-      "question" : "Question 9: "
+      "answer" : "The most common adjustments: 1) Cost Savings – Often you assume the PE firm cuts costs by laying off employees, which could affect COGS, Operating Expenses, or both 2) New Depreciation Expense – This comes from any PP&E write-ups in the transaction 3) New Amortization Expense – This includes both the amortization from written-up intangibles and from capitalized financing fees 4) Interest Expense on LBO Debt – You need to include both cash and PIK interest here 5) Sponsor Management Fees – Sometimes PE firms charge a “management fee” to a company to account for the time and effort they spend managing it 6) Common Stock Dividend – Although private companies don’t pay dividends to shareholders, they could pay out a dividend recap to the PE investors 7) Preferred Stock Dividend – If Preferred Stock is used as a form of financing in the transaction, you need to account for Preferred Stock Dividends on the Income Statement ... Cost Savings and new Depreciation / Amortization hit the Operating Income line; Interest Expense and Sponsor Management Fees hit Pre-Tax Income; and you need to subtract the dividend items from your Net Income number.",
+      "question" : "Question 9: How would you adjust the Income Statement in an LBO model?"
     },
     "10" : {
-      "answer" : "",
-      "question" : "Question 10: "
+      "answer" : "Yes, and it happens more commonly than you’d think. Remember, high-yield debt investors often get interest rates of 10-15% or more – which effectively guarantees an IRR in that range for them. So no matter what happens to the company or the market, that debt gets repaid and the debt investors get the interest payments. But let’s say that the median EBITDA multiples contract, or that the company fails to grow or actually shrinks – in these cases the PE firm could easily get an IRR below what the debt investors get.",
+      "question" : "Question 10: In an LBO model, is it possible for debt investors to get a higher return than the PE firm? What does it tell us about the company we’re modeling?"
     },
     "11" : {
-      "answer" : "",
-      "question" : "Question 11: "
+      "answer" : "This scenario is admittedly rare, but it could happen if the increase leverage increases interest payments or debt repayments to very high levels, preventing the company from using its cash flow for other purposes. Sometimes in LBO models, increasing the leverage increases the IRR up to a certain point – but then after that the IRR starts falling as the interest payments or principal repayments become 'too big.' For this scenario to happen you would need a 'perfect storm' of: 1) Relative lack of cash flow/EBITDA growth 2) High interest payments and principal repayments relative to cash flow 3) Relatively high purchase premium or purchase multiple to make it more difficult to get a high IRR in the first place",
+      "question" : "Question 11: Most of the time, increased leverage means an increased IRR. Explain how increasing the leverage could reduce the IRR."
+    }
+  },
+  "brainteaser" : {
+    "1" : {
+      "answer" : "This is not possible. To travel 60 miles at an average speed of 30 miles per hour, 2 hours are required; to travel at an average of 60 miles per hour in those same 2 hours, you’d need to go 120 miles rather than 60 miles. The most common mistake is to respond with 90 miles per hour or 120 miles per hour – if you get a question like this in an interview, be sure to ask clarifying questions that could point you in the right direction. In this case, for example, we might have reframed the question and asked if it was really, 'How do you travel 60 miles in 2 hours at an average speed of 60 miles per hour?'' If he said yes, we’d instantly know it was not possible.",
+      "question" : "Question 1: A car drives 60 miles at an average speed of 30 miles per hour. How fast should the driver drive to travel the same 60 miles in the same time period, but at an average of 60 miles per hour?"
+    },
+    "2" : {
+      "answer" : "142.5 degrees. If we just think of the clock hour hand at 1 and the minute hand at the 45 position (near 9 o’clock), that is 120 degrees since they are 4 “numbers” apart, and each number on the clock represents 30 degrees (360/12). However, recall that the hour hand has already moved by the time the minute hand has reached the 45 position – it is now closer to 2 o’clock. 45 represent 3⁄4 of an hour, so the hour hand will have moved 3⁄4 of 30 degrees, or 22.5 degrees. If we add them together, we see that 120 + 22.5 = 142.5 The most common mistake is to state the original number we arrived at – 120 degrees – rather than finishing the calculation. Sometimes with this type of question the interviewer will lead you in the right direction if you have a basic idea of how to solve it.",
+      "question" : "Question 2: What is the angle formed by the hands of the clock when it is 1:45?"
+    },
+    "3" : {
+      "answer" : "$1.19. There are a few ways to think about this, but the easiest is to start with the largest coin – quarters – first and then work your way down. 4 quarters equals $1.00, so we clearly can’t do that – but 3 quarters are ok because that’s only $0.75. Next, we have dimes. Recall that we can use any combination of coins to make change for a dollar – if we were to have 5 dimes and put them together with the 2 quarters, thatwould make $1.00. So we’ll use 4 instead – there’s no combination there that would result in $1.00 when added to the quarters. Nickels are next. Here, we can’t have any – because even a single nickel, $0.05, would add up to $1.00 when added to the 3 quarters we have ($0.75) and the 2 dimes ($0.20). Finally, for pennies we know that we can’t have 5 pennies ($0.05) because we could then get to $1.00 using the same logic as we saw for the nickels. So 4 is the maximum here. With that, we see that 3 Quarters + 4 Dimes + 4 Pennies = $1.19 The most common mistake is not realizing you can use any combination of your existing coins to add up to a dollar – most people understand that you can’t have 4 quarters, but sometimes interviewees forget that 2 quarters + 5 dimes = $1.00 as well. This is another case where asking clarifying questions – such as whether 2 quarters + 5 dimes would count as $1.00 – really helps.",
+      "question" : "Question 3: You have stacks of quarters, dimes, nickels and pennies (these represent $0.25, $0.10, $0.05 and $0.01, respectively, in the US monetary system for anyone international). There are an unlimited number of coins in each stack. You can take coins from a stack in any amount and in any order and place them in your hand. What is the greatest dollar value in coins you can have in your hands without being able to make change for a dollar?"
+    },
+    "4" : {
+      "answer" : "First, fill the 3 liter bucket and pour it into the 5 liter one. Then, re-fill the 3 liter bucket and pour it into the 5 liter bucket until it’s full – that leaves 1 liter in the 3 liter bucket and 5 in the 5 liter bucket.Then, pour out the 5 liter bucket so nothing is left and pour the 1 liter of water from the 3 liter bucket into the 5 liter bucket. Finally, fill the 3 liter bucket completely and pour it into the 5 liter bucket – since it already has 1 liter of water, you’ll get exactly 4 liters. For this type of question, it’s easiest to use deductive reasoning to get the answer. You know you can’t possibly get 4 liters of water in the 3 liter bucket – it has to be in the 5 liter bucket. Since you can easily get 3 liters of water, that tells you that the “trick” will involve isolating the remaining 1 liter and getting it into the 5 liter bucket. So then the question comes down to how to get the 1 liter of water in the 3 liter bucket. You know it has to involve pouring water into the 5 liter bucket, and that leads you in the right direction.",
+      "question" : "Question 4: You have a hose along with a 3 liter bucket and a 5 liter bucket. How do you get exactly 4 liters of water?"
+    }
+  },
+  "analytical" : {
+    "1" : {
+      "answer" : "You should respond by discussing specific times when you had to analyze numbers and/or use logic. Good examples might include: your personal portfolio, any math/science classes you’ve taken, any type of budgeting process you’ve been through, any type of research you’ve done that involved numbers.",
+      "question" : "Question 1: I see you’ve done mostly journalism and research internships before. Can you discuss your quantitative skills?"
+    },
+    "2" : {
+      "answer" : "The key is to break everything down into steps and be very specific about what you did. So you might say that 'Step 1' was getting a list of when they bought each investment and how much they invested / how many shares they acquired; 'Step 2' was finding a list of when they sold each investment, and what they sold them for; and 'Step 3' was aggregating this data over the years in-between for each investment to calculate the compound return.",
+      "question" : "Question 2: In your last internship, you analyzed portfolios and recommended investments to clients. Can you walk me through your thought process for analyzing the returns of a client portfolio?"
+    },
+    "3" : {
+      "answer" : "Similar to the reasoning above, break it into steps and start by discussing how you made the initial estimates, then how you refined them and made them more exact over time while staying within budget and collaborating with your team.",
+      "question" : "Question 3: Can you tell me about the process you used to analyze space requirements for the building designs you worked on this past summer?"
+    },
+    "4" : {
+      "answer" : "You should either present a list of self-study courses or certifications such as the CFA that you’ve obtained, or speak about your own work studying independently from textbooks, self-study courses and other sources. Be conservative with how much you claim to know – re-iterate that you’re 'not an expert' but that you have taken the initiative to learn something on your own.",
+      "question" : "Question 4: You’ve been working as a lawyer for the past 3 years – what initiative have you taken on your own to learn more about finance?"
+    },
+    "5" : {
+      "answer" : "Combine the answers to questions #1 and #4 for this one – the key is to use specific Can you tell me about a time when you submitted a report or project with misspellings or grammatical mistakes?examples rather than just saying, 'I got a high math SAT score!' Personal financial experience, classes, self-study courses and independent study work well.",
+      "question" : "Question 5: You were an English major – how do you know you can handle the quantitative rigor required in investment banking?"
+    },
+    "6" : {
+      "answer" : "It’s unrealistic to claim that you’re perfect and have never done this. Instead, briefly mention a time when you made a careless mistake and then spend the majority of time in your answer discussing what you learned and how you improved, citing another specific example of how you improved the second time around.",
+      "question" : "Question 6: Can you tell me about a time when you submitted a report or project with misspellings or grammatical mistakes?"
+    },
+    "7" : {
+      "answer" : "Once again, it’s best to point to something specific – 'During my junior year, I was taking 5 classes at once as well as working part-time and running my business fraternity – and I still got A’s in all of them.' Not everyone has a perfect answer, but try to think about the most stressful time in your academic life and use that as a reference for your answer. State the 'challenge' first, then how you responded, and then how well you did.",
+      "question" : "Question 7: What’s the most number of classes you ever took at once and how well did you do in each of them?"
+    },
+    "8" : {
+      "answer" : "In keeping with our theme of specificity, give a concrete example of a time when you were working on multiple projects at the same time – work, school, or activities work equally well for this one. Also emphasize that despite the considerable demands, you pulled off everything successfully. Anything involving teamwork or collaboration is also good to use in this response.",
+      "question" : "Question 8: How well can you multi-task?"
+    },
+    "9" : {
+      "answer" : "A journal, student publication or anything similar could be good to mention here, as could anything shown to a client or multiple clients in your work experience or in an internship. If you don’t have something like this, the best approach is to come as close possible by saying, for example, 'I haven’t worked on a widely circulated publication, but I did work on such-and-such..., which required that all the details were perfect and that there were no mistakes...' You could even cite lab or medical work – even if it wasn’t widely circulated, anything requiring strong attention to detail suffices.",
+      "question" : "Question 9: Have you ever worked on a project or report that was shown to a large number of people?"
+    }
+  },
+  "background" : {
+    "1" : {
+      "answer" : "You should really go through all the lessons on telling your 'story' right here first: Start at 'the beginning' – if you’re in college, that might be where you grew up or where you went to high school. For anyone in business school or beyond, it might be where you went to undergraduate, your first job, or even where you went to business school. Then, go through how you first became interested in finance/business, how your interest developed over the years via the specific internships / jobs / other experiences you had and conclude with a strong statement about why you’re interviewing today. Aim for 2-3 minutes – if you go on longer than this, the interviewer may get bored or impatient. Also, do not look at your resume when going through your 'story.' The 4 most important points: 1) Be chronological 2) Show how each experience along the way led you in the direction of finance 3) State why you’re here interviewing today.",
+      "question" : "Question 1: Walk me through your resume."
+    },
+    "2" : {
+      "answer" : "Say that you looked at a lot of places, but settled on wherever you went due to its I noticed you studied abroad in [Location]. Can you tell me about that experience
+and why you went there?excellent academic reputation, its strong business/finance/economics program, or something of that nature. If you were interested in something specific it offered (e.g. you were an athlete and went to Stanford on scholarship, or you went to UChicago because of its excellent liberal arts program) you can mention that as well. Try to sound like you made a thoughtful decision rather than deciding randomly. If you transferred elsewhere, a similar strategy applies but make sure to emphasize it was for academic reasons. For example, don’t say you wanted to get out of Massachusetts and move to southern California for an 'improved lifestyle!'",
+      "question" : "Question 2: Why did you attend [Your University / Business School]? I’m sure you had many options. / Why did you transfer to [University Name]?"
+    },
+    "3" : {
+      "answer" : "If it was something related to business/economics, you can discuss your interest in those fields; for other majors, you can emphasize how you liked the challenge and/or had a personal interest in the field, but also took the time to learn the basics of business/finance on your own.",
+      "question" : "Question 3: Why did you major in [Your Major]?"
+    },
+    "4" : {
+      "answer" : "Emphasize you did a lot academically rather than partying 24/7. Many study abroad programs do, in fact, involve partying 24/7, but you don’t want to admit this. You can mention something about the fun you had, trips you went on, and anything interesting you did (climbing Mt. Fuji, starring in a Korean soap opera, excavating ruins in Troy, etc.) but don’t over-do it and make them think you did nothing constructive while you were there. Think 'Work hard and play hard' for this one.",
+      "question" : "Question 4: I noticed you studied abroad in [Location]. Can you tell me about that experience and why you went there?"
+    },
+    "5" : {
+      "answer" : "You applied to a number of top schools and got in at other places, but you went through a careful decision-making process and settled on your school for a very good reason. Show that you’re 'in-demand' by others and you always become more attractive – whether it’s to the bank you’re interviewing at or to the schools you’re applying to.",
+      "question" : "Question 5: Where else did you apply for school? Did you get in anywhere else?"
+    },
+    "6" : {
+      "answer" : "Be prepared for this if you list any common languages on your resume (Spanish, French, Italian, German, Chinese, Japanese, etc.) or if you happen to 'get lucky' and your interviewer is a native speaker in one of the languages you’ve listed. I would suggest some practice discussing your work experience in whatever language(s) you’ve listed and making sure you can speak intelligently, at least briefly, about what you’ve done. If you really don’t know much, just tell them upfront rather than making a fool of yourself and trying to talk about EBITDA when you don’t know the word for it – I speak from experience on this one.",
+      "question" : "Question 6: I see you wrote here that you’re fluent in [Language]. Can you tell me about your most recent internship in [Language]?"
+    },
+    "7" : {
+      "answer" : "Obviously, don’t say anything illegal or questionable/controversial. If you have anything interesting or not very common (hang gliding, directing movies, bungee jumping) you should bring that up. Otherwise, just be honest and if you really like watching football (North American football for international readers) or other sports, just talk about your interest in those.",
+      "question" : "Question 7: What do you do for fun?"
+    },
+    "8" : {
+      "answer" : "I would not say anything economics/finance-related – it sounds too artificial. Tell them about something you were actually interested in – even if it’s not directly related to banking. They want to see who you are as a person, not whether or not you know all the Excel shortcuts in the book.",
+      "question" : "Question 8: What was your favorite class in college / business school?"
+    },
+    "9" : {
+      "answer" : "There are 2 common mistakes: 1) Saying something like Wall Street, American Psycho, or Liar's Poker that indicates you're a boring person 2) Saying something like Harry Potter indicates that you're borderline illiterate ... Pick something in the middle - above pop literature/film but not something that has to do with finance specifically. That just sounds weird.",
+      "question" : "Question 9: What are your favorite movies / books?"
+    },
+    "10" : {
+      "answer" : "Again, don’t say anything illegal/inappropriate – use common sense. Talking about that trip to Easter Island or your Brazilian Jiu-Jitsu championship both work well.",
+      "question" : "Question 10: Tell me something interesting about you that’s not listed on your resume."
     }
   },
   "filler-template" : {

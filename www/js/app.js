@@ -280,18 +280,33 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 
 
-
-
-
-  .state('app.playlists', {
-    url: '/playlists',
+  //analytical questions
+  .state('app.analytical', {
+    url: '/analytical',
     views: {
       'menuContent': {
-        templateUrl: 'templates/playlists.html',
-        controller: 'PlaylistsCtrl'
+        templateUrl: 'templates/analytical.html',
+        controller: 'analyticalCtrl'
       }
     }
   })
+
+
+
+  //background questions
+  .state('app.background', {
+    url: '/background',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/background.html',
+        controller: 'backgroundCtrl'
+      }
+    }
+  })
+
+
+
+
 
   .state('app.single', {
     url: '/playlists/:playlistId',
