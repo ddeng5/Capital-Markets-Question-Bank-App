@@ -949,6 +949,121 @@ angular.module('starter.controllers', [])
 
 
 
+
+
+//advanced leveraged buyout controller
+.controller('advLboCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
+  //ensure that side menu and navbar is always presenting when entering the view
+  $scope.$on('$ionicView.enter', function(e) {
+    $ionicNavBarDelegate.showBar(true);
+  });
+
+  $timeout(function() {
+
+  qNum = Math.floor((Math.random() * 11) + 1);
+
+  //check if the last question number is the same as this current question number
+  while ($rootScope.first == qNum) {
+    //if it is then grab another question
+    qNum = Math.floor((Math.random() * 11) + 1);
+
+    if (qNum == $rootScope.first) {
+      qNum = Math.floor((Math.random() * 11) + 1);
+    }
+  }
+
+  qNum = qNum.toString();
+  $rootScope.first = qNum;
+
+  question = firebase.database().ref().child("adv-lbo").child(qNum).child("question")
+  answer = firebase.database().ref().child("adv-lbo").child(qNum).child("answer")
+
+  //bind question to html element
+  question.once('value', function(datasnapshot) {
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
+    });
+  });
+
+  //bind solution to html element
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();
+      })
+    });
+  };
+
+  //refresh the state to get the next question
+  $scope.nextQ = function() {
+    $timeout(function() {
+      $state.reload();
+    })
+  };
+});
+})
+
+
+
+
+
+
+
+//brain teasers controller
+.controller('brainteaserCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
+  //ensure that side menu and navbar is always presenting when entering the view
+  $scope.$on('$ionicView.enter', function(e) {
+    $ionicNavBarDelegate.showBar(true);
+  });
+
+  $timeout(function() {
+
+  qNum = Math.floor((Math.random() * 4) + 1);
+
+  //check if the last question number is the same as this current question number
+  while ($rootScope.first == qNum) {
+    //if it is then grab another question
+    qNum = Math.floor((Math.random() * 4) + 1);
+
+    if (qNum == $rootScope.first) {
+      qNum = Math.floor((Math.random() * 4) + 1);
+    }
+  }
+
+  qNum = qNum.toString();
+  $rootScope.first = qNum;
+
+  question = firebase.database().ref().child("brain-teaser").child(qNum).child("question")
+  answer = firebase.database().ref().child("brain-teaser").child(qNum).child("answer")
+
+  //bind question to html element
+  question.once('value', function(datasnapshot) {
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
+    });
+  });
+
+  //bind solution to html element
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();
+      })
+    });
+  };
+
+  //refresh the state to get the next question
+  $scope.nextQ = function() {
+    $timeout(function() {
+      $state.reload();
+    })
+  };
+});
+})
+
+
+
+
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
     { title: 'Reggae', id: 1 },

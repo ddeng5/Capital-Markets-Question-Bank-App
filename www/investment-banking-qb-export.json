@@ -546,7 +546,7 @@
       "question" : "Question 12: How should you project Depreciation & Capital Expenditures?"
     },
     "13" : {
-      "answer" : "The 'quick and diry' way to do this: reduce the Taxable Income by the portion of the NOLs that you can use each year, apply the same tax rate, and then subtract that new Tax number from your old Pretax Income number (which should stay the same). The way you should do this: create a book vs cash tax schedule where you calculate the Taxable Income based on NOLs, and then look at what you would pay in taxes without the NOLs. Then you book the difference as an increase to the Deferred Tax Liability on the BS. This method reflects the fact that you're saving on cash flow - since the DTL, a liability, is rising - but correctly separates the NOL impact into book vs cash taxes.",
+      "answer" : "The 'quick and dirty' way to do this: reduce the Taxable Income by the portion of the NOLs that you can use each year, apply the same tax rate, and then subtract that new Tax number from your old Pretax Income number (which should stay the same). The way you should do this: create a book vs cash tax schedule where you calculate the Taxable Income based on NOLs, and then look at what you would pay in taxes without the NOLs. Then you book the difference as an increase to the Deferred Tax Liability on the BS. This method reflects the fact that you're saving on cash flow - since the DTL, a liability, is rising - but correctly separates the NOL impact into book vs cash taxes.",
       "question" : "Question 13: How do Net Operating Losses (NOLs) affect a company’s 3 statements?"
     },
     "14" : {
@@ -1270,6 +1270,52 @@
     "22" : {
       "answer" : "No changes to the Income Statement. On the Balance Sheet, Debt would go up and Shareholders’ Equity would go down and they would cancel each other out so that everything remained in balance. On the Cash Flow Statement, there would be no changes to Cash Flow from Operations or Investing, but under Financing the additional Debt raised would cancel out the Cash paid out to the investors, so Net Change in Cash would not change.",
       "question" : "Question 22: How would a dividend recap impact the 3 financial statements in an LBO?"
+    }
+  },
+  "adv-lbo" : {
+    "1" : {
+      "answer" : "",
+      "question" : "Question 1: "
+    },
+    "2" : {
+      "answer" : "",
+      "question" : "Question 2: "
+    },
+    "3" : {
+      "answer" : "",
+      "question" : "Question 3: "
+    },
+    "4" : {
+      "answer" : "",
+      "question" : "Question 4: "
+    },
+    "5" : {
+      "answer" : "",
+      "question" : "Question 5: "
+    },
+    "6" : {
+      "answer" : "",
+      "question" : "Question 6: "
+    },
+    "7" : {
+      "answer" : "",
+      "question" : "Question 7: "
+    },
+    "8" : {
+      "answer" : "",
+      "question" : "Question 8: "
+    },
+    "9" : {
+      "answer" : "",
+      "question" : "Question 9: "
+    },
+    "10" : {
+      "answer" : "",
+      "question" : "Question 10: "
+    },
+    "11" : {
+      "answer" : "",
+      "question" : "Question 11: "
     }
   },
   "filler-template" : {

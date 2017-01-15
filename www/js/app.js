@@ -253,6 +253,19 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 
 
+  //adv leveraged buyout questions
+  .state('app.advLbo', {
+    url: '/advLbo',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/advLbo.html',
+        controller: 'advLboCtrl'
+      }
+    }
+  })
+
+
+
 
   .state('app.playlists', {
     url: '/playlists',
