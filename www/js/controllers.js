@@ -1707,8 +1707,8 @@ angular.module('starter.controllers', [])
   qNum = qNum.toString();
   $rootScope.first = qNum;
 
-  question = firebase.database().ref().child("team-leadership").child(qNum).child("question")
-  answer = firebase.database().ref().child("team-leadership").child(qNum).child("answer")
+  question = firebase.database().ref().child("team").child(qNum).child("question")
+  answer = firebase.database().ref().child("team").child(qNum).child("answer")
 
   //bind question to html element
   question.once('value', function(datasnapshot) {
