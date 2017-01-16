@@ -1473,58 +1473,125 @@ and why you went there?excellent academic reputation, its strong business/financ
       "question" : "Question 7: Let’s say that we were to give you an offer – how long would you need to decide whether or not to accept it?"
     }
   },
-  "filler-template" : {
+  "culture" : {
     "1" : {
-      "answer" : "",
-      "question" : "Question 1: "
+      "answer" : "You’re most likely to get this one if you didn’t get a return offer – let’s be honest, who really goes from Morgan Stanley to a boutique? It’s a tough sell, but you’ll have to emphasize how you like the smaller environment where you get more responsibility and work more closely with clients. The banker probably won’t believe you, but it’s better than outright admitting you didn’t get an offer. If the topic does arise, just say your lack of offer was because they were not hiring, because the group did poorly or because of the general economic climate.",
+      "question" : "Question 1: You spent this last summer working at Morgan Stanley’s investment banking division. It seems like you’d be crazy not to go back – why would you want to work for a smaller firm in our M&A group?"
     },
     "2" : {
-      "answer" : "",
-      "question" : "Question 2: "
+      "answer" : "There’s rarely a 'great' way to answer this question, so I would recommend either referencing someone you’ve spoken with at the bank and what they’ve told you OR if you don’t have any kind of experience like that, you can just give the usual generic reasons given for each bank. This question often reflects a lazy interviewer more than anything else – the real reason you’re interviewing with any bank is because they’ve given you an interview!",
+      "question" : "Question 2: Since you worked at Bank of America this past year, you probably have the chance to go to a lot of different large banks – why are you interested in us specifically?"
     },
     "3" : {
-      "answer" : "",
-      "question" : "Question 3: "
+      "answer" : "It’s always good to be positive about your experience, but at the same time you also want to give a good reason as to why you’re moving elsewhere. If you’re moving from a smaller bank to larger one, you want to emphasize learning about how larger / major deals happen, how you want to learn from the best and perhaps even how bankers at your old firm recommended that you go somewhere bigger at the beginning of your career.",
+      "question" : "Question 3: When you were working at that boutique this past summer, you mentioned how you liked the smaller team and more hands-on environment. Why not just go back there? Why do you want to move to a large bank?"
     },
     "4" : {
-      "answer" : "",
-      "question" : "Question 4: "
+      "answer" : "Say that you want to gain solid technical and modeling skills and be exposed to a wide variety of industries and different markets. Depending on the interviewer, it may also be appropriate to mention your interest in private equity (if you’re planning to go that route) and how M&A will get you there. M&A bankers love to think they’re superior to others because of their 'in-depth technical knowledge and negotiation skills,' so you should play off that and use it to your advantage.",
+      "question" : "Question 4: Why are you interested in our M&A division rather than our industry groups? Our Tech, Healthcare and Energy teams have been really successful this year."
     },
     "5" : {
-      "answer" : "",
-      "question" : "Question 5: "
+      "answer" : "With this type of question – whenever a certain area is depressed at the moment or is not doing well – you want to highlight your long-term view of the market and how things recover in time. For Capital Markets specifically, you can talk about your interest in the markets since you were much younger and how you’ve always been fascinated by IPOs, secondary offerings and such – as always, specific examples are the key to success.",
+      "question" : "Question 5: Why do you want to work in Capital Markets? There’s hardly any market activity these days."
     },
     "6" : {
-      "answer" : "",
-      "question" : "Question 6: "
+      "answer" : "This is a silly question, but I can’t say I’ve never heard it before. In a normal 'weaknesses' question it’s best to say something real and then indicate how you’ve improved on it, but in this case it’s better to say something more innocuous and maybe point to a 'weakness' like not being strong in Europe/Asia, or not having as much experience in one industry as another bank – but then indicate how it doesn’t matter to you because you’re more concerned with other aspects of the firm.",
+      "question" : "Question 6: What do you think our bank’s greatest weaknesses are?"
     },
     "7" : {
-      "answer" : "",
-      "question" : "Question 7: "
+      "answer" : "This is another silly question that is designed to test your knowledge of the industry more than anything else. The best way to answer: briefly point to a competitor and state a widely known trait about them that you admire and then explain how the bank you’re interviewing with also has that quality and might even be better at it. For example, Goldman Sachs is known for its “one firm” culture and emphasis on teamwork, while the former Bear Stearns was known for its more “entrepreneurial” environment. You could reference these types of qualities and then state how they’re also seen in the bank you’re interviewing with.",
+      "question" : "Question 7: Which of our competitors do you admire the most?"
+    }
+  },
+  "future" : {
+    "1" : {
+      "answer" : "If you’re interviewing for an Analyst position, you can be more uncertain about your future and just state you don’t know 100% where you’ll be yet, but banking is what excites you most and is what will give you the skills you need to succeed. For prospective Associates, you need to be more certain about your career path and show some commitment – indicate you’ve done your homework, spoken with many people and really want to make a career out of it.",
+      "question" : "Question 1: I realize it’s still early in your career – you haven’t even graduated yet – but have you given any thought to your long-term plans? Do you think you’ll stick with investment banking?"
+    },
+    "2" : {
+      "answer" : "Since this question is given to an MBA candidate, you’ll want to be more certain and show more direction in terms of your plans. State that you do want to pursue investment banking as a career, after having done extensive research on your own (and hopefully, having had a previous internship or other experience in the field that you can point to).",
+      "question" : "Question 2: You’ve had quite diverse experience prior to business school. After you complete your degree, where do you think you’ll be going in the long-term?"
+    },
+    "3" : {
+      "answer" : "This might be my least favorite question of all time, but some lazy interviewers will ask Looking into the future 10 years, do you think you’ll still be an investment banker?you anyway. Again, at the undergraduate level you can afford to be more vague and just indicate you want to do something in business/finance and advance to a high level; MBA candidates should indicate that they’re in banking for the long-term.",
+      "question" : "Question 3: What is your career goal?"
+    },
+    "4" : {
+      "answer" : "Analysts can, and arguably should, be more uncertain, while business school graduates need to be confident about their career choice.",
+      "question" : "Question 4: Looking into the future 10 years, do you think you’ll still be an investment banker?"
+    }
+  },
+  "strength-weakness" : {
+    "1" : {
+      "answer" : "This is a variant of the 'strengths and weaknesses' question. The most common mistake is being vague and just saying you performed well and they liked you, and then failing to give weaknesses / areas for improvement. The right way to answer this question is to state specific qualities about you that they liked – such as ambition, drive, attention to detail, or willingness to go the extra mile for the team – and then give some specific examples of times when you demonstrated those qualities. Your all-nighters, the times you stayed the weekend working on a presentation, or the time you caught mistakes someone else above you missed are all good to mention. The other critical part is mentioning weaknesses / areas for improvement as well – talk about real weaknesses and how you’ve worked to improve them (see more on this in question 2).",
+      "question" : "Question 1: In your internship this past summer, what feedback did you receive?"
+    },
+    "2" : {
+      "answer" : "The 2 most important points to remember with the 'weaknesses' / 'failure' question: 1) Give a REAL weakness rather than saying you 'work too hard' 2) Show how you improved on it, using specific examples ... What are 'real' weaknesses you could give? Maybe you weren’t as communicative with the team as you should have been at the start; maybe you got lost in the details sometimes and failed to see the big picture; maybe you were too impatient with others or did not delegate tasks appropriately. The point is to say something that is a real weakness but which is also not a 'deal- breaker' – like saying you don’t like to work hard or can’t stand working in teams. After that, state how you’re working to improve your weakness. Perhaps you gave more regular updates to your superiors; or maybe you started leveraging other peoples’ knowledge or the administrative staff at your work more often.",
+      "question" : "Question 2: What were a few areas that your team said you should try to improve upon?"
+    },
+    "3" : {
+      "answer" : "If you did get an offer, this is an easy question: 'yes.' If you did not receive an offer, I would strongly recommend against lying about it – state that you did not receive an offer, and it was due to the economy, because your group was not hiring or due to other forces beyond your control. The danger with lying is that finance is a very small world and it’s quite easy to ask a friend or a friend of a friend what really happened.",
+      "question" : "Question 3: Did you get an offer to return to where you worked last summer?"
+    },
+    "4" : {
+      "answer" : "This is a disguised 'tell me your strengths and weaknesses' question, so you should follow the advice given above. Since it’s in relation to a full-time position you’ve held, you should be a bit more thoughtful about what you say; generic answers won’t work as well if they ask about your performance in a specific job.",
+      "question" : "Question 4: After going through the accounting program at PricewaterhouseCoopers for the past year, what sort of end-of-year review did you get?"
+    },
+    "5" : {
+      "answer" : "This is just, “Tell me your strengths” in disguise, but you need to narrow it down to 3 words. Since it’s your friend describing you, you don’t want to say, 'Driven, attentive to detail and a team player!' You do want to convey the same ideas – that you can work hard, play well in teams, and get things done no matter what obstacles you face – but you should pick your own language to get this across. For each word you list you should also give 1-2 sentences to back up what you say, using a specific example for each one.",
+      "question" : "Question 5: Let’s imagine that your best friend is describing you in 3 words – which words would he/she use and why?"
+    },
+    "6" : {
+      "answer" : "This is just a disguised 'weaknesses' question. However, since it involves someone else this time, it’s better to give a weakness such as being stubborn and holding too rigidly to your own views rather than some of the other faults you could state. Weaknesses related to team/group settings are better here. And once again, you need to emphasize how you’ve worked to improve whatever it is that you did not do well at the time. Don’t say something like, 'I get along with everyone!' as that sounds unrealistic.",
+      "question" : "Question 6: Imagine that I’m speaking to someone with whom you have not gotten along in the past – what would he/she say about you?"
+    },
+    "7" : {
+      "answer" : "This one is a bit tricky because it’s so direct. You could attempt to make a joke out of this one and say something like, 'If you decided you weren’t hiring at all!' but that may not go well if your interviewer doesn’t appreciate humor. Otherwise, the best response may be to turn this around and say, 'I see no reason why you wouldn’t – I’m your best choice because....' and then give your strengths instead. If they really press you on this, you can admit a weakness and then say how you’ve been working to improve it.",
+      "question" : "Question 7: Why would we decide not to give you an offer today?"
     },
     "8" : {
-      "answer" : "",
-      "question" : "Question 8: "
+      "answer" : "This is yet another variation of the 'strengths' question. But rather than giving generic strengths, you should highlight any unique experiences you’ve had. So maybe you haven’t had banking internships before – but you have had unique experience abroad, in an unusual setting, or doing something not many others have done, or you’ve overcome unusual hardship – and those make you particularly well-qualified. Try to make your answer some variant of 'I’m smart because of [School / Academics], I can do the work because of [Internships / Previous Jobs], and I’m an interesting person and fun to be around because of [Unique Experience].'",
+      "question" : "Question 8: Tell me why we should hire you in 3 sentences."
     },
     "9" : {
-      "answer" : "",
-      "question" : "Question 9: "
+      "answer" : "As with any 'weaknesses' question,Can you talk about a team project or some kind of group activity you’ve worked on
+before? you need to use a specific story – such as an exam where you did not do well, a project that did not go as planned, or a work situation that did not turn out well – and show what you learned from it and how you’ve improved since then. Don’t say something fake like, 'My greatest failure was getting into Yale and Princeton but not Harvard' – that makes you look silly. It’s better to give something real and then show how you’ve used the failure to develop.",
+      "question" : "Question 9: What was your greatest failure?"
+    }
+  },
+  "team" : {
+    "1" : {
+      "answer" : "Ideally, you will talk about something that was a success rather than a failure. You should use the following 3-point structure for these questions: 1) State upfront what the problem was – Maximizing returns? Attracting more donors for your nonprofit? Winning more customers? 2) Talk about the team you worked in, who did what, and what your role was. Did you manage people or delegate tasks? Those are best, but if you were a 'foot soldier' that can also work as long as you worked long hours, were attentive to detail and/or came through in the end to save the team in some way 3) State the results – Did your brand awareness go up? Did you get more funding? More members for your organization?",
+      "question" : "Question 1: Can you talk about a team project or some kind of group activity you’ve worked on before?"
     },
-    "10" : {
-      "answer" : "",
-      "question" : "Question 10: "
+    "2" : {
+      "answer" : "This is another variant of the 'failure' question. I would recommend starting with a situation where your team did work as intended and talk about how it wasn’t working at first and what you did to fix it. Never blame someone specific – instead, say that there were 'personality conflicts' and that you worked to resolve them. To make things even easier, you could re-use the story you told in question #1 but instead position it as a failed team situation that turned into a successful one.",
+      "question" : "Question 2: Can you describe a situation where a team did not work as intended? Whose fault was it?"
     },
-    "11" : {
-      "answer" : "",
-      "question" : "Question 11: "
+    "3" : {
+      "answer" : "If you’ve already worked full-time, any ethical challenges you faced at work or any whistle-blowing you’ve done are best to discuss; otherwise, you could talk about how you stopped funds in a student group from being used illegally or how you caught someone cheating. Just make sure you don’t over-dramatize it – your life is not a soap opera and you shouldn’t go on for 10 minutes about your internal conflict deciding whether to turn someone in for their wrongdoing.",
+      "question" : "Question 3: Can you discuss an ethical challenge you were confronted with and how you responded?"
     },
-    "12" : {
-      "answer" : "",
-      "question" : "Question 12: "
+    "4" : {
+      "answer" : "Point out how you stayed calm and collected in the face of a challenging situation, and how your cool decision-making process led to a positive outcome. Maybe 2 of your subordinates couldn’t get along and you had to arbitrate; maybe you were 3 months behind on a project and had to get a team together to finish it in 2 weeks; maybe you were an RA in a dorm and you had to prevent 2 residents from harassing each other. Just make sure that it’s a real problem, as opposed to only getting an A- when you should have gotten an A.",
+      "question" : "Question 4: What was the most difficult situation you faced as a leader and how did you respond?"
+    },
+    "5" : {
+      "answer" : "This is the classic 'burn the midnight oil' question, and you should definitely have something prepared for this one. There are 2 key points: 1) Whatever you did had to involve long hours – 60-70 hours per week or more 2) It had to have been over an extended time period – so Final Exam week at school would be a poor example. Aim for something that took place over weeks or months instead. Maybe you were working full-time and also leading your volunteer group to build shelters; maybe you were taking 6 classes, running a fraternity, and then got called upon to direct that huge Cinco de Mayo festival. It doesn’t matter too much what it was as long as your story is detailed and convincing.",
+      "question" : "Question 5: Can you discuss a time where you had to sacrifice your time for the sake of a team project?"
+    },
+    "6" : {
+      "answer" : "Resist the urge to say 'leader' and instead talk about how you can function as both a leader and another member of the team, depending on what the situation calls for. You don’t want to hog the spotlight or do everything, but if leadership is required, you can step up and handle it. Specific examples to back up the above points are also required.",
+      "question" : "Question 6: Do you work better as a leader or a follower?"
+    },
+    "7" : {
+      "answer" : "A 'moderate' answer works best here. You’re responsible and can make sure things get done, but at the same time you don’t annoy your teammates by micro-managing. If you’re interviewing for an Analyst or Associate position, you do want to be a bit more 'hands-on' and point out that you often go in and correct mistakes to make sure everything’s perfect – since you’ll be spending around 50% of your time doing this. Again, a specific example is needed once you’ve stated in general terms what your style is.",
+      "question" : "Question 7: What is your leadership style?"
+    },
+    "8" : {
+      "answer" : "No, the team makes the team. The leader can provide direction and unify everyone, but 1 person alone is not a 'team.' A leader can make things better and turn around a dysfunctional team, but it’s equally important for everyone to pull their own weight. You can often re-use some of your other 'leadership' or “team” stories you’ve used and spin them differently.",
+      "question" : "Question 8: Does the leader make the team?"
     }
   }
-
-
-
-
 }

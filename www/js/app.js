@@ -345,6 +345,46 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 
 
+  //future questions
+  .state('app.future', {
+    url: '/future',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/future.html',
+        controller: 'futureCtrl'
+      }
+    }
+  })
+
+
+
+  //future questions
+  .state('app.streWeak', {
+    url: '/streWeak',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/streWeak.html',
+        controller: 'streWeakCtrl'
+      }
+    }
+  })
+
+
+
+
+    //future questions
+    .state('app.team', {
+      url: '/team',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/team.html',
+          controller: 'teamCtrl'
+        }
+      }
+    })
+
+
+
 
   .state('app.single', {
     url: '/playlists/:playlistId',

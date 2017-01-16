@@ -1458,7 +1458,7 @@ angular.module('starter.controllers', [])
 
 
 
-//career controller
+//commitment controller
 .controller('commitmentCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
   //ensure that side menu and navbar is always presenting when entering the view
   $scope.$on('$ionicView.enter', function(e) {
@@ -1484,6 +1484,231 @@ angular.module('starter.controllers', [])
 
   question = firebase.database().ref().child("commitment").child(qNum).child("question")
   answer = firebase.database().ref().child("commitment").child(qNum).child("answer")
+
+  //bind question to html element
+  question.once('value', function(datasnapshot) {
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
+    });
+  });
+
+  //bind solution to html element
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();
+      })
+    });
+  };
+
+  //refresh the state to get the next question
+  $scope.nextQ = function() {
+    $timeout(function() {
+      $state.reload();
+    })
+  };
+});
+})
+
+
+
+
+
+//culture controller
+.controller('cultureCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
+  //ensure that side menu and navbar is always presenting when entering the view
+  $scope.$on('$ionicView.enter', function(e) {
+    $ionicNavBarDelegate.showBar(true);
+  });
+
+  $timeout(function() {
+
+  qNum = Math.floor((Math.random() * 7) + 1);
+
+  //check if the last question number is the same as this current question number
+  while ($rootScope.first == qNum) {
+    //if it is then grab another question
+    qNum = Math.floor((Math.random() * 7) + 1);
+
+    if (qNum == $rootScope.first) {
+      qNum = Math.floor((Math.random() * 7) + 1);
+    }
+  }
+
+  qNum = qNum.toString();
+  $rootScope.first = qNum;
+
+  question = firebase.database().ref().child("culture").child(qNum).child("question")
+  answer = firebase.database().ref().child("culture").child(qNum).child("answer")
+
+  //bind question to html element
+  question.once('value', function(datasnapshot) {
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
+    });
+  });
+
+  //bind solution to html element
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();
+      })
+    });
+  };
+
+  //refresh the state to get the next question
+  $scope.nextQ = function() {
+    $timeout(function() {
+      $state.reload();
+    })
+  };
+});
+})
+
+
+
+
+
+
+//future controller
+.controller('futureCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
+  //ensure that side menu and navbar is always presenting when entering the view
+  $scope.$on('$ionicView.enter', function(e) {
+    $ionicNavBarDelegate.showBar(true);
+  });
+
+  $timeout(function() {
+
+  qNum = Math.floor((Math.random() * 4) + 1);
+
+  //check if the last question number is the same as this current question number
+  while ($rootScope.first == qNum) {
+    //if it is then grab another question
+    qNum = Math.floor((Math.random() * 4) + 1);
+
+    if (qNum == $rootScope.first) {
+      qNum = Math.floor((Math.random() * 4) + 1);
+    }
+  }
+
+  qNum = qNum.toString();
+  $rootScope.first = qNum;
+
+  question = firebase.database().ref().child("future").child(qNum).child("question")
+  answer = firebase.database().ref().child("future").child(qNum).child("answer")
+
+  //bind question to html element
+  question.once('value', function(datasnapshot) {
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
+    });
+  });
+
+  //bind solution to html element
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();
+      })
+    });
+  };
+
+  //refresh the state to get the next question
+  $scope.nextQ = function() {
+    $timeout(function() {
+      $state.reload();
+    })
+  };
+});
+})
+
+
+
+
+
+//strength/weakness controller
+.controller('streWeakCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
+  //ensure that side menu and navbar is always presenting when entering the view
+  $scope.$on('$ionicView.enter', function(e) {
+    $ionicNavBarDelegate.showBar(true);
+  });
+
+  $timeout(function() {
+
+  qNum = Math.floor((Math.random() * 9) + 1);
+
+  //check if the last question number is the same as this current question number
+  while ($rootScope.first == qNum) {
+    //if it is then grab another question
+    qNum = Math.floor((Math.random() * 9) + 1);
+
+    if (qNum == $rootScope.first) {
+      qNum = Math.floor((Math.random() * 9) + 1);
+    }
+  }
+
+  qNum = qNum.toString();
+  $rootScope.first = qNum;
+
+  question = firebase.database().ref().child("strength-weakness").child(qNum).child("question")
+  answer = firebase.database().ref().child("strength-weakness").child(qNum).child("answer")
+
+  //bind question to html element
+  question.once('value', function(datasnapshot) {
+    $timeout(function() {
+      $scope.question = datasnapshot.val();
+    });
+  });
+
+  //bind solution to html element
+  $scope.showSolution = function() {
+    answer.once('value', function(datasnapshot) {
+      $timeout(function() {
+        $scope.answer = datasnapshot.val();
+      })
+    });
+  };
+
+  //refresh the state to get the next question
+  $scope.nextQ = function() {
+    $timeout(function() {
+      $state.reload();
+    })
+  };
+});
+})
+
+
+
+
+
+//team/leadership controller
+.controller('teamCtrl', function($scope, $timeout, $state, $ionicNavBarDelegate, $rootScope) {
+  //ensure that side menu and navbar is always presenting when entering the view
+  $scope.$on('$ionicView.enter', function(e) {
+    $ionicNavBarDelegate.showBar(true);
+  });
+
+  $timeout(function() {
+
+  qNum = Math.floor((Math.random() * 8) + 1);
+
+  //check if the last question number is the same as this current question number
+  while ($rootScope.first == qNum) {
+    //if it is then grab another question
+    qNum = Math.floor((Math.random() * 8) + 1);
+
+    if (qNum == $rootScope.first) {
+      qNum = Math.floor((Math.random() * 8) + 1);
+    }
+  }
+
+  qNum = qNum.toString();
+  $rootScope.first = qNum;
+
+  question = firebase.database().ref().child("team-leadership").child(qNum).child("question")
+  answer = firebase.database().ref().child("team-leadership").child(qNum).child("answer")
 
   //bind question to html element
   question.once('value', function(datasnapshot) {

@@ -1,0 +1,39 @@
+<ion-view view-title="Team/Leadership">
+  <ion-content>
+    </br>
+    </br>
+    <!--  question -->
+    <div>
+      <p class="questionHeading">{{question}}</p>
+    </div>
+
+    </br>
+    </br>
+    </br>
+
+    <!-- answer -->
+    <div>
+      <p class="solutionHeading">{{answer}}</p>
+    </div>
+
+    </br>
+    </br>
+    </br>
+
+    <!-- solution button -->
+     <div class="solDiv">
+      <button ng-click="showSolution()" class="button button-stable">
+        Solution
+      </button>
+     </div>
+
+     <!-- next q button -->
+      <div class="nextQDiv">
+       <button ng-click="nextQ()" class="button button-stable" type="submit">
+         Next Question
+       </button>
+      </div>
+
+
+  </ion-content>
+</ion-view>
